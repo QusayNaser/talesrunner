@@ -6,29 +6,42 @@
   let allItems = [];
   let filtered = [];
   let currentPage = 1;
-  const PER_PAGE = 60;
+  const PER_PAGE = 150;
   let viewMode = "grid"; // grid | list
   let allStatKeys = [];
   let allParts = [];
 
   // Part label mapping
   const PART_LABELS = {
-    accback: "Back", accbooster: "Booster", accface: "Face",
-    acchand: "Hand", acchead: "Head Acc", accneck: "Necklace",
-    acctail: "Tail", accwrist: "Bracelet", character: "Character",
-    downbody: "Bottom", etc: "Etc", expansion: "Expansion",
-    foot: "Shoes", head: "Hair", "image.png": "Other",
-    object: "Object", pet: "Pet", topbody: "Top"
+    character: "Character", acchead: "Head", head: "Hair", accface: "Face",
+    accneck: "Scarf", topbody: "Top", downbody: "Bottom", acchand: "Hands",
+    accwrist: "Bracelet", foot: "Shoes", accbooster: "Booster", pet: "Pet",
+    expansion: "Expansion", accback: "Wing", acctail: "Tail",
+    etc: "Etc", "image.png": "Other", object: "Object"
+  };
+
+  // Explicit display order (matching in-game)
+  const PART_ORDER = [
+    "character", "acchead", "head", "accface", "accneck",
+    "topbody", "downbody", "acchand", "accwrist", "foot",
+    "accbooster", "pet", "expansion", "accback", "acctail",
+    "etc", "image.png", "object"
+  ];
+
+  // Part icons (SVG-style inline icons matching in-game clothing silhouettes)
+  const PART_ICONS = {
+    character: "🔄", acchead: "👒", head: "✂️", accface: "😎",
+    accneck: "🧣", topbody: "👕", downbody: "👖", acchand: "🧤",
+    accwrist: "💎", foot: "👟", accbooster: "🚀", pet: "🐾",
+    expansion: "✨", accback: "🪽", acctail: "🦊",
+    etc: "📦", "image.png": "❓", object: "🎁"
   };
 
   // ── DOM refs ──
   const $ = (s) => document.getElementById(s);
   const searchInput = $("search-input");
   const searchClear = $("search-clear");
-  const btnToggle = $("btn-toggle-filters");
   const btnReset = $("btn-reset-filters");
-  const sidebar = $("filter-sidebar");
-  const btnCloseSidebar = $("btn-close-sidebar");
   const itemsContainer = $("items-container");
   const emptyState = $("empty-state");
   const loadingState = $("loading-state");
@@ -61,6 +74,10 @@
     return PART_LABELS[key] || key;
   }
 
+  function partIcon(key) {
+    return PART_ICONS[key] || "📄";
+  }
+
   function parseStatValue(val) {
     if (!val) return -Infinity;
     const num = parseFloat(val.replace(/[^0-9.\-]/g, ""));
@@ -90,11 +107,16 @@
       partSet.add(item._part);
       Object.keys(item.stats || {}).forEach((k) => statSet.add(k));
     });
-    allParts = [...partSet].sort((a, b) => partLabel(a).localeCompare(partLabel(b)));
+    // Sort parts by explicit order
+    allParts = [...partSet].sort((a, b) => {
+      const ia = PART_ORDER.indexOf(a);
+      const ib = PART_ORDER.indexOf(b);
+      return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
+    });
     allStatKeys = [...statSet].sort();
 
     statTotal.textContent = allItems.length.toLocaleString();
-    buildPartBadges();
+    buildPartSidebar();
     buildStatFilters();
     buildSortStatOptions();
     bindEvents();
@@ -114,39 +136,35 @@
     }
   }
 
-  function buildPartBadges() {
-    const container = $("part-badges-container");
+  // ── Build Part Sidebar ──
+  function buildPartSidebar() {
+    const container = $("part-sidebar-list");
     container.innerHTML = "";
-    
-    const allBadge = document.createElement("div");
-    allBadge.className = "part-badge active";
-    allBadge.textContent = "All Parts";
-    allBadge.addEventListener("click", () => {
-      document.querySelectorAll(".part-badge").forEach(b => b.classList.remove("active"));
-      allBadge.classList.add("active");
+
+    // "All" button
+    const allBtn = document.createElement("button");
+    allBtn.className = "part-btn active";
+    allBtn.innerHTML = `<span class="part-icon">🗂️</span><span class="part-label">All</span>`;
+    allBtn.addEventListener("click", () => {
+      document.querySelectorAll(".part-btn").forEach(b => b.classList.remove("active"));
+      allBtn.classList.add("active");
       currentPage = 1; applyFilters();
     });
-    container.appendChild(allBadge);
+    container.appendChild(allBtn);
 
     allParts.forEach((part) => {
-      const count = allItems.filter((i) => i._part === part).length;
-      const badge = document.createElement("div");
-      badge.className = "part-badge";
-      badge.setAttribute("data-part", part);
-      badge.innerHTML = `${partLabel(part)} <small>(${count})</small>`;
-      badge.addEventListener("click", () => {
-        allBadge.classList.remove("active");
-        badge.classList.toggle("active");
-        if (!document.querySelector('.part-badge[data-part].active')) {
-          allBadge.classList.add("active");
-        }
+      const btn = document.createElement("button");
+      btn.className = "part-btn";
+      btn.setAttribute("data-part", part);
+      btn.innerHTML = `<span class="part-icon">${partIcon(part)}</span><span class="part-label">${partLabel(part)}</span>`;
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".part-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
         currentPage = 1; applyFilters();
       });
-      container.appendChild(badge);
+      container.appendChild(btn);
     });
   }
-
-
 
   function buildStatFilters() {
     const container = $("stats-checkboxes");
@@ -158,7 +176,6 @@
       label.innerHTML = `<input type="checkbox" data-stat="${stat}"><span class="cb-custom"></span><span>${stat}</span>`;
       container.appendChild(label);
     });
-    $("stats-count").textContent = allStatKeys.length;
   }
 
   function buildSortStatOptions() {
@@ -186,15 +203,20 @@
     searchClear.addEventListener("click", () => { searchInput.value = ""; searchClear.classList.remove("visible"); currentPage = 1; applyFilters(); });
     searchInput.addEventListener("input", () => { searchClear.classList.toggle("visible", searchInput.value.length > 0); });
 
-    // Sidebar toggle
-    const btnToggle = $("btn-toggle-filters");
-    const btnCloseSidebar = $("btn-close-sidebar");
-    if (btnToggle) btnToggle.addEventListener("click", toggleSidebar);
-    if (btnCloseSidebar) btnCloseSidebar.addEventListener("click", closeSidebar);
-
-    // Overlay (already in HTML)
+    // Mobile parts toggle
+    const btnMobileParts = $("btn-mobile-parts");
+    const partSidebar = $("part-sidebar");
     const overlay = $("sidebar-overlay");
-    overlay.addEventListener("click", closeSidebar);
+    if (btnMobileParts) {
+      btnMobileParts.addEventListener("click", () => {
+        partSidebar.classList.toggle("sidebar-visible");
+        overlay.classList.toggle("visible", partSidebar.classList.contains("sidebar-visible"));
+      });
+    }
+    overlay.addEventListener("click", () => {
+      partSidebar.classList.remove("sidebar-visible");
+      overlay.classList.remove("visible");
+    });
 
     // Reset
     btnReset.addEventListener("click", resetFilters);
@@ -203,6 +225,41 @@
     $("btn-view-grid").addEventListener("click", () => setView("grid"));
     $("btn-view-list").addEventListener("click", () => setView("list"));
 
+    // Stats dropdown toggle
+    const btnStatsDropdown = $("btn-stats-dropdown");
+    const statsPanel = $("stats-dropdown-panel");
+    btnStatsDropdown.addEventListener("click", (e) => {
+      e.stopPropagation();
+      // Close other panels
+      $("sort-stat-dropdown-panel").classList.remove("open");
+      $("btn-sort-stat-dropdown").classList.remove("open");
+      statsPanel.classList.toggle("open");
+      btnStatsDropdown.classList.toggle("open");
+    });
+
+    // Sort stat dropdown toggle
+    const btnSortStatDropdown = $("btn-sort-stat-dropdown");
+    const sortStatPanel = $("sort-stat-dropdown-panel");
+    btnSortStatDropdown.addEventListener("click", (e) => {
+      e.stopPropagation();
+      // Close other panels
+      statsPanel.classList.remove("open");
+      btnStatsDropdown.classList.remove("open");
+      sortStatPanel.classList.toggle("open");
+      btnSortStatDropdown.classList.toggle("open");
+    });
+
+    // Close dropdowns when clicking outside
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest(".top-dropdown-stats")) {
+        statsPanel.classList.remove("open");
+        btnStatsDropdown.classList.remove("open");
+        sortStatPanel.classList.remove("open");
+        btnSortStatDropdown.classList.remove("open");
+      }
+    });
+
+    // Filter change events
     document.querySelectorAll('#stats-checkboxes input').forEach(cb => cb.addEventListener("change", () => { currentPage = 1; applyFilters(); }));
     sortSelect.addEventListener("change", () => { currentPage = 1; applyFilters(); });
 
@@ -216,7 +273,11 @@
 
     // Sort by stat events
     document.querySelectorAll('#sort-stat-options input[name="sort-stat"]').forEach(r => {
-      r.addEventListener("change", () => { currentPage = 1; applyFilters(); });
+      r.addEventListener("change", () => {
+        const val = r.value;
+        $("sort-stat-dropdown-text").textContent = val || "None";
+        currentPage = 1; applyFilters();
+      });
     });
     $("sort-dir-desc").addEventListener("click", () => {
       $("sort-dir-desc").classList.add("active");
@@ -236,9 +297,6 @@
       });
     });
 
-    // Collapsible groups removed, always open.
-
-
     // Modal
     modalClose.addEventListener("click", closeModal);
     modalOverlay.addEventListener("click", (e) => { if (e.target === modalOverlay) closeModal(); });
@@ -253,18 +311,18 @@
   function applyFilters() {
     const query = searchInput.value.toLowerCase().trim();
 
-    // Selected parts
-    const allBadgeActive = document.querySelector('.part-badge:not([data-part])').classList.contains("active");
-    const selectedParts = allBadgeActive ? allParts : [...document.querySelectorAll('.part-badge.active')].map(b => b.getAttribute("data-part"));
-    
+    // Selected part (single select from sidebar)
+    const activePartBtn = document.querySelector('.part-btn.active');
+    const selectedPart = activePartBtn ? activePartBtn.getAttribute("data-part") : null;
+
     // Selected stats
     const selectedStats = [...document.querySelectorAll('#stats-checkboxes input:checked')].map(cb => cb.getAttribute("data-stat"));
 
     filtered = allItems.filter((item) => {
       // Search
       if (query && !item.name.toLowerCase().includes(query)) return false;
-      // Part
-      if (!selectedParts.includes(item._part)) return false;
+      // Part (null = all parts)
+      if (selectedPart && item._part !== selectedPart) return false;
       // Must have selected stats
       if (selectedStats.length > 0) {
         for (const s of selectedStats) {
@@ -304,6 +362,10 @@
     updateFilterBadge(selectedStats);
     renderItems();
     renderPagination();
+
+    // Update stats dropdown text
+    const statsCount = selectedStats.length;
+    $("stats-dropdown-text").textContent = statsCount > 0 ? `${statsCount} selected` : "All Stats";
   }
 
   function updateFilterBadge(selectedStats) {
@@ -318,8 +380,6 @@
   function updateActiveFilters(selectedStats, query) {
     activeFiltersInner.innerHTML = "";
     let hasAny = false;
-
-
 
     // Selected stats
     selectedStats.forEach((s) => {
@@ -344,12 +404,12 @@
   function resetFilters() {
     searchInput.value = "";
     searchClear.classList.remove("visible");
-    
-    // Reset badges
-    document.querySelectorAll(".part-badge").forEach(b => b.classList.remove("active"));
-    const allBadge = document.querySelector('.part-badge:not([data-part])');
-    if (allBadge) allBadge.classList.add("active");
-    
+
+    // Reset part sidebar
+    document.querySelectorAll(".part-btn").forEach(b => b.classList.remove("active"));
+    const allBtn = document.querySelector('.part-btn:not([data-part])');
+    if (allBtn) allBtn.classList.add("active");
+
     document.querySelectorAll('#stats-checkboxes input').forEach(cb => cb.checked = false);
     sortSelect.value = "name-asc";
     statsSearch.value = "";
@@ -361,6 +421,7 @@
     $("sort-dir-asc").classList.remove("active");
     $("sort-stat-search").value = "";
     document.querySelectorAll(".sort-stat-item").forEach(el => el.style.display = "");
+    $("sort-stat-dropdown-text").textContent = "None";
     currentPage = 1;
     applyFilters();
   }
@@ -424,12 +485,7 @@
       card.appendChild(img);
       card.appendChild(body);
 
-      if (item._statsCount > 0) {
-        const badge = document.createElement("div");
-        badge.className = "item-card-stats-count";
-        badge.textContent = item._statsCount + " stats";
-        card.appendChild(badge);
-      }
+      // Stats badge REMOVED per user request
 
       card.addEventListener("click", () => openModal(item));
       fragment.appendChild(card);
@@ -490,16 +546,6 @@
     viewMode = mode;
     document.querySelectorAll(".view-btn").forEach((b) => b.classList.toggle("active", b.getAttribute("data-view") === mode));
     renderItems();
-  }
-
-  // ── Sidebar ──
-  function toggleSidebar() {
-    sidebar.classList.toggle("sidebar-visible");
-    document.getElementById("sidebar-overlay").classList.toggle("visible", sidebar.classList.contains("sidebar-visible"));
-  }
-  function closeSidebar() {
-    sidebar.classList.remove("sidebar-visible");
-    document.getElementById("sidebar-overlay").classList.remove("visible");
   }
 
   // ── Modal ──
