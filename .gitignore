@@ -4,3 +4,5 @@ package-lock.json
 test_scraper.js
 wiki_stat_check.js
 clean.js
+.playwright_profile/
+session/
