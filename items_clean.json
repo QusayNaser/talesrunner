@@ -58,10 +58,10 @@
       "HP": "+70",
       "Critical": "+50",
       "Effect on Attack": "11.5x",
-      "Critical Damage Chance": "10%",
       "Additional Critical Damage": "30%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "10%"
+      "Anubis/Raid Bonus EXP": "10%",
+      "x1.5 Critical Damage Chance": "10%"
     },
     "itemClass": "Mythology",
     "part": "accback"
@@ -61943,10 +61943,10 @@
       "Defense": "+25",
       "HP": "+45",
       "Critical": "201.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "2%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -61960,10 +61960,10 @@
       "Attack": "+60",
       "Defense": "+25",
       "HP": "501.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "1%",
       "Max EXP": "+300",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Unique",
     "part": "accneck"
@@ -61979,10 +61979,10 @@
       "Defense": "+10",
       "HP": "+20",
       "Critical": "251.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "1%",
       "Max EXP": "+300",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Unique",
     "part": "foot"
@@ -61999,10 +61999,10 @@
       "HP": "+80",
       "Critical": "+3",
       "Special Rewards": "21.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "1%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Unique",
     "part": "topbody"
@@ -62017,10 +62017,10 @@
       "Defense": "+15",
       "HP": "+25",
       "Special Rewards": "11.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "1%",
       "Max EXP": "+300",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Unique",
     "part": "head"
@@ -62036,10 +62036,10 @@
       "Defense": "+15",
       "HP": "+20",
       "Critical": "101.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "2%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -62204,8 +62204,8 @@
       "Attack": "+20",
       "HP": "+10",
       "Critical": "101.5x",
-      "Critical Damage Chance": "1%",
-      "Additional Critical Damage": "1%"
+      "Additional Critical Damage": "1%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Rare",
     "part": "accback"
@@ -62218,8 +62218,8 @@
       "Attack": "+10",
       "HP": "+20",
       "Critical": "101.5x",
-      "Critical Damage Chance": "1%",
-      "Additional Critical Damage": "1%"
+      "Additional Critical Damage": "1%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Rare",
     "part": "accback"
@@ -62231,8 +62231,8 @@
       "Luck": "50%",
       "HP": "+30",
       "Critical": "101.5x",
-      "Critical Damage Chance": "1%",
-      "Additional Critical Damage": "1%"
+      "Additional Critical Damage": "1%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Rare",
     "part": "accback"
@@ -62244,8 +62244,8 @@
       "Luck": "50%",
       "Attack": "+30",
       "Critical": "101.5x",
-      "Critical Damage Chance": "1%",
-      "Additional Critical Damage": "1%"
+      "Additional Critical Damage": "1%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Rare",
     "part": "accback"
@@ -62869,7 +62869,7 @@
       "Attack": "+30",
       "Critical": "+10",
       "Special Rewards": "31.5x",
-      "Critical Damage Chance": "1%"
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Unique",
     "part": "accface"
@@ -68494,10 +68494,10 @@
       "Defense": "+15",
       "HP": "+50",
       "Critical": "201.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "2%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "None",
     "part": "accback"
@@ -74537,10 +74537,10 @@
       "Attack": "+80",
       "HP": "+30",
       "Critical": "251.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "2%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -74556,10 +74556,10 @@
       "HP": "+100",
       "Critical": "+5",
       "Special Rewards": "21.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "2%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -74572,10 +74572,10 @@
       "Defense": "+15",
       "HP": "+25",
       "Special Rewards": "11.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "2%",
       "Max EXP": "+300",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -74588,10 +74588,10 @@
       "Attack": "+80",
       "HP": "+30",
       "Critical": "201.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "2%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "acchand"
@@ -74605,10 +74605,10 @@
       "Defense": "+10",
       "HP": "+25",
       "Critical": "101.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "2%",
       "Max EXP": "+300",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -74623,10 +74623,10 @@
       "Defense": "+15",
       "HP": "+50",
       "Critical": "201.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "2%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -74961,8 +74961,8 @@
     "stats": {
       "Control": "+1",
       "Attack": "251.5x",
-      "Critical Damage Chance": "2%",
-      "Anubis/Raid Bonus EXP": "3%"
+      "Anubis/Raid Bonus EXP": "3%",
+      "x1.5 Critical Damage Chance": "2%"
     },
     "itemClass": "Rare",
     "part": "accback"
@@ -74973,8 +74973,8 @@
     "stats": {
       "Strength": "+1",
       "Attack": "251.5x",
-      "Critical Damage Chance": "2%",
-      "Anubis/Raid Bonus EXP": "3%"
+      "Anubis/Raid Bonus EXP": "3%",
+      "x1.5 Critical Damage Chance": "2%"
     },
     "itemClass": "Rare",
     "part": "acchead"
@@ -93504,7 +93504,7 @@
       "Attack": "+5",
       "Defense": "+5",
       "HP": "51.5x",
-      "Critical Damage Chance": "1%"
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Unique",
     "part": "accface"
@@ -105382,10 +105382,10 @@
       "HP": "+30",
       "Critical": "+15",
       "Special Rewards": "21.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "1%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -105397,10 +105397,10 @@
       "Attack": "+70",
       "Defense": "+25",
       "HP": "501.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "1%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "accneck"
@@ -105414,10 +105414,10 @@
       "HP": "+30",
       "Critical": "+25",
       "Special Rewards": "61.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "1%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "acchand"
@@ -105430,10 +105430,10 @@
       "Attack": "+85",
       "HP": "+30",
       "Critical": "201.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "1%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -105447,10 +105447,10 @@
       "Defense": "+80",
       "HP": "+80",
       "Special Rewards": "21.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "1%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -105464,10 +105464,10 @@
       "Defense": "+50",
       "HP": "+30",
       "Critical": "151.5x",
-      "Critical Damage Chance": "1%",
       "Additional Critical Damage": "1%",
       "Max EXP": "+500",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -110930,7 +110930,7 @@
       "Bonus EXP": "30%",
       "Luck": "20%",
       "Attack": "101.5x",
-      "Critical Damage Chance": "1%"
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Rare",
     "part": "accback"
@@ -111000,8 +111000,8 @@
       "Bonus EXP": "20%",
       "Attack": "+60",
       "Defense": "401.5x",
-      "Critical Damage Chance": "1%",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Unique",
     "part": "accneck"
@@ -111014,8 +111014,8 @@
       "Luck": "60%",
       "Attack": "+10",
       "Defense": "401.5x",
-      "Critical Damage Chance": "1%",
-      "Anubis/Raid Bonus EXP": "2%"
+      "Anubis/Raid Bonus EXP": "2%",
+      "x1.5 Critical Damage Chance": "1%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -111030,8 +111030,8 @@
       "Speed": "+1",
       "Attack": "+25",
       "HP": "401.5x",
-      "Critical Damage Chance": "2%",
-      "Anubis/Raid Bonus EXP": "3%"
+      "Anubis/Raid Bonus EXP": "3%",
+      "x1.5 Critical Damage Chance": "2%"
     },
     "itemClass": "Legendary",
     "part": "accback"
