@@ -8,8 +8,10 @@
   let currentPage = 1;
   const PER_PAGE = 150;
   let viewMode = "grid"; // grid | list
+  let gridColumns = 18;
   let allStatKeys = [];
   let allParts = [];
+  let allRarities = [];
 
   // Part label mapping
   const PART_LABELS = {
@@ -50,11 +52,16 @@
   const statTotal = $("stat-total");
   const statShowing = $("stat-showing");
   const filterBadge = $("filter-badge");
+  const rarityBadge = $("rarity-filter-badge");
   const activeFilters = $("active-filters");
   const activeFiltersInner = $("active-filters-inner");
   const btnBackTop = $("btn-back-top");
   const sortSelect = $("sort-select");
   const statsSearch = $("stats-search");
+  const noStatWarning = $("no-stat-warning");
+  const bestSetResults = $("best-set-results");
+  const colSlider = $("col-slider");
+  const colSliderValue = $("col-slider-value");
 
   // Modal
   const modalOverlay = $("item-modal");
@@ -65,9 +72,24 @@
   const modalStats = $("modal-stats");
 
   // ── Helpers ──
-  function extractPart(imgPath) {
-    const parts = imgPath.split("__");
-    return parts.length >= 3 ? parts[2] : "unknown";
+  function extractPart(imagePath) {
+    if (!imagePath) return "etc";
+    const parts = imagePath.split("__");
+    if (parts.length >= 3) {
+      return parts[2];
+    }
+    return "etc";
+  }
+
+  function getClassColor(itemClass) {
+    switch (itemClass) {
+      case 'Mythology': return '#ffd700';
+      case 'Legendary': return '#ff8c00';
+      case 'Unique': return '#ff00ff';
+      case 'Rare': return '#00bfff';
+      case 'Prestige': return '#ff4500';
+      default: return '#aaaaaa';
+    }
   }
 
   function partLabel(key) {
@@ -101,11 +123,13 @@
     // Derive parts & stats
     const partSet = new Set();
     const statSet = new Set();
+    const raritySet = new Set();
     allItems.forEach((item) => {
-      item._part = extractPart(item.image);
+      item._part = item.part || extractPart(item.image);
       item._statsCount = Object.keys(item.stats || {}).length;
       partSet.add(item._part);
       Object.keys(item.stats || {}).forEach((k) => statSet.add(k));
+      raritySet.add(item.itemClass || 'None');
     });
     // Sort parts by explicit order
     allParts = [...partSet].sort((a, b) => {
@@ -114,11 +138,21 @@
       return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
     });
     allStatKeys = [...statSet].sort();
+    
+    // Custom rarity display order
+    const RARITY_ORDER = ["Mythology", "Prestige", "Legendary", "Unique", "Rare", "None"];
+    allRarities = [...raritySet].sort((a, b) => {
+      const ia = RARITY_ORDER.indexOf(a);
+      const ib = RARITY_ORDER.indexOf(b);
+      return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
+    });
 
     statTotal.textContent = allItems.length.toLocaleString();
     buildPartSidebar();
     buildStatFilters();
+    buildRarityFilters();
     buildSortStatOptions();
+    buildBestSetOptions();
     bindEvents();
     applyFilters();
     loadingState.style.display = "none";
@@ -178,6 +212,19 @@
     });
   }
 
+  function buildRarityFilters() {
+    const container = $("rarity-checkboxes");
+    if (!container) return;
+    container.innerHTML = "";
+    allRarities.forEach((rarity) => {
+      const label = document.createElement("label");
+      label.className = "filter-checkbox rarity-filter-item";
+      label.setAttribute("data-rarity-lower", rarity.toLowerCase());
+      label.innerHTML = `<input type="checkbox" data-rarity="${rarity}"><span class="cb-custom"></span><span style="color:${getClassColor(rarity)}">${rarity}</span>`;
+      container.appendChild(label);
+    });
+  }
+
   function buildSortStatOptions() {
     const container = $("sort-stat-options");
     container.innerHTML = "";
@@ -192,6 +239,24 @@
       label.className = "sort-stat-radio sort-stat-item";
       label.setAttribute("data-stat-lower", stat.toLowerCase());
       label.innerHTML = `<input type="radio" name="sort-stat" value="${stat}"><span class="radio-custom"></span><span>${stat}</span>`;
+      container.appendChild(label);
+    });
+  }
+
+  function buildBestSetOptions() {
+    const container = $("best-set-options");
+    container.innerHTML = "";
+    // "None" option
+    const noneLabel = document.createElement("label");
+    noneLabel.className = "sort-stat-radio best-set-item";
+    noneLabel.setAttribute("data-stat-lower", "none");
+    noneLabel.innerHTML = '<input type="radio" name="best-set-stat" value="" checked><span class="radio-custom"></span><span>None</span>';
+    container.appendChild(noneLabel);
+    allStatKeys.forEach((stat) => {
+      const label = document.createElement("label");
+      label.className = "sort-stat-radio best-set-item";
+      label.setAttribute("data-stat-lower", stat.toLowerCase());
+      label.innerHTML = `<input type="radio" name="best-set-stat" value="${stat}"><span class="radio-custom"></span><span>${stat}</span>`;
       container.appendChild(label);
     });
   }
@@ -225,14 +290,24 @@
     $("btn-view-grid").addEventListener("click", () => setView("grid"));
     $("btn-view-list").addEventListener("click", () => setView("list"));
 
+    // Rarity dropdown toggle
+    const btnRarityDropdown = $("btn-rarity-dropdown");
+    const rarityPanel = $("rarity-dropdown-panel");
+    if (btnRarityDropdown && rarityPanel) {
+      btnRarityDropdown.addEventListener("click", (e) => {
+        e.stopPropagation();
+        closeAllDropdowns("rarity-dropdown-panel");
+        rarityPanel.classList.toggle("open");
+        btnRarityDropdown.classList.toggle("open");
+      });
+    }
+
     // Stats dropdown toggle
     const btnStatsDropdown = $("btn-stats-dropdown");
     const statsPanel = $("stats-dropdown-panel");
     btnStatsDropdown.addEventListener("click", (e) => {
       e.stopPropagation();
-      // Close other panels
-      $("sort-stat-dropdown-panel").classList.remove("open");
-      $("btn-sort-stat-dropdown").classList.remove("open");
+      closeAllDropdowns("stats-dropdown-panel");
       statsPanel.classList.toggle("open");
       btnStatsDropdown.classList.toggle("open");
     });
@@ -242,25 +317,31 @@
     const sortStatPanel = $("sort-stat-dropdown-panel");
     btnSortStatDropdown.addEventListener("click", (e) => {
       e.stopPropagation();
-      // Close other panels
-      statsPanel.classList.remove("open");
-      btnStatsDropdown.classList.remove("open");
+      closeAllDropdowns("sort-stat-dropdown-panel");
       sortStatPanel.classList.toggle("open");
       btnSortStatDropdown.classList.toggle("open");
+    });
+
+    // Best Set dropdown toggle
+    const btnBestSetDropdown = $("btn-best-set-dropdown");
+    const bestSetPanel = $("best-set-dropdown-panel");
+    btnBestSetDropdown.addEventListener("click", (e) => {
+      e.stopPropagation();
+      closeAllDropdowns("best-set-dropdown-panel");
+      bestSetPanel.classList.toggle("open");
+      btnBestSetDropdown.classList.toggle("open");
     });
 
     // Close dropdowns when clicking outside
     document.addEventListener("click", (e) => {
       if (!e.target.closest(".top-dropdown-stats")) {
-        statsPanel.classList.remove("open");
-        btnStatsDropdown.classList.remove("open");
-        sortStatPanel.classList.remove("open");
-        btnSortStatDropdown.classList.remove("open");
+        closeAllDropdowns();
       }
     });
 
     // Filter change events
     document.querySelectorAll('#stats-checkboxes input').forEach(cb => cb.addEventListener("change", () => { currentPage = 1; applyFilters(); }));
+    document.querySelectorAll('#rarity-checkboxes input').forEach(cb => cb.addEventListener("change", () => { currentPage = 1; applyFilters(); }));
     sortSelect.addEventListener("change", () => { currentPage = 1; applyFilters(); });
 
     // Stats search
@@ -297,6 +378,29 @@
       });
     });
 
+    // Best Set events
+    document.querySelectorAll('#best-set-options input[name="best-set-stat"]').forEach(r => {
+      r.addEventListener("change", () => {
+        const val = r.value;
+        $("best-set-dropdown-text").textContent = val || "Select Stat";
+        updateBestFullSet();
+      });
+    });
+    $("best-set-search").addEventListener("input", () => {
+      const q = $("best-set-search").value.toLowerCase();
+      document.querySelectorAll(".best-set-item").forEach((el) => {
+        const val = el.getAttribute("data-stat-lower");
+        el.style.display = (val === "none" || val.includes(q)) ? "" : "none";
+      });
+    });
+
+    // Column slider
+    colSlider.addEventListener("input", () => {
+      gridColumns = parseInt(colSlider.value, 10);
+      colSliderValue.textContent = gridColumns;
+      applyGridColumns();
+    });
+
     // Modal
     modalClose.addEventListener("click", closeModal);
     modalOverlay.addEventListener("click", (e) => { if (e.target === modalOverlay) closeModal(); });
@@ -305,6 +409,23 @@
     // Back to top
     window.addEventListener("scroll", () => { btnBackTop.style.display = window.scrollY > 400 ? "flex" : "none"; });
     btnBackTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+  }
+
+  function closeAllDropdowns(except) {
+    const panels = ["stats-dropdown-panel", "sort-stat-dropdown-panel", "best-set-dropdown-panel", "rarity-dropdown-panel"];
+    const btns = ["btn-stats-dropdown", "btn-sort-stat-dropdown", "btn-best-set-dropdown", "btn-rarity-dropdown"];
+    panels.forEach((id, i) => {
+      if (id !== except) {
+        $(id).classList.remove("open");
+        $(btns[i]).classList.remove("open");
+      }
+    });
+  }
+
+  function applyGridColumns() {
+    if (viewMode === "grid") {
+      itemsContainer.style.gridTemplateColumns = `repeat(${gridColumns}, 1fr)`;
+    }
   }
 
   // ── Filter Logic ──
@@ -317,12 +438,20 @@
 
     // Selected stats
     const selectedStats = [...document.querySelectorAll('#stats-checkboxes input:checked')].map(cb => cb.getAttribute("data-stat"));
+    
+    // Selected rarities
+    const selectedRarities = [...document.querySelectorAll('#rarity-checkboxes input:checked')].map(cb => cb.getAttribute("data-rarity"));
 
     filtered = allItems.filter((item) => {
       // Search
       if (query && !item.name.toLowerCase().includes(query)) return false;
       // Part (null = all parts)
       if (selectedPart && item._part !== selectedPart) return false;
+      // Rarity
+      if (selectedRarities.length > 0) {
+        const itemRarity = item.itemClass || 'None';
+        if (!selectedRarities.includes(itemRarity)) return false;
+      }
       // Must have selected stats
       if (selectedStats.length > 0) {
         for (const s of selectedStats) {
@@ -357,9 +486,22 @@
       });
     }
 
+    // Check no-stat-match warning
+    checkNoStatWarning(sortStatKey);
+
     statShowing.textContent = filtered.length.toLocaleString();
-    updateActiveFilters(selectedStats, query);
+    updateActiveFilters(selectedStats, selectedRarities, query);
     updateFilterBadge(selectedStats);
+    
+    if (rarityBadge) {
+      if (selectedRarities.length > 0) {
+        rarityBadge.textContent = selectedRarities.length;
+        rarityBadge.style.display = "flex";
+      } else {
+        rarityBadge.style.display = "none";
+      }
+    }
+    
     renderItems();
     renderPagination();
 
@@ -377,7 +519,7 @@
     }
   }
 
-  function updateActiveFilters(selectedStats, query) {
+  function updateActiveFilters(selectedStats, selectedRarities, query) {
     activeFiltersInner.innerHTML = "";
     let hasAny = false;
 
@@ -386,6 +528,15 @@
       hasAny = true;
       addFilterTag(`+${s}`, () => {
         const cb = document.querySelector(`#stats-checkboxes input[data-stat="${s}"]`);
+        if (cb) { cb.checked = false; currentPage = 1; applyFilters(); }
+      });
+    });
+    
+    // Selected rarities
+    selectedRarities.forEach((r) => {
+      hasAny = true;
+      addFilterTag(`[${r}]`, () => {
+        const cb = document.querySelector(`#rarity-checkboxes input[data-rarity="${r}"]`);
         if (cb) { cb.checked = false; currentPage = 1; applyFilters(); }
       });
     });
@@ -411,6 +562,7 @@
     if (allBtn) allBtn.classList.add("active");
 
     document.querySelectorAll('#stats-checkboxes input').forEach(cb => cb.checked = false);
+    document.querySelectorAll('#rarity-checkboxes input').forEach(cb => cb.checked = false);
     sortSelect.value = "name-asc";
     statsSearch.value = "";
     document.querySelectorAll(".stat-filter-item").forEach(el => el.style.display = "");
@@ -422,6 +574,14 @@
     $("sort-stat-search").value = "";
     document.querySelectorAll(".sort-stat-item").forEach(el => el.style.display = "");
     $("sort-stat-dropdown-text").textContent = "None";
+    // Reset best set
+    const noneSet = document.querySelector('#best-set-options input[value=""]');
+    if (noneSet) noneSet.checked = true;
+    $("best-set-dropdown-text").textContent = "Select Stat";
+    $("best-set-search").value = "";
+    document.querySelectorAll(".best-set-item").forEach(el => el.style.display = "");
+    bestSetResults.style.display = "none";
+    noStatWarning.style.display = "none";
     currentPage = 1;
     applyFilters();
   }
@@ -434,6 +594,11 @@
 
     itemsContainer.innerHTML = "";
     itemsContainer.className = viewMode === "list" ? "items-list" : "items-grid";
+    if (viewMode === "grid") {
+      itemsContainer.style.gridTemplateColumns = `repeat(${gridColumns}, 1fr)`;
+    } else {
+      itemsContainer.style.gridTemplateColumns = "";
+    }
     emptyState.style.display = page.length === 0 ? "flex" : "none";
 
     const fragment = document.createDocumentFragment();
@@ -457,7 +622,14 @@
 
       const part = document.createElement("div");
       part.className = "item-card-part";
-      part.textContent = partLabel(item._part);
+
+      let classHtml = '';
+      if (item.itemClass && item.itemClass !== 'None') {
+        const classColor = getClassColor(item.itemClass);
+        classHtml = `<span class="item-class-badge" style="color:${classColor};border-color:${classColor};border:1px solid;border-radius:3px;padding:1px 4px;font-size:0.85em;margin-right:6px;">${item.itemClass}</span>`;
+      }
+
+      part.innerHTML = `${classHtml}${partLabel(item._part)}`;
 
       body.appendChild(name);
       body.appendChild(part);
@@ -553,7 +725,13 @@
     modalImg.src = item.image;
     modalImg.alt = item.name;
     modalName.textContent = item.name;
-    modalPart.textContent = partLabel(item._part);
+    
+    let classHtml = '';
+    if (item.itemClass && item.itemClass !== 'None') {
+      const classColor = getClassColor(item.itemClass);
+      classHtml = `<span class="item-class-badge" style="color:${classColor};border-color:${classColor};border:1px solid;border-radius:3px;padding:2px 6px;font-size:0.85em;margin-right:8px;">${item.itemClass}</span>`;
+    }
+    modalPart.innerHTML = `${classHtml}${partLabel(item._part)}`;
     modalStats.innerHTML = "";
 
     if (item._statsCount > 0) {
@@ -574,6 +752,91 @@
   function closeModal() {
     modalOverlay.style.display = "none";
     document.body.style.overflow = "";
+  }
+
+  // ── No Stat Warning ──
+  function checkNoStatWarning(sortStatKey) {
+    if (!sortStatKey) {
+      noStatWarning.style.display = "none";
+      return;
+    }
+    const anyMatch = filtered.some(item => item.stats && sortStatKey in item.stats);
+    if (!anyMatch && filtered.length === 0) {
+      noStatWarning.style.display = "";
+      noStatWarning.textContent = `No items found with the stat "${sortStatKey}". Try selecting a different part or removing filters.`;
+    } else if (!anyMatch) {
+      // Items exist but none have this stat
+      const hasStatAnywhere = allItems.some(item => item.stats && sortStatKey in item.stats);
+      if (hasStatAnywhere) {
+        noStatWarning.style.display = "";
+        noStatWarning.textContent = `None of the currently shown items have the stat "${sortStatKey}". Try selecting a different part or clearing filters.`;
+      } else {
+        noStatWarning.style.display = "none";
+      }
+    } else {
+      noStatWarning.style.display = "none";
+    }
+  }
+
+  // ── Best Full Set ──
+  function updateBestFullSet() {
+    const radio = document.querySelector('#best-set-options input[name="best-set-stat"]:checked');
+    const stat = radio ? radio.value : "";
+    if (!stat) {
+      bestSetResults.style.display = "none";
+      return;
+    }
+
+    // Equipment parts only (exclude character, etc, object, image.png)
+    const equipParts = ["acchead", "head", "accface", "accneck", "topbody", "downbody", "acchand", "accwrist", "foot", "accbooster", "pet", "expansion", "accback", "acctail"];
+    const bestByPart = {};
+
+    allItems.forEach(item => {
+      if (!item.stats || !(stat in item.stats)) return;
+      const part = item._part;
+      if (!equipParts.includes(part)) return;
+      const val = parseStatValue(item.stats[stat]);
+      if (!bestByPart[part] || val > bestByPart[part].value) {
+        bestByPart[part] = { item, value: val, display: item.stats[stat] };
+      }
+    });
+
+    bestSetResults.innerHTML = "";
+    const title = document.createElement("div");
+    title.className = "best-set-title";
+    title.textContent = `🏆 Best Full Set for: ${stat}`;
+    bestSetResults.appendChild(title);
+
+    const grid = document.createElement("div");
+    grid.className = "best-set-grid";
+
+    let totalVal = 0;
+    equipParts.forEach(part => {
+      const entry = bestByPart[part];
+      if (!entry) return;
+      totalVal += entry.value;
+      const card = document.createElement("div");
+      card.className = "best-set-card";
+      card.innerHTML = `<img src="${entry.item.image}" alt="${entry.item.name}" loading="lazy"><div class="best-set-card-info"><div class="best-set-card-part">${partLabel(part)}</div><div class="best-set-card-name" title="${entry.item.name}">${entry.item.name}</div><div class="best-set-card-value">${stat}: ${entry.display}</div></div>`;
+      card.addEventListener("click", () => openModal(entry.item));
+      grid.appendChild(card);
+    });
+
+    if (grid.children.length === 0) {
+      const none = document.createElement("div");
+      none.className = "best-set-none";
+      none.textContent = `No equipment items found with "${stat}".`;
+      bestSetResults.appendChild(none);
+    } else {
+      bestSetResults.appendChild(grid);
+      // Total summary
+      const summary = document.createElement("div");
+      summary.style.cssText = "margin-top:10px;font-size:12px;color:var(--accent-light);font-weight:700;text-align:right;";
+      summary.textContent = `Total ${stat} across ${grid.children.length} parts: ${totalVal}`;
+      bestSetResults.appendChild(summary);
+    }
+
+    bestSetResults.style.display = "";
   }
 
   // ── Utils ──
