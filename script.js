@@ -60,6 +60,8 @@
   const statsSearch = $("stats-search");
   const noStatWarning = $("no-stat-warning");
   const bestSetResults = $("best-set-results");
+  const bestSetLimit = $("best-set-limit");
+  const bestSetRarity = $("best-set-rarity");
   const colSlider = $("col-slider");
   const colSliderValue = $("col-slider-value");
 
@@ -216,12 +218,22 @@
     const container = $("rarity-checkboxes");
     if (!container) return;
     container.innerHTML = "";
+    
+    if (bestSetRarity) bestSetRarity.innerHTML = '<option value="">All Rarities</option>';
+    
     allRarities.forEach((rarity) => {
       const label = document.createElement("label");
       label.className = "filter-checkbox rarity-filter-item";
       label.setAttribute("data-rarity-lower", rarity.toLowerCase());
       label.innerHTML = `<input type="checkbox" data-rarity="${rarity}"><span class="cb-custom"></span><span style="color:${getClassColor(rarity)}">${rarity}</span>`;
       container.appendChild(label);
+      
+      if (bestSetRarity) {
+        const opt = document.createElement("option");
+        opt.value = rarity;
+        opt.textContent = rarity;
+        bestSetRarity.appendChild(opt);
+      }
     });
   }
 
@@ -393,6 +405,9 @@
         el.style.display = (val === "none" || val.includes(q)) ? "" : "none";
       });
     });
+    
+    if (bestSetLimit) bestSetLimit.addEventListener("input", updateBestFullSet);
+    if (bestSetRarity) bestSetRarity.addEventListener("change", updateBestFullSet);
 
     // Column slider
     colSlider.addEventListener("input", () => {
@@ -579,6 +594,8 @@
     if (noneSet) noneSet.checked = true;
     $("best-set-dropdown-text").textContent = "Select Stat";
     $("best-set-search").value = "";
+    if (bestSetLimit) bestSetLimit.value = "5";
+    if (bestSetRarity) bestSetRarity.value = "";
     document.querySelectorAll(".best-set-item").forEach(el => el.style.display = "");
     bestSetResults.style.display = "none";
     noStatWarning.style.display = "none";
@@ -787,12 +804,17 @@
       return;
     }
 
+    const limit = bestSetLimit ? Math.max(1, Math.min(15, parseInt(bestSetLimit.value, 10) || 5)) : 5;
+    const filterRarity = bestSetRarity ? bestSetRarity.value : "";
+
     // Equipment parts only (exclude character, etc, object, image.png)
     const equipParts = ["acchead", "head", "accface", "accneck", "topbody", "downbody", "acchand", "accwrist", "foot", "accbooster", "pet", "expansion", "accback", "acctail"];
     const bestByPart = {};
 
     allItems.forEach(item => {
       if (!item.stats || !(stat in item.stats)) return;
+      if (filterRarity && (item.itemClass || 'None') !== filterRarity) return;
+      
       const part = item._part;
       if (!equipParts.includes(part)) return;
       const val = parseStatValue(item.stats[stat]);
@@ -802,13 +824,13 @@
 
     Object.keys(bestByPart).forEach(part => {
       bestByPart[part].sort((a, b) => b.value - a.value);
-      bestByPart[part] = bestByPart[part].slice(0, 5);
+      bestByPart[part] = bestByPart[part].slice(0, limit);
     });
 
     bestSetResults.innerHTML = "";
     const title = document.createElement("div");
     title.className = "best-set-title";
-    title.textContent = `🏆 Top 5 Items for: ${stat}`;
+    title.textContent = `🏆 Top ${limit} Items for: ${stat}${filterRarity ? ` (${filterRarity})` : ""}`;
     bestSetResults.appendChild(title);
 
     const grid = document.createElement("div");
