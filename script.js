@@ -796,15 +796,19 @@
       const part = item._part;
       if (!equipParts.includes(part)) return;
       const val = parseStatValue(item.stats[stat]);
-      if (!bestByPart[part] || val > bestByPart[part].value) {
-        bestByPart[part] = { item, value: val, display: item.stats[stat] };
-      }
+      if (!bestByPart[part]) bestByPart[part] = [];
+      bestByPart[part].push({ item, value: val, display: item.stats[stat] });
+    });
+
+    Object.keys(bestByPart).forEach(part => {
+      bestByPart[part].sort((a, b) => b.value - a.value);
+      bestByPart[part] = bestByPart[part].slice(0, 5);
     });
 
     bestSetResults.innerHTML = "";
     const title = document.createElement("div");
     title.className = "best-set-title";
-    title.textContent = `🏆 Best Full Set for: ${stat}`;
+    title.textContent = `🏆 Top 5 Items for: ${stat}`;
     bestSetResults.appendChild(title);
 
     const grid = document.createElement("div");
@@ -812,14 +816,29 @@
 
     let totalVal = 0;
     equipParts.forEach(part => {
-      const entry = bestByPart[part];
-      if (!entry) return;
-      totalVal += entry.value;
-      const card = document.createElement("div");
-      card.className = "best-set-card";
-      card.innerHTML = `<img src="${entry.item.image}" alt="${entry.item.name}" loading="lazy"><div class="best-set-card-info"><div class="best-set-card-part">${partLabel(part)}</div><div class="best-set-card-name" title="${entry.item.name}">${entry.item.name}</div><div class="best-set-card-value">${stat}: ${entry.display}</div></div>`;
-      card.addEventListener("click", () => openModal(entry.item));
-      grid.appendChild(card);
+      const entries = bestByPart[part];
+      if (!entries || entries.length === 0) return;
+      
+      // Calculate max possible based on the top item of each part
+      totalVal += entries[0].value; 
+
+      const colWrapper = document.createElement("div");
+      colWrapper.className = "best-set-part-col";
+
+      const partTitle = document.createElement("div");
+      partTitle.className = "best-set-part-title";
+      partTitle.textContent = partLabel(part);
+      colWrapper.appendChild(partTitle);
+
+      entries.forEach(entry => {
+        const card = document.createElement("div");
+        card.className = "best-set-card";
+        card.innerHTML = `<img src="${entry.item.image}" alt="${entry.item.name}" loading="lazy"><div class="best-set-card-info"><div class="best-set-card-name" title="${entry.item.name}">${entry.item.name}</div><div class="best-set-card-value">${stat}: ${entry.display}</div></div>`;
+        card.addEventListener("click", () => openModal(entry.item));
+        colWrapper.appendChild(card);
+      });
+
+      grid.appendChild(colWrapper);
     });
 
     if (grid.children.length === 0) {
