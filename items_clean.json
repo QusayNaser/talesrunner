@@ -413,7 +413,7 @@
       "Strength": "+5",
       "Control": "+5",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "8%"
     },
     "itemClass": "Unique",
@@ -430,7 +430,7 @@
       "Strength": "+5",
       "Control": "+5",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "8%"
     },
     "itemClass": "Unique",
@@ -535,7 +535,7 @@
       "Luck": "50%",
       "Strength": "+3",
       "Max dash gauge": "5%",
-      "Max EXP": "+3001",
+      "Max EXP": "+300",
       "Evade Chance upon Obstacle Hit": "3%"
     },
     "itemClass": "Unique",
@@ -1878,7 +1878,7 @@
       "Event Channel Bonus EXP": "200%",
       "Event Channel Bonus TR": "200%",
       "Bonus Attribution Point": "25%",
-      "Max EXP": "+22001",
+      "Max EXP": "+2200",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -1906,7 +1906,7 @@
       "Acceleration": "+1",
       "Voodoo Doll Item Duration": "35%",
       "Max dash gauge": "5%",
-      "Max EXP": "+6001",
+      "Max EXP": "+600",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -1925,7 +1925,7 @@
       "Strength": "+1",
       "Voodoo Doll Item Duration": "40%",
       "Max dash gauge": "8%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "15%"
     },
     "itemClass": "Mythology",
@@ -3420,7 +3420,7 @@
       "Speed": "+2",
       "Acceleration": "+1",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "15%"
     },
     "itemClass": "Unique",
@@ -3531,7 +3531,7 @@
       "Event Channel Bonus EXP": "125%",
       "Event Channel Bonus TR": "125%",
       "Bonus Attribution Point": "38%",
-      "Max EXP": "+40001",
+      "Max EXP": "+4000",
       "Evade Chance upon Obstacle Hit": "3%"
     },
     "itemClass": "Prestige",
@@ -3720,7 +3720,7 @@
       "Luck": "50%",
       "Strength": "+1",
       "Max dash gauge": "1%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "3%"
     },
     "itemClass": "Unique",
@@ -4452,7 +4452,7 @@
       "Speed": "+1",
       "TR": "+15",
       "EXP": "+5",
-      "Max EXP": "+3001",
+      "Max EXP": "+300",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -4924,7 +4924,7 @@
       "Event Channel Bonus TR": "35%",
       "Bonus Attribution Point": "8%",
       "Driving Force Increase": "5%",
-      "Max EXP": "+6001",
+      "Max EXP": "+600",
       "Evade Chance upon Obstacle Hit": "5%",
       "Devil Boss Damage": "5%"
     },
@@ -4959,7 +4959,7 @@
       "Event Channel Bonus EXP": "35%",
       "Event Channel Bonus TR": "35%",
       "Bonus Attribution Point": "8%",
-      "Max EXP": "+6001",
+      "Max EXP": "+600",
       "Evade Chance upon Obstacle Hit": "2%",
       "Devil Boss Damage": "2%"
     },
@@ -5614,7 +5614,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "10%",
-      "Max EXP": "+6001",
+      "Max EXP": "+600",
       "Evade Chance upon Obstacle Hit": "12%",
       "Devil Boss Damage": "3%"
     },
@@ -5720,7 +5720,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "10%",
-      "Max EXP": "+6001",
+      "Max EXP": "+600",
       "Evade Chance upon Obstacle Hit": "5%",
       "Devil Boss Damage": "3%"
     },
@@ -5743,7 +5743,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "10%",
-      "Max EXP": "+6001",
+      "Max EXP": "+600",
       "Evade Chance upon Obstacle Hit": "5%",
       "Devil Boss Damage": "3%"
     },
@@ -6073,7 +6073,7 @@
       "Bonus TR": "30%",
       "Luck": "30%",
       "Control": "+1",
-      "TR": "+151",
+      "TR": "+15",
       "Evade Chance from Robotic BossLethal Move": "5%",
       "Max EXP": "+300",
       "TR to EXP": "1%"
@@ -6564,7 +6564,7 @@
       "Strength": "+1",
       "Control": "+1",
       "Max dash gauge": "3%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -6899,7 +6899,7 @@
       "Strength": "+1",
       "Control": "+1",
       "Max dash gauge": "10%",
-      "Max EXP": "+8001",
+      "Max EXP": "+800",
       "Evade Chance upon Obstacle Hit": "25%"
     },
     "itemClass": "Unique",
@@ -8191,7 +8191,7 @@
       "Luck": "100%",
       "Acceleration": "+1",
       "Defense Chance upon Penguin/Chicken Attack": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -8513,7 +8513,7 @@
       "Land Dash Duration": "+1.5",
       "Evade Fury": "25%",
       "Swim Speed": "+250",
-      "Max EXP": "+12001",
+      "Max EXP": "+1200",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Prestige",
@@ -8625,7 +8625,7 @@
       "Strength": "+6",
       "Control": "+6",
       "Max dash gauge": "8%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "15%"
     },
     "itemClass": "Legendary",
@@ -8642,7 +8642,7 @@
       "Strength": "+6",
       "Control": "+6",
       "Max dash gauge": "8%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "15%"
     },
     "itemClass": "Legendary",
@@ -9352,7 +9352,7 @@
       "Strength": "+1",
       "Control": "+1",
       "Max dash gauge": "10%",
-      "Max EXP": "+8001",
+      "Max EXP": "+800",
       "Evade Chance upon Obstacle Hit": "25%"
     },
     "itemClass": "Unique",
@@ -9461,7 +9461,7 @@
       "Relays EXP": "20%",
       "EXP": "+50",
       "Max dash gauge": "5%",
-      "Max EXP": "+3001",
+      "Max EXP": "+300",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -9542,7 +9542,7 @@
       "Relays EXP": "20%",
       "EXP": "+50",
       "Max dash gauge": "5%",
-      "Max EXP": "+3001",
+      "Max EXP": "+300",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -9602,7 +9602,7 @@
       "Relays EXP": "20%",
       "EXP": "+50",
       "Max dash gauge": "5%",
-      "Max EXP": "+3001",
+      "Max EXP": "+300",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -9680,7 +9680,7 @@
       "Relays EXP": "20%",
       "EXP": "+50",
       "Max dash gauge": "5%",
-      "Max EXP": "+3001",
+      "Max EXP": "+300",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -9758,7 +9758,7 @@
       "Relays EXP": "20%",
       "EXP": "+50",
       "Max dash gauge": "5%",
-      "Max EXP": "+3001",
+      "Max EXP": "+300",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -12085,14 +12085,14 @@
       "Strength": "+1",
       "Control": "+2",
       "Land Dash Duration": "+1.5",
-      "Swim Speed": "+2501",
+      "Swim Speed": "+250",
       "Evade Chance from Animal Boss Lethal Move": "5%",
       "Animal Boss Damage": "80%",
       "Max dash gauge": "15%",
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "20%"
     },
     "itemClass": "Legendary",
@@ -12287,7 +12287,7 @@
       "Fury Duration": "10%",
       "Luck": "80%",
       "Control": "+1",
-      "Swim Speed": "+2001",
+      "Swim Speed": "+200",
       "Evade Chance from Animal Boss Lethal Move": "5%",
       "Animal Boss Damage": "20%",
       "Max dash gauge": "5%",
@@ -12309,7 +12309,7 @@
       "Fury Duration": "10%",
       "Luck": "80%",
       "Control": "+1",
-      "Swim Speed": "+2001",
+      "Swim Speed": "+200",
       "Evade Chance from Animal Boss Lethal Move": "5%",
       "Animal Boss Damage": "20%",
       "Max dash gauge": "5%",
@@ -12816,7 +12816,7 @@
       "Bonus EXP": "15%",
       "Luck": "30%",
       "Strength": "+1",
-      "Max EXP": "+3001",
+      "Max EXP": "+300",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -13108,7 +13108,7 @@
       "Strength": "+1",
       "Control": "+1",
       "Max dash gauge": "5%",
-      "Max EXP": "+6001",
+      "Max EXP": "+600",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -17098,7 +17098,7 @@
       "Robotic Boss Damage": "12%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "8%",
       "Devil Boss Damage": "1.5%"
     },
@@ -17398,7 +17398,7 @@
       "Luck": "60%",
       "Strength": "+1",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -18901,7 +18901,7 @@
       "Max dash gauge": "5%",
       "Bonus Attribution Point": "25%",
       "Obstacle Obstruction Duration Decrease": "15%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "15%",
       "Dash Chance upon Obstacle Hit": "5%",
       "Devil Boss Damage": "4%"
@@ -19158,7 +19158,7 @@
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "10%",
       "Driving Force Increase": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "5%",
       "Devil Boss Damage": "7.5%"
     },
@@ -20209,7 +20209,7 @@
       "Event Channel Bonus EXP": "150%",
       "Event Channel Bonus TR": "150%",
       "Bonus Attribution Point": "25%",
-      "Max EXP": "+30001",
+      "Max EXP": "+3000",
       "Evade Chance upon Obstacle Hit": "5%",
       "Devil Boss Damage": "4%"
     },
@@ -20592,7 +20592,7 @@
       "Event Channel Bonus TR": "120%",
       "Bonus Attribution Point": "18%",
       "Obstacle Obstruction Duration Decrease": "20%",
-      "Max EXP": "+12001",
+      "Max EXP": "+1200",
       "Evade Chance upon Obstacle Hit": "25%"
     },
     "itemClass": "Prestige",
@@ -20618,7 +20618,7 @@
       "Event Channel Bonus EXP": "75%",
       "Event Channel Bonus TR": "75%",
       "Bonus Attribution Point": "12%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "20%"
     },
     "itemClass": "Legendary",
@@ -20644,7 +20644,7 @@
       "Event Channel Bonus EXP": "75%",
       "Event Channel Bonus TR": "75%",
       "Bonus Attribution Point": "12%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "20%"
     },
     "itemClass": "Legendary",
@@ -20668,7 +20668,7 @@
       "Event Channel Bonus EXP": "100%",
       "Event Channel Bonus TR": "100%",
       "Bonus Attribution Point": "15%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "8%"
     },
     "itemClass": "Legendary",
@@ -21276,7 +21276,7 @@
       "Event Channel Bonus EXP": "100%",
       "Event Channel Bonus TR": "100%",
       "Bonus Attribution Point": "18%",
-      "Max EXP": "+20001",
+      "Max EXP": "+2000",
       "Evade Chance upon Obstacle Hit": "8%",
       "Devil Boss Damage": "2%"
     },
@@ -21302,7 +21302,7 @@
       "Event Channel Bonus TR": "100%",
       "Bonus Attribution Point": "18%",
       "Obstacle Obstruction Duration Decrease": "5%",
-      "Max EXP": "+20001",
+      "Max EXP": "+2000",
       "Evade Chance upon Obstacle Hit": "5%",
       "Devil Boss Damage": "2%"
     },
@@ -21549,7 +21549,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "10%",
       "Devil Boss Damage": "2%"
     },
@@ -21572,7 +21572,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "10%",
       "Devil Boss Damage": "2%"
     },
@@ -21648,7 +21648,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "20%",
       "Devil Boss Damage": "2%"
     },
@@ -21674,7 +21674,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "20%",
       "Devil Boss Damage": "2%"
     },
@@ -21698,7 +21698,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+20001",
+      "Max EXP": "+2000",
       "Evade Chance upon Obstacle Hit": "15%",
       "Devil Boss Damage": "2%"
     },
@@ -21722,7 +21722,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+20001",
+      "Max EXP": "+2000",
       "Evade Chance upon Obstacle Hit": "15%",
       "Devil Boss Damage": "2%"
     },
@@ -21986,7 +21986,7 @@
       "Event Channel Bonus EXP": "150%",
       "Event Channel Bonus TR": "150%",
       "Bonus Attribution Point": "25%",
-      "Max EXP": "+30001",
+      "Max EXP": "+3000",
       "Evade Chance upon Obstacle Hit": "10%",
       "Dash Chance upon Obstacle Hit": "5%",
       "Devil Boss Damage": "4%"
@@ -22009,7 +22009,7 @@
       "Event Channel Bonus EXP": "150%",
       "Event Channel Bonus TR": "150%",
       "Bonus Attribution Point": "25%",
-      "Max EXP": "+30001",
+      "Max EXP": "+3000",
       "Evade Chance upon Obstacle Hit": "10%",
       "Dash Chance upon Obstacle Hit": "5%",
       "Devil Boss Damage": "4%"
@@ -23768,7 +23768,7 @@
       "Dash Chance upon Revival": "2500%",
       "Max dash gauge": "15%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "20%"
     },
     "itemClass": "Legendary",
@@ -25242,7 +25242,7 @@
       "Luck": "50%",
       "Speed": "+2",
       "Driving Force Increase": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "3%"
     },
     "itemClass": "Legendary",
@@ -25461,7 +25461,7 @@
       "TR": "+50",
       "EXP": "+50",
       "Max dash gauge": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -25599,7 +25599,7 @@
       "Land Dash Duration": "+1.5",
       "Max dash gauge": "15%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "20%",
       "Dash Chance upon Obstacle Hit": "5%"
     },
@@ -25666,7 +25666,7 @@
       "EXP": "+70",
       "Jump Tray Item Duration Decrease": "40%",
       "Max dash gauge": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -25689,7 +25689,7 @@
       "TR": "+50",
       "EXP": "+50",
       "Max dash gauge": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -25712,7 +25712,7 @@
       "TR": "+50",
       "EXP": "+50",
       "Max dash gauge": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -25784,7 +25784,7 @@
       "TR": "+20",
       "EXP": "+20",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -25804,7 +25804,7 @@
       "TR": "+20",
       "EXP": "+20",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -26307,7 +26307,7 @@
       "Acceleration": "+1",
       "Strength": "+2",
       "Max dash gauge": "8%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Mythology",
@@ -26326,7 +26326,7 @@
       "Acceleration": "+1",
       "Strength": "+1",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -28430,7 +28430,7 @@
       "Event Channel Bonus EXP": "100%",
       "Event Channel Bonus TR": "100%",
       "Bonus Attribution Point": "18%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -28462,7 +28462,7 @@
       "Event Channel Bonus TR": "25%",
       "Bonus Attribution Point": "5%",
       "Driving Force Increase": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "3%"
     },
     "itemClass": "Legendary",
@@ -28640,7 +28640,7 @@
       "Event Channel Bonus EXP": "150%",
       "Event Channel Bonus TR": "150%",
       "Bonus Attribution Point": "20%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -28662,7 +28662,7 @@
       "Event Channel Bonus EXP": "150%",
       "Event Channel Bonus TR": "150%",
       "Bonus Attribution Point": "20%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Prestige",
@@ -28894,7 +28894,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -28915,7 +28915,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -28937,7 +28937,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "8%"
     },
     "itemClass": "Legendary",
@@ -28959,7 +28959,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "8%"
     },
     "itemClass": "Legendary",
@@ -29063,7 +29063,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -29083,7 +29083,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -29207,7 +29207,7 @@
       "Event Channel Bonus EXP": "100%",
       "Event Channel Bonus TR": "100%",
       "Bonus Attribution Point": "18%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -30847,7 +30847,7 @@
       "Maximum people": "500%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "10%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Prestige",
@@ -30866,7 +30866,7 @@
       "Maximum people": "500%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "10%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Prestige",
@@ -30887,7 +30887,7 @@
       "Maximum people": "500%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "10%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Prestige",
@@ -30908,7 +30908,7 @@
       "With Guild membersBonus TR": "20%",
       "Maximum people": "500%",
       "Max dash gauge": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -30929,7 +30929,7 @@
       "With Guild membersBonus EXP": "20%",
       "Maximum people": "500%",
       "Max dash gauge": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -30952,7 +30952,7 @@
       "With Guild membersBonus EXP": "10%",
       "Maximum people": "500%",
       "Max dash gauge": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -31490,7 +31490,7 @@
       "Reflect Chance when Crushed": "80%",
       "Jump Tray Item Duration Decrease": "40%",
       "Max dash gauge": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -31522,7 +31522,7 @@
       "Single Player Top 3 TR": "150%",
       "Single Player Top 3 EXP": "150%",
       "Max dash gauge": "15%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -32041,7 +32041,7 @@
       "Strength": "+1",
       "TR": "+25",
       "EXP": "+25",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Prestige",
@@ -32083,7 +32083,7 @@
       "EXP": "+50",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -32284,7 +32284,7 @@
       "Acceleration": "+1",
       "Voodoo Doll Item Duration": "40%",
       "Max dash gauge": "5%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Mythology",
@@ -32302,7 +32302,7 @@
       "Acceleration": "+1",
       "Voodoo Doll Item Duration": "20%",
       "Max dash gauge": "5%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -33042,7 +33042,7 @@
       "Single Player Top 3 TR": "30%",
       "Single Player Top 3 EXP": "30%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -33066,7 +33066,7 @@
       "Single Player Top 3 EXP": "50%",
       "Max dash gauge": "10%",
       "Obstacle Obstruction Duration Decrease": "3%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -33090,7 +33090,7 @@
       "Single Player Top 3 EXP": "50%",
       "Max dash gauge": "10%",
       "Obstacle Obstruction Duration Decrease": "3%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -33192,7 +33192,7 @@
       "Single Player Top 3 TR": "30%",
       "Single Player Top 3 EXP": "30%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -33212,7 +33212,7 @@
       "Single Player Top 3 TR": "30%",
       "Single Player Top 3 EXP": "30%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -34151,7 +34151,7 @@
       "Speed": "+1",
       "TR": "+15",
       "EXP": "+15",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "3%"
     },
     "itemClass": "Legendary",
@@ -36149,7 +36149,7 @@
       "TR": "+30",
       "EXP": "+30",
       "Max dash gauge": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "8%"
     },
     "itemClass": "None",
@@ -36606,7 +36606,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -36630,7 +36630,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -36844,7 +36844,7 @@
       "Event Channel Bonus TR": "100%",
       "Bonus Attribution Point": "18%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "15%",
       "Dash Chance upon Obstacle Hit": "5%"
     },
@@ -37035,7 +37035,7 @@
       "Event Channel Bonus EXP": "25%",
       "Event Channel Bonus TR": "25%",
       "Bonus Attribution Point": "5%",
-      "Max EXP": "+3001",
+      "Max EXP": "+300",
       "Evade Chance upon Obstacle Hit": "2%"
     },
     "itemClass": "Legendary",
@@ -38244,7 +38244,7 @@
       "Land Dash Duration": "+2.5",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "20%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "20%",
       "Dash Chance upon Obstacle Hit": "5%"
     },
@@ -38266,7 +38266,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%",
       "Dash Chance upon Obstacle Hit": "3%"
     },
@@ -38448,7 +38448,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Bonus Attribution Point": "10%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "15%"
     },
     "itemClass": "Legendary",
@@ -38470,7 +38470,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Bonus Attribution Point": "10%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "15%"
     },
     "itemClass": "Legendary",
@@ -38645,7 +38645,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Bonus Attribution Point": "10%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "15%"
     },
     "itemClass": "Legendary",
@@ -38667,7 +38667,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Bonus Attribution Point": "10%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "15%"
     },
     "itemClass": "Legendary",
@@ -39920,7 +39920,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -39943,7 +39943,7 @@
       "Event Channel Bonus EXP": "50%",
       "Event Channel Bonus TR": "50%",
       "Bonus Attribution Point": "13%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -41536,7 +41536,7 @@
       "Relays TR": "15%",
       "Strength": "+1",
       "Relays EXP": "15%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "3%"
     },
     "itemClass": "Unique",
@@ -42236,7 +42236,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "25%",
       "Dash Chance upon Obstacle Hit": "3%"
     },
@@ -42397,7 +42397,7 @@
       "Strength": "+2",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "5%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "15%"
     },
     "itemClass": "Prestige",
@@ -42879,7 +42879,7 @@
       "Relays TR": "15%",
       "Speed": "+1",
       "Relays EXP": "15%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "3%"
     },
     "itemClass": "Unique",
@@ -43109,7 +43109,7 @@
       "Acceleration": "+1",
       "Relays EXP": "30%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -43129,7 +43129,7 @@
       "Acceleration": "+1",
       "Relays EXP": "30%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -44338,7 +44338,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "25%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "5%",
       "Dash Chance upon Obstacle Hit": "3%"
     },
@@ -44359,7 +44359,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "20%",
       "Dash Chance upon Obstacle Hit": "3%"
     },
@@ -44554,7 +44554,7 @@
       "Relays EXP": "150%",
       "Max dash gauge": "15%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "15%",
       "Dash Chance upon Obstacle Hit": "5%"
     },
@@ -46956,7 +46956,7 @@
       "TR": "+30",
       "EXP": "+30",
       "Max dash gauge": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "8%"
     },
     "itemClass": "Legendary",
@@ -47405,7 +47405,7 @@
       "Land Dash Success Duration Increase": "2%",
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "15%"
     },
     "itemClass": "Legendary",
@@ -47426,7 +47426,7 @@
       "Land Dash Success Duration Increase": "2%",
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "15%"
     },
     "itemClass": "Legendary",
@@ -47484,7 +47484,7 @@
       "TR": "+10",
       "EXP": "+30",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "8%"
     },
     "itemClass": "Legendary",
@@ -47504,7 +47504,7 @@
       "TR": "+10",
       "EXP": "+30",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "8%"
     },
     "itemClass": "Legendary",
@@ -48707,7 +48707,7 @@
       "Control": "+1",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "3%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -48968,7 +48968,7 @@
       "Control": "+1",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "3%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Prestige",
@@ -49029,7 +49029,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -49087,7 +49087,7 @@
       "Strength": "+1",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "3%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -49630,7 +49630,7 @@
       "Control": "+4",
       "Evade Fury": "15%",
       "Max dash gauge": "45%",
-      "Max EXP": "+40001",
+      "Max EXP": "+4000",
       "Evade Chance upon Obstacle Hit": "20%"
     },
     "itemClass": "Unique",
@@ -49733,7 +49733,7 @@
       "TR": "+30",
       "EXP": "+30",
       "Max dash gauge": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "8%"
     },
     "itemClass": "Legendary",
@@ -49801,7 +49801,7 @@
       "TR": "+50",
       "EXP": "+50",
       "Max dash gauge": "8%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -49958,7 +49958,7 @@
       "Bonus EXP": "60%",
       "Luck": "30%",
       "Strength": "+1",
-      "Max EXP": "+2501",
+      "Max EXP": "+250",
       "Evade Chance upon Obstacle Hit": "3%"
     },
     "itemClass": "Unique",
@@ -49996,7 +49996,7 @@
       "Bonus EXP": "30%",
       "Luck": "60%",
       "Speed": "+1",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "3%"
     },
     "itemClass": "Legendary",
@@ -50334,7 +50334,7 @@
       "Evade Fury": "25%",
       "Swim Speed": "+250",
       "Max dash gauge": "15%",
-      "Max EXP": "+12001",
+      "Max EXP": "+1200",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -51914,7 +51914,7 @@
       "Acceleration": "+1",
       "TR": "+10",
       "EXP": "+20",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "3%"
     },
     "itemClass": "Unique",
@@ -52390,7 +52390,7 @@
       "Strength": "+1",
       "TR": "+40",
       "Driving Force Increase": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "1.5%"
     },
     "itemClass": "Legendary",
@@ -52431,7 +52431,7 @@
       "Luck": "50%",
       "Acceleration": "+1",
       "EXP": "+25",
-      "Max EXP": "+3001",
+      "Max EXP": "+300",
       "Evade Chance upon Obstacle Hit": "2%"
     },
     "itemClass": "Legendary",
@@ -52514,7 +52514,7 @@
       "EXP": "+100",
       "Voodoo Doll Item Duration": "40%",
       "Max dash gauge": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -52861,7 +52861,7 @@
       "Speed": "+1",
       "EXP": "+50",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -52879,7 +52879,7 @@
       "Speed": "+1",
       "EXP": "+50",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -53220,7 +53220,7 @@
       "TR": "+90",
       "Evade Fury": "15%",
       "Max dash gauge": "10%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Unique",
@@ -53236,7 +53236,7 @@
       "Luck": "50%",
       "Speed": "+1",
       "Acceleration": "+2",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Unique",
@@ -56188,7 +56188,7 @@
       "TR": "+10",
       "EXP": "+30",
       "Obstacle Obstruction Duration Decrease": "8%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -57157,7 +57157,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "20%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "15%",
       "Dash Chance upon Obstacle Hit": "3%"
     },
@@ -57233,7 +57233,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "20%",
       "Dash Chance upon Obstacle Hit": "3%"
     },
@@ -58358,7 +58358,7 @@
       "Dash Chance upon Revival": "2500%",
       "Max dash gauge": "15%",
       "Obstacle Obstruction Duration Decrease": "20%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "20%",
       "Dash Chance upon Obstacle Hit": "5%"
     },
@@ -59426,7 +59426,7 @@
       "Swim Speed": "+250",
       "Max dash gauge": "15%",
       "Obstacle Obstruction Duration Decrease": "15%",
-      "Max EXP": "+12001",
+      "Max EXP": "+1200",
       "Evade Chance upon Obstacle Hit": "15%",
       "Dash Chance upon Obstacle Hit": "3%"
     },
@@ -60224,7 +60224,7 @@
       "Single Player Top 3 TR": "30%",
       "Single Player Top 3 EXP": "10%",
       "Obstacle Obstruction Duration Decrease": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -61108,7 +61108,7 @@
       "Acceleration": "+2",
       "Single Player Top 3 EXP": "50%",
       "Max dash gauge": "10%",
-      "Max EXP": "+8001",
+      "Max EXP": "+800",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -61196,7 +61196,7 @@
       "Control": "+1",
       "Single Player Top 3 EXP": "40%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -62355,7 +62355,7 @@
       "Single Player Top 3 TR": "20%",
       "Single Player Top 3 EXP": "20%",
       "Obstacle Obstruction Duration Decrease": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -63212,7 +63212,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "3%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%",
       "Dash Chance upon Obstacle Hit": "3%"
     },
@@ -63234,7 +63234,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "20%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "20%",
       "Dash Chance upon Obstacle Hit": "5%"
     },
@@ -64510,7 +64510,7 @@
       "Acceleration": "+1",
       "Strength": "+2",
       "Max dash gauge": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Prestige",
@@ -67807,7 +67807,7 @@
       "Acceleration": "+1",
       "Relays EXP": "30%",
       "Obstacle Obstruction Duration Decrease": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -73240,7 +73240,7 @@
       "In Single Player 8p Full RoomIf all else game over EXP": "250%",
       "Max dash gauge": "10%",
       "Obstacle Obstruction Duration Decrease": "5%",
-      "Max EXP": "+8001",
+      "Max EXP": "+800",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -73388,7 +73388,7 @@
       "Acceleration": "+2",
       "Max dash gauge": "8%",
       "Obstacle Obstruction Duration Decrease": "8%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Mythology",
@@ -73407,7 +73407,7 @@
       "Acceleration": "+1",
       "Max dash gauge": "4%",
       "Obstacle Obstruction Duration Decrease": "4%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
@@ -77224,7 +77224,7 @@
       "Single Player Top 3 EXP": "25%",
       "Max dash gauge": "10%",
       "Obstacle Obstruction Duration Decrease": "5%",
-      "Max EXP": "+8001",
+      "Max EXP": "+800",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -77415,7 +77415,7 @@
       "Luck": "30%",
       "Acceleration": "+1",
       "Relays EXP": "50%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -78294,7 +78294,7 @@
       "Strength": "+2",
       "Max dash gauge": "8%",
       "Obstacle Obstruction Duration Decrease": "8%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Mythology",
@@ -80760,7 +80760,7 @@
       "Bonus TR": "50%",
       "Luck": "30%",
       "Speed": "+1",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -88650,7 +88650,7 @@
       "Lizard Transform Chance whenAttacked by Transform Bomb": "50%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "None",
@@ -88670,7 +88670,7 @@
       "Lizard Transform Chance whenAttacked by Transform Bomb": "50%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "None",
@@ -88690,7 +88690,7 @@
       "Lizard Transform Chance whenAttacked by Transform Bomb": "50%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "None",
@@ -88710,7 +88710,7 @@
       "Lizard Transform Chance whenAttacked by Transform Bomb": "50%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "None",
@@ -88730,7 +88730,7 @@
       "Lizard Transform Chance whenAttacked by Transform Bomb": "50%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "None",
@@ -88750,7 +88750,7 @@
       "Lizard Transform Chance whenAttacked by Transform Bomb": "50%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "None",
@@ -88770,7 +88770,7 @@
       "Lizard Transform Chance whenAttacked by Transform Bomb": "50%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "None",
@@ -88790,7 +88790,7 @@
       "Lizard Transform Chance whenAttacked by Transform Bomb": "50%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "None",
@@ -89698,7 +89698,7 @@
       "Relays TR": "50%",
       "Strength": "+1",
       "Relays EXP": "50%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -90065,7 +90065,7 @@
       "Fury Duration": "10%",
       "Strength": "+2",
       "Control": "+1",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Unique",
@@ -91660,7 +91660,7 @@
       "Luck": "50%",
       "Strength": "+1",
       "Control": "+1",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Unique",
@@ -91677,7 +91677,7 @@
       "Luck": "50%",
       "Strength": "+2",
       "Control": "+1",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Unique",
@@ -93769,7 +93769,7 @@
       "Fury Duration": "10%",
       "Luck": "50%",
       "TR": "+30",
-      "EXP": "+151",
+      "EXP": "+15",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Unique",
@@ -93786,7 +93786,7 @@
       "Luck": "20%",
       "Speed": "+1",
       "TR": "+40",
-      "EXP": "+201",
+      "EXP": "+20",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Unique",
@@ -93805,7 +93805,7 @@
       "Acceleration": "+1",
       "TR": "+50",
       "EXP": "+25",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Unique",
@@ -95619,7 +95619,7 @@
       "Land Dash Duration": "+2.0",
       "Max dash gauge": "5%",
       "Obstacle Obstruction Duration Decrease": "15%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "25%",
       "Dash Chance upon Obstacle Hit": "5%"
     },
@@ -96434,7 +96434,7 @@
       "Bonus EXP": "30%",
       "Luck": "30%",
       "Speed": "+1",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Unique",
@@ -99463,7 +99463,7 @@
       "Dash Chance upon Revival": "2500%",
       "Max dash gauge": "15%",
       "Obstacle Obstruction Duration Decrease": "15%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "25%",
       "Dash Chance upon Obstacle Hit": "5%"
     },
@@ -99598,7 +99598,7 @@
       "Dash Chance upon Revival": "2000%",
       "Max dash gauge": "15%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "20%",
       "Dash Chance upon Obstacle Hit": "3%"
     },
@@ -99628,7 +99628,7 @@
       "Dash Chance upon Revival": "2000%",
       "Max dash gauge": "15%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "20%",
       "Dash Chance upon Obstacle Hit": "3%"
     },
@@ -100381,7 +100381,7 @@
       "Animal Boss Damage": "50%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -100405,7 +100405,7 @@
       "Animal Boss Damage": "50%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max dash gauge": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -100520,7 +100520,7 @@
       "Bonus TR when with Couple": "80%",
       "Evade Fury": "25%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -100541,7 +100541,7 @@
       "Bonus EXP when with Couple": "80%",
       "Evade Fury": "25%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -100592,7 +100592,7 @@
       "Control": "+1",
       "Bonus TR when with Couple": "30%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -100611,7 +100611,7 @@
       "Acceleration": "+1",
       "Bonus EXP when with Couple": "30%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
-      "Max EXP": "+15001",
+      "Max EXP": "+1500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -100629,7 +100629,7 @@
       "Acceleration": "+5",
       "Bonus TR when with Couple": "30%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -100647,7 +100647,7 @@
       "Acceleration": "+3",
       "Bonus EXP when with Couple": "30%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -100704,7 +100704,7 @@
       "Control": "+1",
       "Bonus TR when with Couple": "25%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -100723,7 +100723,7 @@
       "Acceleration": "+1",
       "Bonus EXP when with Couple": "25%",
       "Defense Chance upon Penguin/Chicken Attack": "5%",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Legendary",
@@ -104365,7 +104365,7 @@
       "Fury Duration": "10%",
       "Speed": "+2",
       "Acceleration": "+1",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Unique",
@@ -107471,7 +107471,7 @@
       "Dash Chance upon Revival": "2000%",
       "Max dash gauge": "15%",
       "Obstacle Obstruction Duration Decrease": "10%",
-      "Max EXP": "+10001",
+      "Max EXP": "+1000",
       "Evade Chance upon Obstacle Hit": "20%",
       "Dash Chance upon Obstacle Hit": "3%"
     },
@@ -109477,7 +109477,7 @@
       "Strength": "+1",
       "TR": "+25",
       "EXP": "+50",
-      "Max EXP": "+5001",
+      "Max EXP": "+500",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Unique",
@@ -109493,7 +109493,7 @@
       "Fury Duration": "10%",
       "Luck": "50%",
       "TR": "+15",
-      "EXP": "+301",
+      "EXP": "+30",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Rare",
@@ -109510,7 +109510,7 @@
       "Luck": "20%",
       "Strength": "+1",
       "TR": "+20",
-      "EXP": "+401",
+      "EXP": "+40",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Rare",
@@ -109526,7 +109526,7 @@
       "Acceleration": "+1",
       "Strength": "+2",
       "TR": "+15",
-      "EXP": "+301",
+      "EXP": "+30",
       "Evade Chance upon Obstacle Hit": "10%"
     },
     "itemClass": "Unique",
@@ -113847,7 +113847,7 @@
       "Luck": "50%",
       "Strength": "+1",
       "TR": "+60",
-      "EXP": "+601",
+      "EXP": "+60",
       "Evade Chance from Humanoid BossLethal Move": "10%",
       "In Single Player 8p Full RoomIf all else game over EXP": "50%",
       "Attack": "+10",
@@ -115599,7 +115599,7 @@
       "Fury Duration": "10%",
       "Luck": "60%",
       "TR": "+60",
-      "EXP": "+601",
+      "EXP": "+60",
       "Evade Chance from Humanoid BossLethal Move": "10%",
       "In Single Player 8p Full RoomIf all else game over EXP": "50%",
       "Swim Speed": "+200",
@@ -116638,7 +116638,7 @@
       "Voodoo Doll Item Duration": "10%",
       "In Amateur Channel Bonus TR": "60%",
       "In Semi Pro Channel Bonus EXP": "40%",
-      "Swim Speed": "+2001",
+      "Swim Speed": "+200",
       "Evade Chance from Animal Boss Lethal Move": "10%"
     },
     "itemClass": "Unique",
@@ -148548,7 +148548,7 @@
       "Strength": "+1",
       "Control": "+1",
       "TR": "+100",
-      "EXP": "+2001",
+      "EXP": "+200",
       "Evade Chance from Animal Boss Lethal Move": "25%",
       "Animal Boss Damage": "40%"
     },
@@ -148566,7 +148566,7 @@
       "Acceleration": "+1",
       "Strength": "+1",
       "TR": "+50",
-      "EXP": "+1001",
+      "EXP": "+100",
       "Evade Chance from Animal Boss Lethal Move": "20%",
       "Animal Boss Damage": "30%"
     },
