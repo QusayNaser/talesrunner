@@ -175,13 +175,42 @@ body{font-family:var(--font);background:var(--bg-primary);color:var(--text-prima
 .active-filter-tag{display:flex;align-items:center;gap:3px;padding:3px 8px;background:var(--accent-glow);border:1px solid var(--accent);border-radius:12px;font-size:11px;color:var(--accent-light);cursor:default;animation:fadeIn .2s ease}
 .active-filter-tag button{background:none;border:none;color:var(--accent-light);cursor:pointer;font-size:12px;padding:0 2px;opacity:.7}
 .active-filter-tag button:hover{opacity:1}
+/* ========== COLUMN SLIDER ========== */
+.column-slider-wrap{gap:8px}
+.col-slider{width:80px;accent-color:var(--accent);cursor:pointer}
+.col-slider-value{font-size:12px;font-weight:700;color:var(--accent-light);min-width:20px;text-align:center}
+
+/* ========== NO STAT WARNING ========== */
+.no-stat-warning{
+  background:rgba(248,113,113,.1);border:1px solid var(--danger);
+  border-radius:var(--radius-sm);padding:10px 16px;margin-bottom:12px;
+  color:var(--danger);font-size:13px;font-weight:600;
+  display:flex;align-items:center;gap:8px;
+}
+.no-stat-warning::before{content:"⚠️";font-size:16px}
+
+/* ========== BEST FULL SET ========== */
+.best-set-results{
+  background:var(--bg-card);border:1px solid var(--accent);
+  border-radius:var(--radius);padding:16px;margin-bottom:16px;
+}
+.best-set-title{font-size:14px;font-weight:700;color:var(--accent-light);margin-bottom:12px}
+.best-set-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px}
+.best-set-card{display:flex;align-items:center;gap:8px;padding:8px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius-sm);cursor:pointer;transition:var(--transition)}
+.best-set-card:hover{border-color:var(--accent);background:var(--bg-card-hover)}
+.best-set-card img{width:44px;height:44px;object-fit:contain;border-radius:4px;background:rgba(99,102,241,.06);padding:4px}
+.best-set-card-info{flex:1;min-width:0}
+.best-set-card-part{font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:.3px}
+.best-set-card-name{font-size:10px;font-weight:600;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.best-set-card-value{font-size:11px;font-weight:700;color:var(--success)}
+.best-set-none{font-size:11px;color:var(--text-muted);font-style:italic}
 
 /* ========== MAIN CONTENT ========== */
 #app-layout{margin-left:var(--part-sidebar-width);padding:16px 16px;position:relative;z-index:1}
 #main-content{width:100%}
 
-/* ========== ITEMS GRID (15 columns) ========== */
-.items-grid{display:grid;grid-template-columns:repeat(15,1fr);gap:6px}
+/* ========== ITEMS GRID (dynamic columns via JS) ========== */
+.items-grid{display:grid;grid-template-columns:repeat(18,1fr);gap:6px}
 .items-list{display:flex;flex-direction:column;gap:6px}
 
 /* Item Card - Grid (compact square) */
