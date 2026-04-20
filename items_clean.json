@@ -874,7 +874,7 @@
       "Bonus Attribution Point": "18%",
       "Driving Force Increase": "6.5%",
       "Max EXP": "+800",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -897,8 +897,8 @@
       "Event Channel Bonus TR": "125%",
       "Bonus Attribution Point": "18%",
       "Max EXP": "+800",
-      "s Level X Bonus EXP": "30%",
-      "Evade Chance upon Obstacle Hit": "2%"
+      "Evade Chance upon Obstacle Hit": "2%",
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "accface"
@@ -920,7 +920,7 @@
       "Driving Force Increase": "3%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "100%",
-      "s Level X Bonus EXP": "100%"
+      "Bonus EXP Per Level": "100%"
     },
     "itemClass": "Prestige",
     "part": "etc"
@@ -937,7 +937,7 @@
       "Event Channel Bonus TR": "75%",
       "Bonus Attribution Point": "12%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "40%"
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Legendary",
     "part": "expansion"
@@ -954,7 +954,7 @@
       "Bonus Attribution Point": "12%",
       "Driving Force Increase": "5%",
       "Max EXP": "+600",
-      "s Level X Bonus EXP": "120%"
+      "Bonus EXP Per Level": "120%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -978,7 +978,7 @@
       "Event Channel Bonus TR": "75%",
       "Bonus Attribution Point": "12%",
       "Max EXP": "+600",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "accneck"
@@ -994,8 +994,8 @@
       "Event Channel Bonus TR": "75%",
       "Bonus Attribution Point": "12%",
       "Max EXP": "+600",
-      "s Level X Bonus EXP": "60%",
-      "Evade Chance upon Obstacle Hit": "2%"
+      "Evade Chance upon Obstacle Hit": "2%",
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "accface"
@@ -1012,7 +1012,7 @@
       "Event Channel Bonus TR": "75%",
       "Bonus Attribution Point": "12%",
       "Max EXP": "+600",
-      "s Level X Bonus EXP": "70%"
+      "Bonus EXP Per Level": "70%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -1029,7 +1029,7 @@
       "Event Channel Bonus TR": "75%",
       "Bonus Attribution Point": "12%",
       "Max EXP": "+600",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -1046,7 +1046,7 @@
       "Event Channel Bonus TR": "75%",
       "Bonus Attribution Point": "12%",
       "Max EXP": "+600",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -1063,7 +1063,7 @@
       "Event Channel Bonus TR": "75%",
       "Bonus Attribution Point": "12%",
       "Max EXP": "+1000",
-      "s Level X Bonus EXP": "100%"
+      "Bonus EXP Per Level": "100%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -1080,7 +1080,7 @@
       "Event Channel Bonus TR": "75%",
       "Bonus Attribution Point": "12%",
       "Max EXP": "+1000",
-      "s Level X Bonus EXP": "100%"
+      "Bonus EXP Per Level": "100%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -1097,7 +1097,7 @@
       "Event Channel Bonus TR": "75%",
       "Bonus Attribution Point": "12%",
       "Max EXP": "+600",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -1114,7 +1114,7 @@
       "Event Channel Bonus TR": "75%",
       "Bonus Attribution Point": "12%",
       "Max EXP": "+600",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -8744,7 +8744,7 @@
       "Acceleration": "+1",
       "Max EXP": "+300",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Unique",
     "part": "expansion"
@@ -8783,7 +8783,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "acchand"
@@ -8803,7 +8803,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -8823,7 +8823,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -8842,8 +8842,8 @@
       "Max dash gauge": "5%",
       "Max EXP": "+600",
       "Bonus TR Per Level": "25%",
-      "s Level X Bonus EXP": "25%",
-      "Dash Chance upon Obstacle Hit": "5%"
+      "Dash Chance upon Obstacle Hit": "5%",
+      "Bonus EXP Per Level": "25%"
     },
     "itemClass": "Unique",
     "part": "foot"
@@ -8862,8 +8862,8 @@
       "Max dash gauge": "5%",
       "Max EXP": "+600",
       "Bonus TR Per Level": "25%",
-      "s Level X Bonus EXP": "25%",
-      "Dash Chance upon Obstacle Hit": "5%"
+      "Dash Chance upon Obstacle Hit": "5%",
+      "Bonus EXP Per Level": "25%"
     },
     "itemClass": "Unique",
     "part": "foot"
@@ -8882,8 +8882,8 @@
       "Max dash gauge": "10%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "50%",
-      "s Level X Bonus EXP": "50%",
-      "Evade Chance upon Obstacle Hit": "15%"
+      "Evade Chance upon Obstacle Hit": "15%",
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -8902,8 +8902,8 @@
       "Max dash gauge": "10%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "50%",
-      "s Level X Bonus EXP": "50%",
-      "Evade Chance upon Obstacle Hit": "15%"
+      "Evade Chance upon Obstacle Hit": "15%",
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -8922,7 +8922,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+300",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "head"
@@ -8941,7 +8941,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+300",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "head"
@@ -12398,7 +12398,7 @@
       "Luck": "50%",
       "Hidden Effect": "2600%",
       "Bonus TR Per Level": "50%",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "Rare",
     "part": "etc"
@@ -13711,7 +13711,7 @@
       "Driving Force Increase": "5%",
       "Max EXP": "+600",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -13726,7 +13726,7 @@
       "Control": "+1",
       "Max EXP": "+600",
       "Bonus TR Per Level": "15%",
-      "s Level X Bonus EXP": "15%"
+      "Bonus EXP Per Level": "15%"
     },
     "itemClass": "Legendary",
     "part": "acchand"
@@ -13742,8 +13742,8 @@
       "Max dash gauge": "2%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "25%",
-      "s Level X Bonus EXP": "25%",
-      "Evade Chance upon Obstacle Hit": "2%"
+      "Evade Chance upon Obstacle Hit": "2%",
+      "Bonus EXP Per Level": "25%"
     },
     "itemClass": "Prestige",
     "part": "accface"
@@ -13758,8 +13758,8 @@
       "Acceleration": "+1",
       "Max EXP": "+600",
       "Bonus TR Per Level": "15%",
-      "s Level X Bonus EXP": "15%",
-      "Evade Chance upon Obstacle Hit": "3%"
+      "Evade Chance upon Obstacle Hit": "3%",
+      "Bonus EXP Per Level": "15%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -13774,7 +13774,7 @@
       "Acceleration": "+1",
       "Max EXP": "+600",
       "Bonus TR Per Level": "15%",
-      "s Level X Bonus EXP": "15%"
+      "Bonus EXP Per Level": "15%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -13789,7 +13789,7 @@
       "Acceleration": "+1",
       "Max EXP": "+600",
       "Bonus TR Per Level": "15%",
-      "s Level X Bonus EXP": "15%"
+      "Bonus EXP Per Level": "15%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -13805,7 +13805,7 @@
       "Control": "+1",
       "Max EXP": "+750",
       "Bonus TR Per Level": "15%",
-      "s Level X Bonus EXP": "15%"
+      "Bonus EXP Per Level": "15%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -13821,7 +13821,7 @@
       "Control": "+1",
       "Max EXP": "+750",
       "Bonus TR Per Level": "15%",
-      "s Level X Bonus EXP": "15%"
+      "Bonus EXP Per Level": "15%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -13836,7 +13836,7 @@
       "Speed": "+1",
       "Max EXP": "+600",
       "Bonus TR Per Level": "15%",
-      "s Level X Bonus EXP": "15%"
+      "Bonus EXP Per Level": "15%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -13851,7 +13851,7 @@
       "Speed": "+1",
       "Max EXP": "+600",
       "Bonus TR Per Level": "15%",
-      "s Level X Bonus EXP": "15%"
+      "Bonus EXP Per Level": "15%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -18430,7 +18430,7 @@
       "Hidden Effect": "2500%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "60%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Prestige",
     "part": "etc"
@@ -18447,7 +18447,7 @@
       "Max dash gauge": "1%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Legendary",
     "part": "expansion"
@@ -18469,9 +18469,9 @@
       "Max dash gauge": "15%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "60%",
-      "s Level X Bonus EXP": "20%",
       "Maximum Speed": "+1",
-      "Dash Chance upon Obstacle Hit": "5%"
+      "Dash Chance upon Obstacle Hit": "5%",
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -18490,7 +18490,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "50%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "accface"
@@ -18510,7 +18510,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -18530,8 +18530,8 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "40%",
-      "s Level X Bonus EXP": "20%",
-      "Dash Chance upon Obstacle Hit": "5%"
+      "Dash Chance upon Obstacle Hit": "5%",
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -18551,8 +18551,8 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "40%",
-      "s Level X Bonus EXP": "20%",
-      "Dash Chance upon Obstacle Hit": "5%"
+      "Dash Chance upon Obstacle Hit": "5%",
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -18571,8 +18571,8 @@
       "Max dash gauge": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "75%",
-      "s Level X Bonus EXP": "25%",
-      "Evade Chance upon Obstacle Hit": "5%"
+      "Evade Chance upon Obstacle Hit": "5%",
+      "Bonus EXP Per Level": "25%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -18591,8 +18591,8 @@
       "Max dash gauge": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "75%",
-      "s Level X Bonus EXP": "25%",
-      "Evade Chance upon Obstacle Hit": "5%"
+      "Evade Chance upon Obstacle Hit": "5%",
+      "Bonus EXP Per Level": "25%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -18612,7 +18612,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -18632,7 +18632,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -24464,7 +24464,7 @@
       "Strength": "+1",
       "Max dash gauge": "3%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "40%"
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Legendary",
     "part": "expansion"
@@ -24478,7 +24478,7 @@
       "Speed": "+1",
       "Control": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -24492,7 +24492,7 @@
       "Acceleration": "+1",
       "Strength": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -24505,7 +24505,7 @@
       "Luck": "50%",
       "Speed": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "acchand"
@@ -24518,7 +24518,7 @@
       "Luck": "50%",
       "Speed": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "acchand"
@@ -24531,7 +24531,7 @@
       "Luck": "50%",
       "Control": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -24544,7 +24544,7 @@
       "Luck": "50%",
       "Control": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -24557,7 +24557,7 @@
       "Luck": "50%",
       "Control": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -24571,7 +24571,7 @@
       "Speed": "+1",
       "Strength": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "100%"
+      "Bonus EXP Per Level": "100%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -24585,7 +24585,7 @@
       "Speed": "+1",
       "Strength": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "100%"
+      "Bonus EXP Per Level": "100%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -24597,7 +24597,7 @@
       "Bonus EXP": "60%",
       "Luck": "50%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -24609,7 +24609,7 @@
       "Bonus EXP": "60%",
       "Luck": "50%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -34576,7 +34576,7 @@
       "Event Channel Bonus TR": "25%",
       "Bonus Attribution Point": "5%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "80%"
+      "Bonus EXP Per Level": "80%"
     },
     "itemClass": "Legendary",
     "part": "pet"
@@ -34590,7 +34590,7 @@
       "Event Channel Bonus TR": "15%",
       "Bonus Attribution Point": "3%",
       "Max EXP": "+200",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "accbooster"
@@ -34606,7 +34606,7 @@
       "Event Channel Bonus TR": "25%",
       "Bonus Attribution Point": "5%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -34621,7 +34621,7 @@
       "Event Channel Bonus TR": "15%",
       "Bonus Attribution Point": "3%",
       "Max EXP": "+600",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "acchand"
@@ -34637,7 +34637,7 @@
       "Event Channel Bonus TR": "15%",
       "Bonus Attribution Point": "3%",
       "Max EXP": "+1000",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -34653,7 +34653,7 @@
       "Event Channel Bonus TR": "15%",
       "Bonus Attribution Point": "3%",
       "Max EXP": "+1000",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -34669,7 +34669,7 @@
       "Event Channel Bonus TR": "15%",
       "Bonus Attribution Point": "3%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "foot"
@@ -34685,7 +34685,7 @@
       "Event Channel Bonus TR": "15%",
       "Bonus Attribution Point": "3%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "foot"
@@ -34701,7 +34701,7 @@
       "Event Channel Bonus TR": "15%",
       "Bonus Attribution Point": "3%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "80%"
+      "Bonus EXP Per Level": "80%"
     },
     "itemClass": "Unique",
     "part": "topbody"
@@ -34717,7 +34717,7 @@
       "Event Channel Bonus TR": "15%",
       "Bonus Attribution Point": "3%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "80%"
+      "Bonus EXP Per Level": "80%"
     },
     "itemClass": "Unique",
     "part": "topbody"
@@ -34732,7 +34732,7 @@
       "Event Channel Bonus TR": "15%",
       "Bonus Attribution Point": "3%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "head"
@@ -34747,7 +34747,7 @@
       "Event Channel Bonus TR": "15%",
       "Bonus Attribution Point": "3%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "head"
@@ -36172,8 +36172,8 @@
       "Bonus Attribution Point": "18%",
       "Max EXP": "+2000",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%",
-      "Evade Chance upon Obstacle Hit": "5%"
+      "Evade Chance upon Obstacle Hit": "5%",
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "accface"
@@ -36195,8 +36195,8 @@
       "Bonus Attribution Point": "18%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%",
-      "Evade Chance upon Obstacle Hit": "8%"
+      "Evade Chance upon Obstacle Hit": "8%",
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -36219,7 +36219,7 @@
       "Bonus Attribution Point": "18%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -36818,8 +36818,8 @@
       "Obstacle Obstruction Duration Decrease": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "40%",
-      "s Level X Bonus EXP": "40%",
-      "Maximum Speed": "+1"
+      "Maximum Speed": "+1",
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -37827,7 +37827,7 @@
       "Luck": "50%",
       "Acceleration": "+2",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -37840,7 +37840,7 @@
       "Luck": "50%",
       "Acceleration": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "acchand"
@@ -37853,7 +37853,7 @@
       "Luck": "50%",
       "Acceleration": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "acchand"
@@ -37866,7 +37866,7 @@
       "Luck": "50%",
       "Speed": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -37879,7 +37879,7 @@
       "Luck": "50%",
       "Strength": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -37892,7 +37892,7 @@
       "Luck": "50%",
       "Strength": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -37906,7 +37906,7 @@
       "Speed": "+1",
       "Acceleration": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "100%"
+      "Bonus EXP Per Level": "100%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -37920,7 +37920,7 @@
       "Speed": "+1",
       "Acceleration": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "100%"
+      "Bonus EXP Per Level": "100%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -37932,7 +37932,7 @@
       "Bonus EXP": "60%",
       "Luck": "50%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -37944,7 +37944,7 @@
       "Bonus EXP": "60%",
       "Luck": "50%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -48891,7 +48891,7 @@
       "Luck": "60%",
       "Speed": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -48918,7 +48918,7 @@
       "Strength": "+1",
       "Control": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -50283,7 +50283,7 @@
       "Max dash gauge": "3%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "accneck"
@@ -50980,7 +50980,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -51348,8 +51348,8 @@
       "Max dash gauge": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%",
-      "Evade Chance upon Obstacle Hit": "8%"
+      "Evade Chance upon Obstacle Hit": "8%",
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -51661,8 +51661,8 @@
       "Max dash gauge": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%",
-      "Evade Chance upon Obstacle Hit": "8%"
+      "Evade Chance upon Obstacle Hit": "8%",
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -52359,9 +52359,9 @@
       "Max dash gauge": "15%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "40%",
-      "s Level X Bonus EXP": "40%",
       "Maximum Speed": "+11",
-      "Evade Chance upon Obstacle Hit": "4%"
+      "Evade Chance upon Obstacle Hit": "4%",
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -53028,7 +53028,7 @@
       "Luck": "30%",
       "Acceleration": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "40%"
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Unique",
     "part": "accback"
@@ -53041,7 +53041,7 @@
       "Luck": "20%",
       "Speed": "+1",
       "Max EXP": "+300",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Unique",
     "part": "accface"
@@ -53055,7 +53055,7 @@
       "Strength": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -53069,7 +53069,7 @@
       "Strength": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -53082,7 +53082,7 @@
       "Luck": "30%",
       "Acceleration": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "foot"
@@ -53095,7 +53095,7 @@
       "Luck": "30%",
       "Acceleration": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "foot"
@@ -53108,7 +53108,7 @@
       "Luck": "30%",
       "Speed": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "80%"
+      "Bonus EXP Per Level": "80%"
     },
     "itemClass": "Unique",
     "part": "topbody"
@@ -53121,7 +53121,7 @@
       "Luck": "30%",
       "Speed": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "80%"
+      "Bonus EXP Per Level": "80%"
     },
     "itemClass": "Unique",
     "part": "topbody"
@@ -53133,7 +53133,7 @@
       "Bonus EXP": "40%",
       "Luck": "30%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "head"
@@ -53145,7 +53145,7 @@
       "Bonus EXP": "40%",
       "Luck": "30%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "head"
@@ -54681,7 +54681,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "accneck"
@@ -56212,8 +56212,8 @@
       "Obstacle Obstruction Duration Decrease": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "50%",
-      "s Level X Bonus EXP": "50%",
-      "Maximum Speed": "+1"
+      "Maximum Speed": "+1",
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -56226,7 +56226,7 @@
       "Bonus EXP": "10%",
       "Max EXP": "+300",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Legendary",
     "part": "acctail"
@@ -56240,7 +56240,7 @@
       "Luck": "50%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Unique",
     "part": "acchand"
@@ -56255,7 +56255,7 @@
       "Control": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -56270,7 +56270,7 @@
       "Speed": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Unique",
     "part": "foot"
@@ -56285,7 +56285,7 @@
       "Strength": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Unique",
     "part": "topbody"
@@ -56299,7 +56299,7 @@
       "Luck": "30%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Unique",
     "part": "head"
@@ -58116,7 +58116,7 @@
       "Luck": "20%",
       "Strength": "+1",
       "Max EXP": "+300",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "expansion"
@@ -58130,7 +58130,7 @@
       "Acceleration": "+1",
       "Strength": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "40%"
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -58188,7 +58188,7 @@
       "Luck": "60%",
       "Control": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -60248,7 +60248,7 @@
       "Strength": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "expansion"
@@ -60269,8 +60269,8 @@
       "Max dash gauge": "15%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "40%",
-      "s Level X Bonus EXP": "40%",
-      "Maximum Speed": "+1"
+      "Maximum Speed": "+1",
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -60288,8 +60288,8 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%",
-      "Evade Chance upon Obstacle Hit": "3%"
+      "Evade Chance upon Obstacle Hit": "3%",
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "acchand"
@@ -60309,7 +60309,7 @@
       "Obstacle Obstruction Duration Decrease": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -60341,8 +60341,8 @@
       "Max dash gauge": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "40%",
-      "s Level X Bonus EXP": "40%",
-      "Evade Chance upon Obstacle Hit": "3%"
+      "Evade Chance upon Obstacle Hit": "3%",
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -60360,8 +60360,8 @@
       "Max dash gauge": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "40%",
-      "s Level X Bonus EXP": "40%",
-      "Evade Chance upon Obstacle Hit": "3%"
+      "Evade Chance upon Obstacle Hit": "3%",
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -60381,7 +60381,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -60401,7 +60401,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -60687,7 +60687,7 @@
       "Bonus EXP": "60%",
       "Acceleration": "+1",
       "Max EXP": "+250",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Rare",
     "part": "accback"
@@ -65197,7 +65197,7 @@
       "Bonus EXP": "10%",
       "Luck": "20%",
       "Max EXP": "+200",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Rare",
     "part": "accback"
@@ -65580,7 +65580,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "40%"
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Unique",
     "part": "pet"
@@ -65596,7 +65596,7 @@
       "Control": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -65608,7 +65608,7 @@
       "Luck": "30%",
       "Max EXP": "+300",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Unique",
     "part": "accneck"
@@ -65621,7 +65621,7 @@
       "Strength": "+1",
       "Max EXP": "+250",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Unique",
     "part": "accface"
@@ -65635,7 +65635,7 @@
       "Luck": "60%",
       "Strength": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -66124,7 +66124,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Unique",
     "part": "pet"
@@ -66140,7 +66140,7 @@
       "Acceleration": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -66152,7 +66152,7 @@
       "Luck": "30%",
       "Max EXP": "+300",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "accneck"
@@ -66165,7 +66165,7 @@
       "Control": "+1",
       "Max EXP": "+250",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "accface"
@@ -66180,7 +66180,7 @@
       "Speed": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -66898,7 +66898,7 @@
       "Max dash gauge": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "40%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "pet"
@@ -66914,7 +66914,7 @@
       "Strength": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -66926,7 +66926,7 @@
       "Luck": "30%",
       "Max EXP": "+300",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Unique",
     "part": "accneck"
@@ -66939,7 +66939,7 @@
       "Acceleration": "+1",
       "Max EXP": "+250",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Unique",
     "part": "accface"
@@ -66952,7 +66952,7 @@
       "Acceleration": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -68135,7 +68135,7 @@
       "Strength": "+2",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -68149,7 +68149,7 @@
       "Luck": "60%",
       "Strength": "+1",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -68164,7 +68164,7 @@
       "Strength": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "acchand"
@@ -68179,7 +68179,7 @@
       "Speed": "+1",
       "Max EXP": "+300",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -68195,7 +68195,7 @@
       "Acceleration": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "80%"
+      "Bonus EXP Per Level": "80%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -68208,7 +68208,7 @@
       "Bonus EXP": "40%",
       "Luck": "50%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -69716,7 +69716,7 @@
       "Evade Fury": "15%",
       "Max dash gauge": "10%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "Unique",
     "part": "accback"
@@ -69786,7 +69786,7 @@
       "Obstacle Obstruction Duration Decrease": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -69962,7 +69962,7 @@
     "stats": {
       "Luck": "50%",
       "Strength": "+1",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "None",
     "part": "etc"
@@ -69995,7 +69995,7 @@
     "stats": {
       "Luck": "50%",
       "Acceleration": "+1",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "None",
     "part": "etc"
@@ -70006,7 +70006,7 @@
     "stats": {
       "Luck": "50%",
       "Speed": "+1",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "None",
     "part": "etc"
@@ -70063,7 +70063,7 @@
     "stats": {
       "Luck": "50%",
       "Speed": "+1",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "None",
     "part": "etc"
@@ -71446,7 +71446,7 @@
       "Control": "+1",
       "Max EXP": "+300",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Unique",
     "part": "expansion"
@@ -71467,7 +71467,7 @@
       "Max dash gauge": "10%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "40%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "accback"
@@ -71482,7 +71482,7 @@
       "Fury Duration": "8%",
       "Luck": "50%",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "None",
     "part": "acchand"
@@ -71497,7 +71497,7 @@
       "Fury Duration": "5%",
       "Luck": "20%",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Rare",
     "part": "accneck"
@@ -71512,7 +71512,7 @@
       "Fury Duration": "5%",
       "Luck": "20%",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "None",
     "part": "accface"
@@ -71528,7 +71528,7 @@
       "Acceleration": "+1",
       "Strength": "+1",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Rare",
     "part": "acchead"
@@ -71547,7 +71547,7 @@
       "Dash Pedal Dash Duration": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "40%"
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Legendary",
     "part": "accneck"
@@ -72000,7 +72000,7 @@
       "Defense Chance upon Penguin/Chicken Attack": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "40%"
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -72035,7 +72035,7 @@
       "Obstacle Obstruction Duration Decrease": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -72830,7 +72830,7 @@
       "Obstacle Obstruction Duration Decrease": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -72972,7 +72972,7 @@
       "Bonus EXP": "20%",
       "Luck": "20%",
       "Speed": "+1",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "None",
     "part": "acchead"
@@ -72997,7 +72997,7 @@
       "Luck": "20%",
       "Speed": "+1",
       "Max EXP": "+200",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Rare",
     "part": "accback"
@@ -73033,7 +73033,7 @@
       "Obstacle Obstruction Duration Decrease": "3%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "60%"
+      "Bonus EXP Per Level": "60%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -73051,7 +73051,7 @@
       "Obstacle Obstruction Duration Decrease": "3%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "40%"
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Unique",
     "part": "accface"
@@ -73070,7 +73070,7 @@
       "Obstacle Obstruction Duration Decrease": "3%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -74303,7 +74303,7 @@
     "stats": {
       "Luck": "50%",
       "Speed": "+1",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "None",
     "part": "etc"
@@ -78470,7 +78470,7 @@
       "Speed": "+2",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -78485,7 +78485,7 @@
       "Acceleration": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "15%",
-      "s Level X Bonus EXP": "15%"
+      "Bonus EXP Per Level": "15%"
     },
     "itemClass": "Legendary",
     "part": "acchand"
@@ -78500,7 +78500,7 @@
       "Strength": "+1",
       "Max EXP": "+300",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -78516,7 +78516,7 @@
       "Strength": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "topbody"
@@ -78530,7 +78530,7 @@
       "Luck": "50%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -78545,7 +78545,7 @@
       "Speed": "+1",
       "Max EXP": "+250",
       "Bonus TR Per Level": "10%",
-      "s Level X Bonus EXP": "10%"
+      "Bonus EXP Per Level": "10%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -79009,7 +79009,7 @@
       "Dash Pedal Dash Duration": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "accneck"
@@ -79032,7 +79032,7 @@
       "Obstacle Obstruction Duration Decrease": "3%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "40%",
-      "s Level X Bonus EXP": "40%"
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -79053,7 +79053,7 @@
       "Land Dash Success Duration Increase": "2%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "foot"
@@ -79072,8 +79072,8 @@
       "Obstacle Obstruction Duration Decrease": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%",
-      "Evade Chance upon Obstacle Hit": "10%"
+      "Evade Chance upon Obstacle Hit": "10%",
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "head"
@@ -79458,7 +79458,7 @@
       "Obstacle Obstruction Duration Decrease": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -88803,7 +88803,7 @@
       "Luck": "20%",
       "Speed": "+1",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "None",
     "part": "accback"
@@ -88815,7 +88815,7 @@
       "Luck": "20%",
       "Strength": "+1",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "None",
     "part": "accback"
@@ -88939,7 +88939,7 @@
       "Luck": "30%",
       "Hidden Effect": "200%",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Rare",
     "part": "etc"
@@ -89214,7 +89214,7 @@
       "Control": "+1",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -90264,7 +90264,7 @@
       "Driving Force Increase": "20%",
       "Max Dash Speed": "2%",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Unique",
     "part": "accbooster"
@@ -90282,7 +90282,7 @@
       "EXP": "+40",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "70%",
-      "s Level X Bonus EXP": "70%"
+      "Bonus EXP Per Level": "70%"
     },
     "itemClass": "Unique",
     "part": "accback"
@@ -90298,7 +90298,7 @@
       "EXP": "+20",
       "Max dash gauge": "5%",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -92035,8 +92035,8 @@
       "Obstacle Obstruction Duration Decrease": "5%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "50%",
-      "s Level X Bonus EXP": "50%",
-      "Maximum Speed": "+1"
+      "Maximum Speed": "+1",
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -92855,7 +92855,7 @@
       "Obstacle Obstruction Duration Decrease": "5%",
       "Max EXP": "+500",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "20%"
+      "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -93538,7 +93538,7 @@
       "Jump Tray Item Duration Decrease": "25%",
       "Max EXP": "+1000",
       "Bonus TR Per Level": "30%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Legendary",
     "part": "accface"
@@ -97155,7 +97155,7 @@
       "Strength": "+1",
       "Obstacle Obstruction Duration Decrease": "5%",
       "Max EXP": "+500",
-      "s Level X Bonus EXP": "40%"
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Legendary",
     "part": "acchead"
@@ -97191,8 +97191,8 @@
       "Max dash gauge": "15%",
       "Obstacle Obstruction Duration Decrease": "5%",
       "Max EXP": "+1000",
-      "s Level X Bonus EXP": "100%",
-      "Maximum Speed": "+1"
+      "Maximum Speed": "+1",
+      "Bonus EXP Per Level": "100%"
     },
     "itemClass": "Legendary",
     "part": "accback"
@@ -97923,7 +97923,7 @@
       "Fury Duration": "5%",
       "Luck": "35%",
       "Acceleration": "+1",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "None",
     "part": "acchead"
@@ -97936,7 +97936,7 @@
       "Fury Gain": "10%",
       "Fury Duration": "10%",
       "Luck": "60%",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "None",
     "part": "acchand"
@@ -97951,7 +97951,7 @@
       "Speed": "+3",
       "Acceleration": "+2",
       "Land Dash Success Duration Increase": "2%",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "Rare",
     "part": "foot"
@@ -97967,7 +97967,7 @@
       "Speed": "+1",
       "Thrust Resist": "10%",
       "Max dash gauge": "5%",
-      "s Level X Bonus EXP": "100%"
+      "Bonus EXP Per Level": "100%"
     },
     "itemClass": "Rare",
     "part": "accback"
@@ -97982,7 +97982,7 @@
       "Fury Duration": "10%",
       "Luck": "50%",
       "Max dash gauge": "10%",
-      "s Level X Bonus EXP": "50%"
+      "Bonus EXP Per Level": "50%"
     },
     "itemClass": "Unique",
     "part": "head"
@@ -97998,7 +97998,7 @@
       "Speed": "+2",
       "Control": "+2",
       "Evade Fury": "20%",
-      "s Level X Bonus EXP": "150%"
+      "Bonus EXP Per Level": "150%"
     },
     "itemClass": "Rare",
     "part": "pet"
@@ -124925,7 +124925,7 @@
       "Evade Fury": "10%",
       "Animal Boss Damage": "30%",
       "Bonus TR Per Level": "50%",
-      "s Level X Bonus EXP": "150%"
+      "Bonus EXP Per Level": "150%"
     },
     "itemClass": "Rare",
     "part": "pet"
@@ -125398,7 +125398,7 @@
       "Speed": "+1",
       "Acceleration": "+1",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "80%"
+      "Bonus EXP Per Level": "80%"
     },
     "itemClass": "Unique",
     "part": "accback"
@@ -126002,7 +126002,7 @@
       "Evade Fury": "20%",
       "Animal Boss Damage": "40%",
       "Bonus TR Per Level": "100%",
-      "s Level X Bonus EXP": "200%"
+      "Bonus EXP Per Level": "200%"
     },
     "itemClass": "Unique",
     "part": "pet"
@@ -127357,7 +127357,7 @@
       "Speed": "+2",
       "Control": "+1",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "30%"
+      "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Unique",
     "part": "acchead"
@@ -127373,7 +127373,7 @@
       "Luck": "50%",
       "Obstacle Obstruction Duration Decrease": "15%",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "40%"
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Unique",
     "part": "accneck"
@@ -127389,7 +127389,7 @@
       "Luck": "40%",
       "Speed": "+1",
       "Bonus TR Per Level": "20%",
-      "s Level X Bonus EXP": "40%"
+      "Bonus EXP Per Level": "40%"
     },
     "itemClass": "Unique",
     "part": "accface"
