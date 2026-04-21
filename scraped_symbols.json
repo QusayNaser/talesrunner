@@ -1,0 +1,1425 @@
+[
+  {
+    "name": "Starlight Symbol Durability",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_161.png",
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Luck": "+60%",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Max dash gauge": "+6%",
+      "Event Channel Bonus EXP": "+200%",
+      "Event Channel Bonus TR": "+200%",
+      "Bonus Attribution Point": "+25%",
+      "Hidden Effect": "+3300%",
+      "Driving Force Increase": "+3%",
+      "Max EXP": "+1000",
+      "User's Level X Bonus TR": "+100%",
+      "User's Level X Bonus EXP": "+100%"
+    },
+    "itemClass": "Prestige",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Steam Agent Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_160.png",
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+120%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Voodoo Doll Item Duration": "+5%",
+      "Jump Tray Item Duration Decrease": "+5%",
+      "Event Channel Bonus EXP": "+35%",
+      "Event Channel Bonus TR": "+35%",
+      "Bonus Attribution Point": "+8%",
+      "Hidden Effect": "+3200%",
+      "Max EXP": "+750",
+      "Devil Boss Damage": "+3%"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Mystic Dial Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_159.png",
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Luck": "+60%",
+      "Invincible for a certain time at start": "+4",
+      "Acceleration": "+1",
+      "Control": "+2",
+      "Event Channel Bonus EXP": "+200%",
+      "Event Channel Bonus TR": "+200%",
+      "Bonus Attribution Point": "+25%",
+      "Hidden Effect": "+3100%",
+      "Fury Transform Duration Decrease": "+6%",
+      "Max EXP": "+1000",
+      "Devil Boss Damage": "+6%"
+    },
+    "itemClass": "Prestige",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Insert Coin Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_158.png",
+    "stats": {
+      "Bonus TR": "+100%",
+      "Luck": "+45%",
+      "Regardless of result, TR": "+50",
+      "Hidden Effect": "+3000%",
+      "Gain EXP's as Bonus TR": "+1%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Unique",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Lumian Black Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_157.png",
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+5%",
+      "Fury Duration": "+5%",
+      "Luck": "+60%",
+      "Speed": "+1",
+      "Strength": "+2",
+      "Hidden Effect": "+2800%",
+      "Max EXP": "+1200"
+    },
+    "itemClass": "Prestige",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Lumian Rainbow Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_156.png",
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Luck": "+60%",
+      "Speed": "+1",
+      "Acceleration": "+2",
+      "Hidden Effect": "+2900%",
+      "Gain EXP's as Bonus TR": "+1%",
+      "Gain TR's as Bonus EXP": "+1%",
+      "Max EXP": "+1200"
+    },
+    "itemClass": "Prestige",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Eternal Grade Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_151.png",
+    "stats": {
+      "Luck": "+50%",
+      "Hidden Effect": "+2600%",
+      "User's Level X Bonus TR": "+50%",
+      "User's Level X Bonus EXP": "+50%"
+    },
+    "itemClass": "Rare",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Powerful Devil Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_150.png",
+    "stats": {
+      "Bonus TR": "+160%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Control": "+1",
+      "Coop Victory with S EXP": "+120%",
+      "Max EXP": "+750",
+      "Devil Boss Damage": "+4%"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Gorgeous Devil Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_149.png",
+    "stats": {
+      "Bonus TR": "+120%",
+      "Luck": "+40%",
+      "Speed": "+1",
+      "Control": "+1",
+      "Coop Victory with S EXP": "+90%",
+      "Max EXP": "+500",
+      "Devil Boss Damage": "+2%"
+    },
+    "itemClass": "Unique",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Ordinary Devil Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_148.png",
+    "stats": {
+      "Bonus TR": "+80%",
+      "Luck": "+30%",
+      "Control": "+1",
+      "Coop Victory with S EXP": "+60%",
+      "Max EXP": "+250",
+      "Devil Boss Damage": "+1%"
+    },
+    "itemClass": "Rare",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Broken Devil Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_147.png",
+    "stats": {
+      "Bonus TR": "+40%",
+      "Luck": "+20%",
+      "Coop Victory with S EXP": "+30%",
+      "Devil Boss Damage": "+0.5%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Powerful Mechanic Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_146.png",
+    "stats": {
+      "Bonus TR": "+160%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Control": "+1",
+      "Robotic Boss Damage": "+10%",
+      "Coop Victory with S EXP": "+120%",
+      "Max EXP": "+750"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Gorgeous Mechanic Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_145.png",
+    "stats": {
+      "Bonus TR": "+120%",
+      "Luck": "+40%",
+      "Speed": "+1",
+      "Control": "+1",
+      "Robotic Boss Damage": "+6%",
+      "Coop Victory with S EXP": "+90%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Unique",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Ordinary Mechanic Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_144.png",
+    "stats": {
+      "Bonus TR": "+80%",
+      "Luck": "+30%",
+      "Control": "+1",
+      "Robotic Boss Damage": "+3%",
+      "Coop Victory with S EXP": "+60%",
+      "Max EXP": "+250"
+    },
+    "itemClass": "Rare",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Broken Mechanic Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_143.png",
+    "stats": {
+      "Bonus TR": "+40%",
+      "Luck": "+20%",
+      "Robotic Boss Damage": "+1%",
+      "Coop Victory with S EXP": "+30%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Rabbit Bear Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_142.png",
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+60%",
+      "Luck": "+40%",
+      "Acceleration": "+2",
+      "Max dash gauge": "+5%",
+      "Max EXP": "+400"
+    },
+    "itemClass": "Unique",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Glace Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_141.png",
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+50%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Voodoo Doll Item Duration": "+5%",
+      "Jump Tray Item Duration Decrease": "+5%",
+      "Max dash gauge": "+3%",
+      "Hidden Effect": "+2500%",
+      "Max EXP": "+1000",
+      "User's Level X Bonus TR": "+60%",
+      "User's Level X Bonus EXP": "+20%"
+    },
+    "itemClass": "Prestige",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Light and Darkness Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/tt_247_140.png",
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Luck": "+50%",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Max dash gauge": "+3%",
+      "Hidden Effect": "+2400%",
+      "Max EXP": "+250"
+    },
+    "itemClass": "Rare",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Ether Storm Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_139.png",
+    "stats": {
+      "Bonus EXP": "+150%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Max dash gauge": "+5%",
+      "Event Channel Bonus EXP": "+25%",
+      "Event Channel Bonus TR": "+25%",
+      "Bonus Attribution Point": "+5%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Void Storm Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_138.png",
+    "stats": {
+      "Bonus TR": "+150%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Event Channel Bonus EXP": "+25%",
+      "Event Channel Bonus TR": "+25%",
+      "Bonus Attribution Point": "+5%",
+      "Max EXP": "+500",
+      "Evade Chance upon Obstacle Hit": "+5%"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Lantern Ghost Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_134.png",
+    "stats": {
+      "Bonus EXP": "+150%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Control": "+1",
+      "Event Channel Bonus EXP": "+25%",
+      "Event Channel Bonus TR": "+25%",
+      "Bonus Attribution Point": "+5%",
+      "Max EXP": "+1000"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Nightmare Fragment Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_133.png",
+    "stats": {
+      "Bonus TR": "+150%",
+      "Luck": "+50%",
+      "Acceleration": "+3",
+      "Voodoo Doll Item Duration": "+5%",
+      "Jump Tray Item Duration Decrease": "+5%",
+      "Event Channel Bonus EXP": "+25%",
+      "Event Channel Bonus TR": "+25%",
+      "Bonus Attribution Point": "+5%",
+      "Hidden Effect": "+2000%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Dream Fragment Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_132.png",
+    "stats": {
+      "Bonus EXP": "+150%",
+      "Luck": "+50%",
+      "Speed": "+3",
+      "Max dash gauge": "+5%",
+      "Event Channel Bonus EXP": "+25%",
+      "Event Channel Bonus TR": "+25%",
+      "Bonus Attribution Point": "+5%",
+      "Hidden Effect": "+1900%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Phantasos's Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_131.png",
+    "stats": {
+      "Bonus TR": "+10%",
+      "Luck": "+50%",
+      "Strength": "+3",
+      "Maximum people": "+500%",
+      "Max dash gauge": "+5%",
+      "Hidden Effect": "+1800%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Icelos's Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_130.png",
+    "stats": {
+      "Bonus EXP": "+10%",
+      "Luck": "+50%",
+      "Strength": "+3",
+      "Maximum people": "+500%",
+      "Max dash gauge": "+5%",
+      "Hidden Effect": "+1700%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Morpheus's Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_129.png",
+    "stats": {
+      "Bonus TR": "+5%",
+      "Bonus EXP": "+5%",
+      "Luck": "+50%",
+      "Speed": "+3",
+      "Maximum people": "+500%",
+      "Max dash gauge": "+5%",
+      "Hidden Effect": "+1600%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Milky Way Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_128.png",
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+60%",
+      "Luck": "+40%",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Max dash gauge": "+5%",
+      "Max EXP": "+400"
+    },
+    "itemClass": "Unique",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Bastitas Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/sd_247_127.png",
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Max dash gauge": "+3%",
+      "Hidden Effect": "+1500%",
+      "Max EXP": "+250"
+    },
+    "itemClass": "Rare",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Grace Wedding Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_126.png",
+    "stats": {
+      "Bonus TR": "+75%",
+      "Bonus EXP": "+75%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Max dash gauge": "+5%",
+      "Bonus Attribution Point": "+3%",
+      "Hidden Effect": "+1400%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Cherish Wedding Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_124.png",
+    "stats": {
+      "Bonus TR": "+75%",
+      "Bonus EXP": "+75%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Max dash gauge": "+5%",
+      "Bonus Attribution Point": "+3%",
+      "Hidden Effect": "+1300%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Seviant Rose Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_125.png",
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+60%",
+      "Luck": "+40%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Max dash gauge": "+5%",
+      "Max EXP": "+400"
+    },
+    "itemClass": "Unique",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Shadow Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/kh_247_123.png",
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Luck": "+50%",
+      "Acceleration": "+1",
+      "Control": "+1",
+      "Max dash gauge": "+3%",
+      "Hidden Effect": "+1200%",
+      "Max EXP": "+250"
+    },
+    "itemClass": "Rare",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Tainted Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_122.png",
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Max dash gauge": "+8%",
+      "Hidden Effect": "+1000%",
+      "Max EXP": "+1000"
+    },
+    "itemClass": "Prestige",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Black Cherry Blossom Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_121.png",
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+60%",
+      "Luck": "+40%",
+      "Speed": "+1",
+      "Strength": "+1",
+      "Voodoo Doll Item Duration": "+5%",
+      "Jump Tray Item Duration Decrease": "+5%",
+      "Hidden Effect": "+1100%",
+      "Max EXP": "+400"
+    },
+    "itemClass": "Unique",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Advent Reaper Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/do_247_120.png",
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Luck": "+30%",
+      "Strength": "+2",
+      "Max dash gauge": "+3%",
+      "Hidden Effect": "+900%",
+      "Max EXP": "+250"
+    },
+    "itemClass": "Rare",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Behemoth Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_119.png",
+    "stats": {
+      "Bonus TR": "+150%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Max dash gauge": "+5%",
+      "Hidden Effect": "+800%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Cichlid Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/xn_247_118.png",
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Luck": "+30%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Max dash gauge": "+3%",
+      "Hidden Effect": "+700%",
+      "Max EXP": "+250"
+    },
+    "itemClass": "Rare",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Red Plum Flower Scent Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_117.png",
+    "stats": {
+      "Bonus EXP": "+150%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Max dash gauge": "+5%",
+      "Hidden Effect": "+600%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Piony symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_116.png",
+    "stats": {
+      "Bonus EXP": "+20%",
+      "Luck": "+10%",
+      "Bonus EXP when with Couple": "+30%",
+      "1 Evade Chance upon Obstacle Hit": "+1%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Veronica symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_115.png",
+    "stats": {
+      "Bonus TR": "+20%",
+      "Luck": "+10%",
+      "Bonus TR when with Couple": "+30%",
+      "1 Evade Chance upon Obstacle Hit": "+1%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Silver Torrenic Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/vrd_247_114.png",
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+60%",
+      "Luck": "+30%",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Attack": "+10",
+      "Critical": "+10",
+      "Hidden Effect": "+500%",
+      "Attack Upon Activating Fury": "+1%"
+    },
+    "itemClass": "Rare",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Estrela symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_108.png",
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+100%",
+      "Luck": "+50%",
+      "Acceleration": "+1",
+      "Strength": "+2",
+      "Max dash gauge": "+5%",
+      "Hidden Effect": "+400%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Black Brooch Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_105.png",
+    "stats": {
+      "Bonus EXP": "+40%",
+      "Luck": "+10%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Blue Brooch Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_104.png",
+    "stats": {
+      "Luck": "+10%",
+      "Single Player Top 3 TR": "+30%",
+      "Single Player Top 3 EXP": "+30%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "White Brooch Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_103.png",
+    "stats": {
+      "Bonus TR": "+40%",
+      "Luck": "+10%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Pledge Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_102.png",
+    "stats": {
+      "Luck": "+10%",
+      "Win Teams, Relays TR": "+30%",
+      "Win Teams, Relays EXP": "+30%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Bowuquet Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_101.png",
+    "stats": {
+      "Luck": "+10%",
+      "Single Player Top 3 TR": "+30%",
+      "Single Player Top 3 EXP": "+30%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Ring Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_100.png",
+    "stats": {
+      "Luck": "+10%",
+      "Bonus TR when with Couple": "+30%",
+      "Bonus EXP when with Couple": "+30%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Huai Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_097.png",
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+50%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Max dash gauge": "+5%",
+      "Hidden Effect": "+300%",
+      "Max EXP": "+500"
+    },
+    "itemClass": "Legendary",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Strawberry Flavor Marshmallow Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_096.png",
+    "stats": {
+      "Bonus TR": "+30%",
+      "Luck": "+10%",
+      "Regardless of result, TR": "+20"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Grape Flavor Jelly Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_095.png",
+    "stats": {
+      "Bonus EXP": "+30%",
+      "Luck": "+10%",
+      "Regardless of result, EXP": "+20"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Chocolate Flavor Cookie Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_094.png",
+    "stats": {
+      "Bonus TR": "+15%",
+      "Bonus EXP": "+15%",
+      "Luck": "+10%",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+10"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Tiru Staff Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_093.png",
+    "stats": {
+      "Bonus TR": "+40%",
+      "Luck": "+10%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Tiru Mural Painting Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_092.png",
+    "stats": {
+      "Bonus EXP": "+40%",
+      "Luck": "+10%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Tiru Mask Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_091.png",
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+20%",
+      "Luck": "+10%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Grand Rating Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_080.png",
+    "stats": {
+      "Luck": "+30%",
+      "Hidden Effect": "+200%",
+      "User's Level X Bonus TR": "+30%",
+      "User's Level X Bonus EXP": "+30%"
+    },
+    "itemClass": "Rare",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Debt Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_076.png",
+    "stats": {
+      "Luck": "+10%",
+      "Win Teams, Relays TR": "+30%",
+      "Win Teams, Relays EXP": "+30%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Hairpin Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_075.png",
+    "stats": {
+      "Luck": "+10%",
+      "Reach Top 3 in Single Player 8p TR, EXP": "+30%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Earrings Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_074.png",
+    "stats": {
+      "Luck": "+10%",
+      "Bonus TR when with Couple": "+30%",
+      "Bonus EXP when with Couple": "+30%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Suspicious Magic Book Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_073.png",
+    "stats": {
+      "Luck": "+10%",
+      "Evade Chance upon Obstacle Hit": "+1%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Witch Broom Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_072.png",
+    "stats": {
+      "Luck": "+10%",
+      "Dash Chance upon Obstacle Hit": "+1%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Straw Doll Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_071.png",
+    "stats": {
+      "Luck": "+10%",
+      "1 Evade Chance upon Obstacle Hit": "+1%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Black Creed Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_070.png",
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Luck": "+30%",
+      "Control": "+1",
+      "Win Teams, Relays EXP": "+20%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Eyedropper Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_069.png",
+    "stats": {
+      "Luck": "+10%",
+      "Regardless of result, TR": "+50",
+      "Regardless of result, EXP": "+50"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Alcohol Lamp Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_068.png",
+    "stats": {
+      "Luck": "+10%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+40%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Erlenmeyer Flask Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_067.png",
+    "stats": {
+      "Luck": "+10%",
+      "Win Teams, Relays TR": "+40%",
+      "Win Teams, Relays EXP": "+40%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Cherry Blossom Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_066.png",
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+10%",
+      "Luck": "+20%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Trump Card Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_065.png",
+    "stats": {
+      "Luck": "+10%",
+      "Air Bag Shield Item Duration": "+5%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Magic Wand Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_064.png",
+    "stats": {
+      "Luck": "+10%",
+      "Jump Tray Item Duration Decrease": "+5%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Magic Hat Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_063.png",
+    "stats": {
+      "Luck": "+10%",
+      "Attacked by Transform Bomb": "+5%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Memory Foam Pillow Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_062.png",
+    "stats": {
+      "Luck": "+10%",
+      "Defense Chance upon Penguin/Chicken Attack": "+5%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Sleep Socks Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_061.png",
+    "stats": {
+      "Luck": "+10%",
+      "Dash Potion Item Duration": "+5%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Sleep Eye Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_060.png",
+    "stats": {
+      "Luck": "+10%",
+      "Voodoo Doll Item Duration": "+5%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Mint Chocolate Macaron Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_059.png",
+    "stats": {
+      "Luck": "+10%",
+      "Evade Fury": "+1%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Vanilla Macaroon Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_058.png",
+    "stats": {
+      "Luck": "+10%",
+      "Fury Gain Chance upon Burnout": "+1%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Chocolate Macaron Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_057.png",
+    "stats": {
+      "Luck": "+10%",
+      "Dash Chance upon Revival": "+100%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Palette Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_056.png",
+    "stats": {
+      "Luck": "+10%",
+      "Dash Pedal Dash Duration": "+1.5%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Palette Knife Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_055.png",
+    "stats": {
+      "Luck": "+10%",
+      "Max dash gauge": "+1.5%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "No. 6 Brush Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_054.png",
+    "stats": {
+      "Luck": "+10%",
+      "Dash Chance upon Revival": "+100%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Support Surgery (red) Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_053.png",
+    "stats": {
+      "Luck": "+10%",
+      "1 Evade Chance upon Obstacle Hit": "+5%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Cheer Surgery (silver) Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_052.png",
+    "stats": {
+      "Luck": "+10%",
+      "Dash Chance upon Obstacle Hit": "+1%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Cheering Surgery (fri) Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_051.png",
+    "stats": {
+      "Luck": "+10%",
+      "Evade Chance upon Obstacle Hit": "+1%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Contender Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_050.png",
+    "stats": {
+      "Strength": "+1",
+      "Attack": "+15",
+      "Defense": "+10",
+      "HP": "+20",
+      "Critical": "+5",
+      "Anubis/Raid Bonus EXP": "+1%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Challenger Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_049.png",
+    "stats": {
+      "Speed": "+1",
+      "Defense": "+40",
+      "HP": "+40",
+      "Critical": "+5",
+      "Anubis/Raid Bonus EXP": "+1%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Chaos Dragon Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_048.png",
+    "stats": {
+      "Bonus TR": "+10%",
+      "Bonus EXP": "+10%",
+      "Luck": "+30%",
+      "Strength": "+1",
+      "Attack": "+15",
+      "Defense": "+15",
+      "HP": "+20",
+      "Critical": "+10",
+      "Attack Upon Activating Fury": "+1%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Pink Flower Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_047.png",
+    "stats": {
+      "Bonus TR": "+25%",
+      "Bonus EXP": "+10%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Blue Flower Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_046.png",
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+10%",
+      "Luck": "+20%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Red Flower Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_045.png",
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+20%",
+      "Luck": "+30%",
+      "Strength": "+1"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Youth Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_044.png",
+    "stats": {
+      "Bonus TR": "+10%",
+      "Bonus EXP": "+30%",
+      "Luck": "+20%",
+      "Max EXP": "+100"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Phoenix Mint Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_043.png",
+    "stats": {
+      "Bonus TR": "+15%",
+      "Bonus EXP": "+20%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Phoenix Orange Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_042.png",
+    "stats": {
+      "Bonus TR": "+15%",
+      "Bonus EXP": "+30%",
+      "Luck": "+20%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Phoenix Black Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_041.png",
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+50%",
+      "Luck": "+30%",
+      "Acceleration": "+1"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Ancient Dragon Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_022.png",
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+40%",
+      "Luck": "+30%",
+      "Control": "+1",
+      "Attack": "+10",
+      "Defense": "+10",
+      "HP": "+15",
+      "Critical": "+5",
+      "Max EXP": "+200"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Black Flame Dragon Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_021.png",
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+10%",
+      "Luck": "+20%",
+      "Attack": "+5",
+      "Defense": "+5",
+      "HP": "+10"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Shin Sung-ryong Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_020.png",
+    "stats": {
+      "Bonus TR": "+10%",
+      "Bonus EXP": "+30%",
+      "Luck": "+20%",
+      "Attack": "+5",
+      "Defense": "+5",
+      "HP": "+10"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Flame Dragon Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_019.png",
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+20%",
+      "Luck": "+20%",
+      "Attack": "+5",
+      "Defense": "+5",
+      "HP": "+10"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Light Combat Symbol (gin) (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_018.png",
+    "stats": {
+      "Attack": "+15",
+      "Defense": "+10",
+      "HP": "+20",
+      "Critical": "+5",
+      "Special Rewards": "+2"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Light Combat Symbol (red) (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_017.png",
+    "stats": {
+      "Attack": "+10",
+      "Defense": "+10",
+      "HP": "+20"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Light Combat Symbol (wave) (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_016.png",
+    "stats": {
+      "Attack": "+5",
+      "Special Rewards": "+2"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Light Combat Symbol (green) (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_015.png",
+    "stats": {
+      "HP": "+20",
+      "Critical": "+5"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Light Combat Symbol (yellow) (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_014.png",
+    "stats": {
+      "Defense": "+10"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Halloween Goth Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_013.png",
+    "stats": {
+      "Bonus TR": "+10%",
+      "Bonus EXP": "+30%",
+      "Luck": "+20%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Halloween Gold Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_012.png",
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+30%",
+      "Luck": "+30%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Halloween Silver Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_011.png",
+    "stats": {
+      "Bonus TR": "+15%",
+      "Bonus EXP": "+15%",
+      "Luck": "+20%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Red Chaos Stone Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_010.png",
+    "stats": {
+      "Bonus TR": "+10%",
+      "Bonus EXP": "+40%",
+      "Luck": "+20%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Blue Chaos Stone Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_008.png",
+    "stats": {
+      "Bonus TR": "+10%",
+      "Bonus EXP": "+20%",
+      "Luck": "+20%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Purple Chaos Stone Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_006.png",
+    "stats": {
+      "Bonus TR": "+10%",
+      "Bonus EXP": "+20%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Green Chaos Stone Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_004.png",
+    "stats": {
+      "Bonus TR": "+10%",
+      "Bonus EXP": "+10%"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  },
+  {
+    "name": "Golden Chaos Stone Symbol (Durability)",
+    "image": "https://talesrunner.b-cdn.net/TalesRunner/itemimage/etc/all_247_002.png",
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+60%",
+      "Luck": "+30%",
+      "Speed": "+1"
+    },
+    "itemClass": "None",
+    "part": "accsymbol"
+  }
+]

@@ -174,10 +174,10 @@ def _print_progress(total: int):
     finished = _done + _skipped + _failed
     bar_len  = 30
     filled   = int(bar_len * finished / total) if total else 0
-    bar      = "█" * filled + "░" * (bar_len - filled)
+    bar      = "#" * filled + "-" * (bar_len - filled)
     print(
         f"\r[{bar}] {finished}/{total}  "
-        f"✓{_done} skip{_skipped} ✗{_failed}   ",
+        f"OK:{_done} skip:{_skipped} FAIL:{_failed}   ",
         end="", flush=True
     )
 

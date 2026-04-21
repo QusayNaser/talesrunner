@@ -18,7 +18,7 @@
     character: "Character", acchead: "Head", head: "Hair", accface: "Face",
     accneck: "Scarf", topbody: "Top", downbody: "Bottom", acchand: "Hands",
     accwrist: "Bracelet", foot: "Shoes", accbooster: "Booster", pet: "Pet",
-    expansion: "Expansion", accback: "Wing", acctail: "Tail",
+    expansion: "Expansion", accback: "Wing", acctail: "Tail", accsymbol: "Symbol",
     etc: "Etc", "image.png": "Other", object: "Object"
   };
 
@@ -26,7 +26,7 @@
   const PART_ORDER = [
     "character", "acchead", "head", "accface", "accneck",
     "topbody", "downbody", "acchand", "accwrist", "foot",
-    "accbooster", "pet", "expansion", "accback", "acctail",
+    "accbooster", "pet", "expansion", "accback", "acctail", "accsymbol",
     "etc", "image.png", "object"
   ];
 
@@ -35,7 +35,7 @@
     character: "🔄", acchead: "👒", head: "✂️", accface: "😎",
     accneck: "🧣", topbody: "👕", downbody: "👖", acchand: "🧤",
     accwrist: "💎", foot: "👟", accbooster: "🚀", pet: "🐾",
-    expansion: "✨", accback: "🪽", acctail: "🦊",
+    expansion: "✨", accback: "🪽", acctail: "🦊", accsymbol: "🛡️",
     etc: "📦", "image.png": "❓", object: "🎁"
   };
 
@@ -808,7 +808,7 @@
     const filterRarity = bestSetRarity ? bestSetRarity.value : "";
 
     // Equipment parts only (exclude character, etc, object, image.png)
-    const equipParts = ["acchead", "head", "accface", "accneck", "topbody", "downbody", "acchand", "accwrist", "foot", "accbooster", "pet", "expansion", "accback", "acctail"];
+    const equipParts = ["acchead", "head", "accface", "accneck", "topbody", "downbody", "acchand", "accwrist", "foot", "accbooster", "pet", "expansion", "accback", "acctail", "accsymbol"];
     const bestByPart = {};
 
     allItems.forEach(item => {
