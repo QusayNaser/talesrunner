@@ -206,11 +206,13 @@
     const container = $("stats-checkboxes");
     container.innerHTML = "";
     allStatKeys.forEach((stat) => {
-      const label = document.createElement("label");
-      label.className = "filter-checkbox stat-filter-item";
-      label.setAttribute("data-stat-lower", stat.toLowerCase());
-      label.innerHTML = `<input type="checkbox" data-stat="${stat}"><span class="cb-custom"></span><span>${stat}</span>`;
-      container.appendChild(label);
+      const itemDiv = document.createElement("div");
+      itemDiv.className = "stat-filter-item";
+      itemDiv.setAttribute("data-stat-lower", stat.toLowerCase());
+      itemDiv.setAttribute("data-stat", stat);
+      itemDiv.setAttribute("data-stat-state", "none");
+      itemDiv.innerHTML = `<div class="cb-tri-state"></div><span class="stat-filter-name" title="${stat}">${stat}</span>`;
+      container.appendChild(itemDiv);
     });
   }
 
@@ -352,7 +354,28 @@
     });
 
     // Filter change events
-    document.querySelectorAll('#stats-checkboxes input').forEach(cb => cb.addEventListener("change", () => { currentPage = 1; applyFilters(); }));
+    const statsContainer = $("stats-checkboxes");
+    if (statsContainer) {
+      statsContainer.addEventListener("click", (e) => {
+        const itemDiv = e.target.closest(".stat-filter-item");
+        if (itemDiv) {
+          const currentState = itemDiv.getAttribute("data-stat-state");
+          let newState = "none";
+          if (currentState === "none") newState = "include";
+          else if (currentState === "include") newState = "exclude";
+          itemDiv.setAttribute("data-stat-state", newState);
+          currentPage = 1; applyFilters();
+        }
+      });
+    }
+    
+    document.querySelectorAll('.mode-btn').forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove("active"));
+        e.target.classList.add("active");
+        currentPage = 1; applyFilters();
+      });
+    });
     document.querySelectorAll('#rarity-checkboxes input').forEach(cb => cb.addEventListener("change", () => { currentPage = 1; applyFilters(); }));
     sortSelect.addEventListener("change", () => { currentPage = 1; applyFilters(); });
 
@@ -452,8 +475,12 @@
     const selectedPart = activePartBtn ? activePartBtn.getAttribute("data-part") : null;
 
     // Selected stats
-    const selectedStats = [...document.querySelectorAll('#stats-checkboxes input:checked')].map(cb => cb.getAttribute("data-stat"));
+    const includedStats = [...document.querySelectorAll('.stat-filter-item[data-stat-state="include"]')].map(div => div.getAttribute("data-stat"));
+    const excludedStats = [...document.querySelectorAll('.stat-filter-item[data-stat-state="exclude"]')].map(div => div.getAttribute("data-stat"));
     
+    const activeModeBtn = document.querySelector('.mode-btn.active');
+    const matchMode = activeModeBtn ? activeModeBtn.getAttribute("data-mode") : "all";
+
     // Selected rarities
     const selectedRarities = [...document.querySelectorAll('#rarity-checkboxes input:checked')].map(cb => cb.getAttribute("data-rarity"));
 
@@ -467,10 +494,28 @@
         const itemRarity = item.itemClass || 'None';
         if (!selectedRarities.includes(itemRarity)) return false;
       }
-      // Must have selected stats
-      if (selectedStats.length > 0) {
-        for (const s of selectedStats) {
-          if (!(item.stats && s in item.stats)) return false;
+      // Must NOT have excluded stats
+      if (excludedStats.length > 0) {
+        for (const s of excludedStats) {
+          if (item.stats && s in item.stats) return false;
+        }
+      }
+      // Handle included stats
+      if (includedStats.length > 0) {
+        if (matchMode === "all") {
+          for (const s of includedStats) {
+            if (!(item.stats && s in item.stats)) return false;
+          }
+        } else {
+          // match ANY
+          let hasAny = false;
+          for (const s of includedStats) {
+            if (item.stats && s in item.stats) {
+              hasAny = true;
+              break;
+            }
+          }
+          if (!hasAny) return false;
         }
       }
       return true;
@@ -505,8 +550,8 @@
     checkNoStatWarning(sortStatKey);
 
     statShowing.textContent = filtered.length.toLocaleString();
-    updateActiveFilters(selectedStats, selectedRarities, query);
-    updateFilterBadge(selectedStats);
+    updateActiveFilters(includedStats, excludedStats, selectedRarities, query);
+    updateFilterBadge(includedStats.length + excludedStats.length);
     
     if (rarityBadge) {
       if (selectedRarities.length > 0) {
@@ -521,30 +566,39 @@
     renderPagination();
 
     // Update stats dropdown text
-    const statsCount = selectedStats.length;
+    const statsCount = includedStats.length + excludedStats.length;
     $("stats-dropdown-text").textContent = statsCount > 0 ? `${statsCount} selected` : "All Stats";
   }
 
-  function updateFilterBadge(selectedStats) {
-    if (selectedStats.length > 0) {
-      filterBadge.textContent = selectedStats.length;
+  function updateFilterBadge(count) {
+    if (count > 0) {
+      filterBadge.textContent = count;
       filterBadge.style.display = "flex";
     } else {
       filterBadge.style.display = "none";
     }
   }
 
-  function updateActiveFilters(selectedStats, selectedRarities, query) {
+  function updateActiveFilters(includedStats, excludedStats, selectedRarities, query) {
     activeFiltersInner.innerHTML = "";
     let hasAny = false;
 
-    // Selected stats
-    selectedStats.forEach((s) => {
+    // Included stats
+    includedStats.forEach((s) => {
       hasAny = true;
       addFilterTag(`+${s}`, () => {
-        const cb = document.querySelector(`#stats-checkboxes input[data-stat="${s}"]`);
-        if (cb) { cb.checked = false; currentPage = 1; applyFilters(); }
-      });
+        const div = document.querySelector(`.stat-filter-item[data-stat="${s}"]`);
+        if (div) { div.setAttribute("data-stat-state", "none"); currentPage = 1; applyFilters(); }
+      }, "included");
+    });
+
+    // Excluded stats
+    excludedStats.forEach((s) => {
+      hasAny = true;
+      addFilterTag(`-${s}`, () => {
+        const div = document.querySelector(`.stat-filter-item[data-stat="${s}"]`);
+        if (div) { div.setAttribute("data-stat-state", "none"); currentPage = 1; applyFilters(); }
+      }, "excluded");
     });
     
     // Selected rarities
@@ -559,9 +613,9 @@
     activeFilters.classList.toggle("active-filters-hidden", !hasAny);
   }
 
-  function addFilterTag(label, onRemove) {
+  function addFilterTag(label, onRemove, typeClass = "") {
     const tag = document.createElement("div");
-    tag.className = "active-filter-tag";
+    tag.className = "active-filter-tag" + (typeClass ? ` ${typeClass}` : "");
     tag.innerHTML = `<span>${label}</span><button>✕</button>`;
     tag.querySelector("button").addEventListener("click", onRemove);
     activeFiltersInner.appendChild(tag);
@@ -576,7 +630,10 @@
     const allBtn = document.querySelector('.part-btn:not([data-part])');
     if (allBtn) allBtn.classList.add("active");
 
-    document.querySelectorAll('#stats-checkboxes input').forEach(cb => cb.checked = false);
+    document.querySelectorAll('.stat-filter-item').forEach(div => div.setAttribute("data-stat-state", "none"));
+    document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove("active"));
+    const matchAllBtn = document.querySelector('.mode-btn[data-mode="all"]');
+    if (matchAllBtn) matchAllBtn.classList.add("active");
     document.querySelectorAll('#rarity-checkboxes input').forEach(cb => cb.checked = false);
     sortSelect.value = "name-asc";
     statsSearch.value = "";
