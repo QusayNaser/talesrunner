@@ -923,7 +923,7 @@
       "Bonus EXP Per Level": "100%"
     },
     "itemClass": "Prestige",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Starlight Durability",
@@ -4891,7 +4891,7 @@
     "image": "images/TalesRunner__itemimage__etc__all_247_160.png",
     "stats": {},
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Steam Agent (Durability)",
@@ -5769,7 +5769,7 @@
       "Devil Boss Damage": "6%"
     },
     "itemClass": "Prestige",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Mystic Dial Clock (Durability)",
@@ -6064,7 +6064,7 @@
       "Gain TR's as Bonus EXP": "1%"
     },
     "itemClass": "Unique",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Insert Coin Mob (Durability)",
@@ -8961,7 +8961,7 @@
       "Max EXP": "+1200"
     },
     "itemClass": "Prestige",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Lumian Rainbow Symbol (Durability)",
@@ -8978,7 +8978,7 @@
       "Gain EXP's as Bonus TR": "1%"
     },
     "itemClass": "Prestige",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Lumian Rainbow Wing (Durability)",
@@ -12401,7 +12401,7 @@
       "Bonus EXP Per Level": "50%"
     },
     "itemClass": "Rare",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "No data",
@@ -14655,7 +14655,7 @@
       "Devil Boss Damage": "4%"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Gorgeous Devil Symbol (Durability)",
@@ -14670,7 +14670,7 @@
       "Devil Boss Damage": "2%"
     },
     "itemClass": "Unique",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Ordinary Devil Symbol (Durability)",
@@ -14684,7 +14684,7 @@
       "Devil Boss Damage": "1%"
     },
     "itemClass": "Rare",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Broken Devil Symbol (Durability)",
@@ -14696,7 +14696,7 @@
       "Devil Boss Damage": "0.5%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Powerful Mechanic Symbol (Durability)",
@@ -14711,7 +14711,7 @@
       "Max EXP": "+750"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Gorgeous Mechanic Symbol (Durability)",
@@ -14726,7 +14726,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Unique",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Ordinary Mechanic Symbol (Durability)",
@@ -14740,7 +14740,7 @@
       "Max EXP": "+250"
     },
     "itemClass": "Rare",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Broken Mechanic Symbol (Durability)",
@@ -14752,7 +14752,7 @@
       "Coop Victory with S EXP": "30%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Admiral Yi Sun-sin's Sword (Durability)",
@@ -17349,7 +17349,7 @@
       "Max EXP": "+400"
     },
     "itemClass": "Unique",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Bunny Bear Couple Photocard (Durability)",
@@ -18415,7 +18415,7 @@
       "Bonus EXP Per Level": "20%"
     },
     "itemClass": "Prestige",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Glace Swan (Durability)",
@@ -20304,7 +20304,7 @@
       "Max EXP": "+250"
     },
     "itemClass": "Rare",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Chunbae Hanbok Costume (Durability)",
@@ -21880,7 +21880,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Void Storm Symbol (Durability)",
@@ -21899,7 +21899,7 @@
       "1 Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Ether Storm Sword (Durability)",
@@ -27449,7 +27449,7 @@
       "Max EXP": "+1000"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Devil Jelly Bear (Durability)",
@@ -28666,7 +28666,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Dream Fragment Symbol (Durability)",
@@ -28683,7 +28683,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Nightmare Shard Wing (Durability)",
@@ -30709,7 +30709,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Icelos's Symbol (Durability)",
@@ -30725,7 +30725,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Morpheus's Symbol (Durability)",
@@ -30743,7 +30743,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Phantasos Wings (Durability)",
@@ -34065,7 +34065,7 @@
       "Max EXP": "+400"
     },
     "itemClass": "Unique",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "No data",
@@ -35682,7 +35682,7 @@
       "Max EXP": "+250"
     },
     "itemClass": "Rare",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "No data",
@@ -38271,7 +38271,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Cherish Wedding Symbol (Durability)",
@@ -38289,7 +38289,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Grace Wedding Flower Girl Pet (Durability)",
@@ -38862,7 +38862,7 @@
       "Max EXP": "+400"
     },
     "itemClass": "Unique",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "No data",
@@ -41492,7 +41492,7 @@
       "Max EXP": "+250"
     },
     "itemClass": "Rare",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "No data",
@@ -49632,7 +49632,7 @@
       "Max EXP": "+1000"
     },
     "itemClass": "Prestige",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Faded Justice (Durability)",
@@ -50285,7 +50285,7 @@
       "Max EXP": "+400"
     },
     "itemClass": "Unique",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "No data",
@@ -56669,7 +56669,7 @@
       "Max EXP": "+250"
     },
     "itemClass": "Rare",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "No data",
@@ -65826,7 +65826,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Participant Training Suit (Durability)",
@@ -67915,7 +67915,7 @@
     "image": "images/TalesRunner__itemimage__etc__xn_247_118.png",
     "stats": {},
     "itemClass": "Rare",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Nereid (Durability)",
@@ -71741,7 +71741,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "The Sealed Humanitas (Durability)",
@@ -72933,7 +72933,7 @@
       "1 Evade Chance upon Obstacle Hit": "1%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Veronica symbol (Durability)",
@@ -72945,7 +72945,7 @@
       "1 Evade Chance upon Obstacle Hit": "1%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Strawberry Joule (Durability)",
@@ -75496,7 +75496,7 @@
       "Additional Fury Damage": "1%"
     },
     "itemClass": "Rare",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "No data",
@@ -78104,7 +78104,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "No data",
@@ -83055,7 +83055,7 @@
       "Luck": "10%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Blue Brooch Symbol (Durability)",
@@ -83066,7 +83066,7 @@
       "Single Player Top 3 EXP": "30%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "White Brooch Symbol (Durability)",
@@ -83076,7 +83076,7 @@
       "Luck": "10%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "White Modern Pillbox (Durability)",
@@ -83889,7 +83889,7 @@
       "Relays EXP": "30%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Bowuquet Symbol (Durability)",
@@ -83900,7 +83900,7 @@
       "Single Player Top 3 EXP": "30%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Ring Symbol (Durability)",
@@ -83911,7 +83911,7 @@
       "Bonus EXP when with Couple": "30%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Pink Bridal Veil (Durability)",
@@ -87113,7 +87113,7 @@
       "Max EXP": "+500"
     },
     "itemClass": "Legendary",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Elims Smile V2 Pet (Durability)",
@@ -87643,7 +87643,7 @@
       "TR": "+20"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Grape Flavor Jelly Symbol (Durability)",
@@ -87654,7 +87654,7 @@
       "EXP": "+20"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Chocolate Flavor Cookie Symbol (Durability)",
@@ -87667,7 +87667,7 @@
       "EXP": "+10"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Soda Cotton Candy Headband (Durability)",
@@ -88280,7 +88280,7 @@
       "Luck": "10%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Tiru Mural Painting Symbol (Durability)",
@@ -88290,7 +88290,7 @@
       "Luck": "10%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Tiru Mask Symbol (Durability)",
@@ -88301,7 +88301,7 @@
       "Luck": "10%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Irish Wings (Durability)",
@@ -88894,7 +88894,7 @@
       "Bonus EXP Per Level": "30%"
     },
     "itemClass": "Rare",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "No data",
@@ -89619,7 +89619,7 @@
       "Relays EXP": "30%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Hairpin Symbol (Durability)",
@@ -89629,7 +89629,7 @@
       "EXP": "30%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Earrings Symbol (Durability)",
@@ -89640,7 +89640,7 @@
       "Bonus EXP when with Couple": "30%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Fairy's Black Wings (Durability)",
@@ -91908,7 +91908,7 @@
       "1 Evade Chance upon Obstacle Hit": "1%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Witch Broom Symbol (Durability)",
@@ -91918,7 +91918,7 @@
       "1 Dash Chance upon Obstacle Hit": "1%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Straw Doll Symbol (Durability)",
@@ -91928,7 +91928,7 @@
       "1 Evade Chance upon Obstacle Hit": "1%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Black Sabers Wing (Durability)",
@@ -92502,7 +92502,7 @@
       "Relays EXP": "20%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Black Creed Wing (Durability)",
@@ -92700,7 +92700,7 @@
       "EXP": "+50"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Alcohol Lamp Symbol (Durability)",
@@ -92711,7 +92711,7 @@
       "Bonus EXP when with Couple": "40%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Erlenmeyer Flask Symbol (Durability)",
@@ -92722,7 +92722,7 @@
       "Relays EXP": "40%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Sleepy Cat (Durability)",
@@ -93125,7 +93125,7 @@
       "Luck": "20%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Cherry Blossom (Durability)",
@@ -93400,7 +93400,7 @@
       "Air Bag Shield Item Duration": "5%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Magic Wand Symbol (Durability)",
@@ -93410,7 +93410,7 @@
       "Jump Tray Item Duration Decrease": "5%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Magic Hat Symbol (Durability)",
@@ -93420,7 +93420,7 @@
       "Lizard Transform Chance whenAttacked by Transform Bomb": "5%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Black Rose Eye Patch (Durability)",
@@ -94007,7 +94007,7 @@
       "Defense Chance upon Penguin/Chicken Attack": "5%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Sleep Socks Symbol (Durability)",
@@ -94017,7 +94017,7 @@
       "Dash Potion Item Duration": "5%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Sleep Eye Symbol (Durability)",
@@ -94027,7 +94027,7 @@
       "Voodoo Doll Item Duration": "5%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Moving Honey Hat (Durability)",
@@ -94092,7 +94092,7 @@
       "Evade Fury": "1%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Vanilla Macaroon Symbol (Durability)",
@@ -94102,7 +94102,7 @@
       "Fury Gain Chance upon Burnout": "1%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Chocolate Macaron Symbol (Durability)",
@@ -94112,7 +94112,7 @@
       "Dash Chance upon Revival": "100%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Choco Macaron Gloves (Durability)",
@@ -95427,7 +95427,7 @@
       "Dash Pedal Dash Duration": "1.5%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Palette Knife Symbol (Durability)",
@@ -95437,7 +95437,7 @@
       "Max dash gauge": "1.5%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "No. 6 Brush Symbol (Durability)",
@@ -95447,7 +95447,7 @@
       "Dash Chance upon Revival": "100%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Pearl Choker (Durability)",
@@ -96356,7 +96356,7 @@
       "1 Evade Chance upon Obstacle Hit": "5%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Cheer Surgery (silver) Symbol (Durability)",
@@ -96366,7 +96366,7 @@
       "1 Dash Chance upon Obstacle Hit": "1%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Cheering Surgery (fri) Symbol (Durability)",
@@ -96376,7 +96376,7 @@
       "1 Evade Chance upon Obstacle Hit": "1%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Colorful Balloons (Durability)",
@@ -106947,7 +106947,7 @@
       "Anubis/Raid Bonus EXP": "1%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Challenger Symbol (Durability)",
@@ -106960,7 +106960,7 @@
       "Anubis/Raid Bonus EXP": "1%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Luck's Fairy (Durability)",
@@ -114604,7 +114604,7 @@
       "Additional Fury Damage": "1%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Evil Slime (Durability)",
@@ -115226,7 +115226,7 @@
       "Bonus EXP": "10%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Blue Flower Symbol (Durability)",
@@ -115237,7 +115237,7 @@
       "Luck": "20%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Red Flower Symbol (Durability)",
@@ -115249,7 +115249,7 @@
       "Strength": "+1"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "No data",
@@ -118787,7 +118787,7 @@
       "Max EXP": "+100"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Youth Seolbeom Gloves (M) (Durability)",
@@ -120188,7 +120188,7 @@
       "Bonus EXP": "20%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Phoenix Orange Symbol (Durability)",
@@ -120199,7 +120199,7 @@
       "Luck": "20%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Phoenix Black Symbol (Durability)",
@@ -120211,7 +120211,7 @@
       "Acceleration": "+1"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Gold Star Booster (Durability)",
@@ -121513,7 +121513,7 @@
       "Max EXP": "+200"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Black Flame Dragon Symbol (Durability)",
@@ -121527,7 +121527,7 @@
       "HP": "+10"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Shin Sung-ryong Symbol (Durability)",
@@ -121541,7 +121541,7 @@
       "HP": "+10"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Flame Dragon Symbol (Durability)",
@@ -121555,7 +121555,7 @@
       "HP": "+10"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Ancient Dragon Wing (Durability)",
@@ -122168,7 +122168,7 @@
       "Special Rewards": "+2"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Light Combat Symbol (red) (Durability)",
@@ -122179,7 +122179,7 @@
       "HP": "+20"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Light Combat Symbol (wave) (Durability)",
@@ -122189,7 +122189,7 @@
       "Special Rewards": "+2"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Light Combat Symbol (green) (Durability)",
@@ -122199,7 +122199,7 @@
       "Critical": "+5"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Light Combat Symbol (yellow) (Durability)",
@@ -122208,7 +122208,7 @@
       "Defense": "+10"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Hidden Combat Ring (Durability)",
@@ -123079,7 +123079,7 @@
       "Luck": "20%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Halloween Goth Gloves (F) (Durability)",
@@ -123214,7 +123214,7 @@
       "Luck": "30%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Halloween Silver Symbol (Durability)",
@@ -123225,7 +123225,7 @@
       "Luck": "20%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Mini Pumpkin Bangle (Durability)",
@@ -126408,7 +126408,7 @@
       "Luck": "20%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Blue Chaos Stone Symbol (Durability)",
@@ -126419,7 +126419,7 @@
       "Luck": "20%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Purple Chaos Stone Symbol (Durability)",
@@ -126429,7 +126429,7 @@
       "Bonus EXP": "20%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Green Chaos Stone Symbol (Durability)",
@@ -126439,7 +126439,7 @@
       "Bonus EXP": "10%"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Golden Chaos Stone Symbol (Durability)",
@@ -126451,7 +126451,7 @@
       "Speed": "+1"
     },
     "itemClass": "None",
-    "part": "etc"
+    "part": "accsymbol"
   },
   {
     "name": "Zico Costume Scarf (Durability)",
