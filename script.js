@@ -12,6 +12,7 @@
   let allStatKeys = [];
   let allParts = [];
   let allRarities = [];
+  const RARITY_ORDER = ["Mythology", "Prestige", "Legendary", "Unique", "Rare", "None"];
 
   // Part label mapping
   const PART_LABELS = {
@@ -142,7 +143,6 @@
     allStatKeys = [...statSet].sort();
     
     // Custom rarity display order
-    const RARITY_ORDER = ["Mythology", "Prestige", "Legendary", "Unique", "Rare", "None"];
     allRarities = [...raritySet].sort((a, b) => {
       const ia = RARITY_ORDER.indexOf(a);
       const ib = RARITY_ORDER.indexOf(b);
@@ -541,6 +541,16 @@
           case "name-desc": return b.name.localeCompare(a.name);
           case "stats-desc": return b._statsCount - a._statsCount;
           case "stats-asc": return a._statsCount - b._statsCount;
+          case "rarity-desc": {
+            const ia = RARITY_ORDER.indexOf(a.itemClass || "None");
+            const ib = RARITY_ORDER.indexOf(b.itemClass || "None");
+            return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
+          }
+          case "rarity-asc": {
+            const ia = RARITY_ORDER.indexOf(a.itemClass || "None");
+            const ib = RARITY_ORDER.indexOf(b.itemClass || "None");
+            return (ib === -1 ? 999 : ib) - (ia === -1 ? 999 : ia);
+          }
           default: return 0;
         }
       });
@@ -635,7 +645,7 @@
     const matchAllBtn = document.querySelector('.mode-btn[data-mode="all"]');
     if (matchAllBtn) matchAllBtn.classList.add("active");
     document.querySelectorAll('#rarity-checkboxes input').forEach(cb => cb.checked = false);
-    sortSelect.value = "name-asc";
+    sortSelect.value = "rarity-desc";
     statsSearch.value = "";
     document.querySelectorAll(".stat-filter-item").forEach(el => el.style.display = "");
     // Reset stat sort

@@ -6,3 +6,23 @@ wiki_stat_check.js
 clean.js
 .playwright_profile/
 session/
+
+# Logs and temporary files
+*.log
+scrape_log.txt
+scrape_log_2.txt
+categories_output.json
+master_scrape_results.json
+shop_logged_in.html
+tr_home.html
+debug_*.html
+failed_downloads.txt
+
+# Temporary scripts
+login_browser.js
+check_*.js
+inspect_*.js
+debug_extract.js
+temp_check.js
+shop_page.html
+
