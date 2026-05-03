@@ -27,6 +27,7 @@ for (const item of masterItems) {
 }
 
 let updatedStatsCount = 0;
+let conversionUpdatedCount = 0;
 let newItemsCount = 0;
 
 // 1. Update stats for existing items
@@ -45,10 +46,21 @@ for (const item of cleanItems) {
     }
 
     if (scrapedMatch) {
-        const oldStatCount = Object.keys(item.stats || {}).length;
-        const newStatCount = Object.keys(scrapedMatch.stats || {}).length;
+        const oldStatsJson = JSON.stringify(item.stats || {});
+        const newStatsJson = JSON.stringify(scrapedMatch.stats || {});
         
-        if (oldStatCount === 0 && newStatCount > 0) {
+        if (oldStatsJson !== newStatsJson) {
+            // Check if conversion stats changed
+            const conversionKeys = ["Gain EXP's as Bonus TR", "Gain TR's as Bonus EXP"];
+            let conversionChanged = false;
+            conversionKeys.forEach(k => {
+                if ((item.stats[k] || null) !== (scrapedMatch.stats[k] || null)) {
+                    conversionChanged = true;
+                }
+            });
+            
+            if (conversionChanged) conversionUpdatedCount++;
+            
             item.stats = scrapedMatch.stats;
             if (item.name === 'No data' && scrapedMatch.name !== 'No data') {
                 item.name = scrapedMatch.name;
@@ -75,5 +87,6 @@ for (const [name, newItem] of masterNameMap.entries()) {
 fs.writeFileSync(targetPath, JSON.stringify(cleanItems, null, 2));
 
 console.log(`✅ Merge Complete!`);
-console.log(`- Updated stats for ${updatedStatsCount} existing items.`);
+console.log(`- Updated/Corrected stats for ${updatedStatsCount} items.`);
+console.log(`  (Specifically fixed conversion stats for ${conversionUpdatedCount} items)`);
 console.log(`- Added ${newItemsCount} completely new items.`);
