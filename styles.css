@@ -1,14 +1,15 @@
 /* ========== RESET & BASE ========== */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg-primary:#0a0e1a;--bg-secondary:#111827;--bg-card:#1a1f35;--bg-card-hover:#222845;
-  --bg-sidebar:#0f1326;--bg-input:#161b2e;
-  --text-primary:#e8eaf0;--text-secondary:#9ca3af;--text-muted:#6b7280;
-  --accent:#6366f1;--accent-light:#818cf8;--accent-glow:rgba(99,102,241,.25);
-  --border:#1e2640;--border-hover:#2d3555;
-  --success:#34d399;--warning:#fbbf24;--danger:#f87171;
+  --bg-primary:#f8fafc;--bg-secondary:#ffffff;--bg-card:#ffffff;--bg-card-hover:#f1f5f9;
+  --bg-sidebar:#ffffff;--bg-input:#ffffff;
+  --text-primary:#0f172a;--text-secondary:#475569;--text-muted:#94a3b8;
+  --accent:#6366f1;--accent-light:#4f46e5;--accent-glow:rgba(99,102,241,.1);
+  --border:#e2e8f0;--border-hover:#cbd5e1;
+  --success:#10b981;--warning:#f59e0b;--danger:#ef4444;
   --radius:12px;--radius-sm:8px;--radius-xs:6px;
-  --shadow:0 4px 24px rgba(0,0,0,.4);--shadow-lg:0 8px 40px rgba(0,0,0,.5);
+  --shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --transition:all .2s ease;
   --font:'Inter',system-ui,-apple-system,sans-serif;
   --part-sidebar-width:120px;
@@ -22,7 +23,7 @@ body{font-family:var(--font);background:var(--bg-primary);color:var(--text-prima
 
 /* ========== BG PARTICLES ========== */
 #bg-particles{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
-#bg-particles .particle{position:absolute;border-radius:50%;background:var(--accent);opacity:.08;animation:floatParticle 20s infinite ease-in-out}
+#bg-particles .particle{position:absolute;border-radius:50%;background:var(--accent);opacity:.04;animation:floatParticle 20s infinite ease-in-out}
 @keyframes floatParticle{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-60px) scale(1.2)}}
 
 /* ========== LEFT PART SIDEBAR ========== */
@@ -69,7 +70,7 @@ body{font-family:var(--font);background:var(--bg-primary);color:var(--text-prima
 /* ========== TOP HEADER ========== */
 #site-header{
   position:sticky;top:0;z-index:100;
-  background:rgba(10,14,26,.9);backdrop-filter:blur(16px);
+  background:rgba(255,255,255,.8);backdrop-filter:blur(16px);
   border-bottom:1px solid var(--border);padding:10px 20px;
   margin-left:var(--part-sidebar-width);
 }
@@ -92,7 +93,7 @@ body{font-family:var(--font);background:var(--bg-primary);color:var(--text-prima
 /* ========== CONTROLS BAR (Sort + Stats) ========== */
 #controls-bar{
   position:sticky;top:45px;z-index:90;
-  background:rgba(15,19,38,.92);backdrop-filter:blur(12px);
+  background:rgba(255,255,255,.85);backdrop-filter:blur(12px);
   border-bottom:1px solid var(--border);padding:8px 20px;
   margin-left:var(--part-sidebar-width);
 }
@@ -168,7 +169,7 @@ body{font-family:var(--font);background:var(--bg-primary);color:var(--text-prima
 .mode-btn { border: none; background: transparent; color: var(--text-muted); font-size: 10px; font-weight: 700; padding: 4px 10px; border-radius: 4px; cursor: pointer; transition: var(--transition); }
 .mode-btn.active { background: var(--accent); color: #fff; box-shadow: 0 2px 8px var(--accent-glow); }
 
-.stat-filter-item { display:flex; align-items:center; gap:8px; padding:4px 0; cursor:pointer; font-size:12px; color:var(--text-secondary); transition:var(--transition); user-select:none; border-bottom: 1px solid rgba(255,255,255,0.02); }
+.stat-filter-item { display:flex; align-items:center; gap:8px; padding:4px 0; cursor:pointer; font-size:12px; color:var(--text-secondary); transition:var(--transition); user-select:none; border-bottom: 1px solid rgba(0,0,0,0.03); }
 .stat-filter-item:hover { color:var(--text-primary); }
 .cb-tri-state { width:14px; height:14px; border:1.5px solid var(--border-hover); border-radius:3px; display:flex; align-items:center; justify-content:center; transition:var(--transition); flex-shrink:0; position:relative; }
 .stat-filter-item[data-stat-state="include"] .cb-tri-state { background:var(--success); border-color:var(--success); }
