@@ -16,8 +16,8 @@ const masterNameMap = new Map();
 const masterImageMap = new Map();
 
 for (const item of masterItems) {
-    if (item.name && item.name !== 'No data') {
-        masterNameMap.set(item.name, item);
+    if (item.name && item.name.trim() !== 'No data') {
+        masterNameMap.set(item.name.trim(), item);
     }
     if (item.image) {
         // Use filename only for image map as path might differ slightly
@@ -34,8 +34,8 @@ for (const item of cleanItems) {
     let scrapedMatch = null;
     
     // Try matching by name first
-    if (item.name && item.name !== 'No data') {
-        scrapedMatch = masterNameMap.get(item.name);
+    if (item.name && item.name.trim() !== 'No data') {
+        scrapedMatch = masterNameMap.get(item.name.trim());
     }
     
     // Try matching by image filename if no name match or if name is 'No data'

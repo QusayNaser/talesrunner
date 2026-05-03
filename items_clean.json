@@ -2,42 +2,96 @@
   {
     "name": "Kaito Kid 100000 DAYS",
     "image": "images/TalesRunner__itemimage__character__bk2_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+6",
+      "Acceleration": "+4",
+      "Strength": "+4",
+      "Control": "+1",
+      "Land Dash Success Duration Increase": "+1%",
+      "Land dash sucess effect": "+1700%",
+      "Max EXP": "+1412"
+    },
     "itemClass": "None",
     "part": "character"
   },
   {
     "name": "Ran Mouri 100000 DAYS",
     "image": "images/TalesRunner__itemimage__character__bk3_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+3",
+      "Acceleration": "+3",
+      "Strength": "+6",
+      "Control": "+3",
+      "Reflect Chance when Crushed": "+1%",
+      "Land Dash Success Duration Increase": "+1%",
+      "Land dash sucess effect": "+1600%",
+      "Bonus Couple Point when with Couple": "+2%",
+      "Max EXP when with Couple": "+150000%"
+    },
     "itemClass": "None",
     "part": "character"
   },
   {
     "name": "Shinichi Kudo 100000 DAYS",
     "image": "images/TalesRunner__itemimage__character__bk4_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+3",
+      "Acceleration": "+6",
+      "Strength": "+3",
+      "Control": "+3",
+      "Land Dash Success Duration Increase": "+1%",
+      "Land dash sucess effect": "+1500%",
+      "Bonus Couple Point when with Couple": "+2%",
+      "Max EXP when with Couple": "+150000%"
+    },
     "itemClass": "None",
     "part": "character"
   },
   {
     "name": "Haibara 100000 DAYS",
     "image": "images/TalesRunner__itemimage__character__bk5_character_000.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+500%",
+      "Speed": "+4",
+      "Acceleration": "+5",
+      "Strength": "+1",
+      "Control": "+5",
+      "Land Dash Success Duration Increase": "+1%",
+      "Land dash sucess effect": "+1400%",
+      "Max Dash Speed": "+0.5%"
+    },
     "itemClass": "None",
     "part": "character"
   },
   {
     "name": "Dog 100000 DAYS",
     "image": "images/TalesRunner__itemimage__character__bk6_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+2",
+      "Acceleration": "+4",
+      "Strength": "+3",
+      "Control": "+5",
+      "Land Dash Success Duration Increase": "+1%",
+      "1 Evade Chance from Animal Boss Lethal Move": "+8%",
+      "Animal Boss Damage": "+8%",
+      "Chaos master EXP": "+5000%",
+      "Chaos master attribution point (maximum 5 people)": "+500%"
+    },
     "itemClass": "None",
     "part": "character"
   },
   {
     "name": "Conan 100000 DAYS",
     "image": "images/TalesRunner__itemimage__character__bk7_character_000.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+500%",
+      "Speed": "+4",
+      "Acceleration": "+4",
+      "Strength": "+3",
+      "Control": "+4",
+      "Land Dash Success Duration Increase": "+1%",
+      "Land dash sucess effect": "+1200%"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -129,7 +183,17 @@
   {
     "name": "Chunbae Rabbit Costume Durability",
     "image": "images/TalesRunner__itemimage__topbody__cb_topbody_006.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+150%",
+      "Luck": "+180%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Max EXP": "+1700",
+      "????": "+200%"
+    },
     "itemClass": "Unique",
     "part": "topbody"
   },
@@ -170,14 +234,42 @@
   {
     "name": "Toast Choon-Bae Pet Durability",
     "image": "images/TalesRunner__itemimage__pet__all_pet_19043.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+250%",
+      "Bonus EXP": "+250%",
+      "Fury Gain": "+45%",
+      "Fury Duration": "+45%",
+      "Luck": "+100%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+2",
+      "Acceleration": "+2",
+      "Control": "+1",
+      "Voodoo Doll Item Duration": "+35%",
+      "Jump Tray Item Duration Decrease": "+35%",
+      "Max dash gauge": "+15%",
+      "Max EXP": "+1000"
+    },
     "itemClass": "Legendary",
     "part": "pet"
   },
   {
     "name": "Sweet Potato Maru Pet Durability",
     "image": "images/TalesRunner__itemimage__pet__all_pet_19033.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+250%",
+      "Bonus EXP": "+250%",
+      "Fury Gain": "+45%",
+      "Fury Duration": "+45%",
+      "Luck": "+100%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+3",
+      "Voodoo Doll Item Duration": "+35%",
+      "Jump Tray Item Duration Decrease": "+35%",
+      "Max dash gauge": "+15%",
+      "Max EXP": "+1000"
+    },
     "itemClass": "Legendary",
     "part": "pet"
   },
@@ -300,14 +392,28 @@
   {
     "name": "Maru's Favorite Rabbit Plush Durability",
     "image": "images/TalesRunner__itemimage__accback__all_accback_4015.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Fury Gain": "+10%",
+      "Fury Duration": "+10%",
+      "Luck": "+30%",
+      "Control": "+1"
+    },
     "itemClass": "Rare",
     "part": "accback"
   },
   {
     "name": "Chunbae Iji Doll Durability",
     "image": "images/TalesRunner__itemimage__accback__all_accback_4014.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Fury Gain": "+10%",
+      "Fury Duration": "+10%",
+      "Luck": "+30%",
+      "Control": "+1"
+    },
     "itemClass": "Rare",
     "part": "accback"
   },
@@ -570,7 +676,19 @@
   {
     "name": "Brilliant Light Muffler : Black Opal Durability",
     "image": "images/TalesRunner__itemimage__accneck__all_accneck_2459.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+120%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Luck": "+100%",
+      "Strength": "+1",
+      "Defense Chance upon Penguin/Chicken Attack": "+8%",
+      "Max dash gauge": "+10%",
+      "Event Channel Bonus EXP": "+250%",
+      "Event Channel Bonus TR": "+250%",
+      "Bonus Attribution Point": "+30%",
+      "Max EXP": "+1000"
+    },
     "itemClass": "Prestige",
     "part": "accneck"
   },
@@ -600,14 +718,42 @@
   {
     "name": "Holy Light Muffler : Opal Durability",
     "image": "images/TalesRunner__itemimage__accneck__all_accneck_2458.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+120%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Luck": "+100%",
+      "Control": "+1",
+      "Max dash gauge": "+10%",
+      "Event Channel Bonus EXP": "+250%",
+      "Event Channel Bonus TR": "+250%",
+      "Bonus Attribution Point": "+30%",
+      "Obstacle Obstruction Duration Decrease": "+5%",
+      "Max EXP": "+1000"
+    },
     "itemClass": "Prestige",
     "part": "accneck"
   },
   {
     "name": "Cloak of Holy Light: Opal Durability",
     "image": "images/TalesRunner__itemimage__accback__all_accback_4022.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+250%",
+      "Fury Gain": "+15%",
+      "Electricity Resistance": "+35%",
+      "Fury Duration": "+15%",
+      "Luck": "+100%",
+      "Acceleration": "+1",
+      "Evade Fury": "+25%",
+      "Max dash gauge": "+15%",
+      "Event Channel Bonus EXP": "+250%",
+      "Event Channel Bonus TR": "+250%",
+      "Bonus Attribution Point": "+30%",
+      "Max EXP": "+1500",
+      "Maximum Speed": "+1",
+      "Maximum Accel": "+1",
+      "Dash Chance upon Obstacle Hit": "+5%"
+    },
     "itemClass": "Prestige",
     "part": "accback"
   },
@@ -835,7 +981,19 @@
   {
     "name": "Red Moon Fairy Wings Durability",
     "image": "images/TalesRunner__itemimage__accback__all_accback_4003.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+120%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+8%",
+      "Event Channel Bonus EXP": "+125%",
+      "Event Channel Bonus TR": "+125%",
+      "Bonus Attribution Point": "+18%",
+      "Max EXP": "+800",
+      "User's Level X Bonus EXP": "+60%",
+      "????": "+200%"
+    },
     "itemClass": "Legendary",
     "part": "accback"
   },
@@ -861,7 +1019,17 @@
   {
     "name": "Red Moon Fairy Face Accessory Durability",
     "image": "images/TalesRunner__itemimage__accface__all_accface_2868.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+60%",
+      "Luck": "+50%",
+      "Humanoid Boss Damage": "+8%",
+      "Event Channel Bonus EXP": "+125%",
+      "Event Channel Bonus TR": "+125%",
+      "Bonus Attribution Point": "+18%",
+      "Max EXP": "+800",
+      "User's Level X Bonus EXP": "+30%",
+      "????": "+200%"
+    },
     "itemClass": "Legendary",
     "part": "accface"
   },
@@ -941,7 +1109,17 @@
   {
     "name": "Starlight Hands Durability",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_3062.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+60%",
+      "Luck": "+50%",
+      "Control": "+1",
+      "Event Channel Bonus EXP": "+75%",
+      "Event Channel Bonus TR": "+75%",
+      "Bonus Attribution Point": "+12%",
+      "Max EXP": "+600",
+      "User's Level X Bonus EXP": "+60%",
+      "????": "+200%"
+    },
     "itemClass": "Legendary",
     "part": "acchand"
   },
@@ -1592,14 +1770,36 @@
   {
     "name": "Holy Grail of Wishes Durability",
     "image": "images/TalesRunner__itemimage__expansion__all_expansion_1320.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+20%",
+      "Fury Duration": "+3%",
+      "Luck": "+50%",
+      "Strength": "+1",
+      "Max dash gauge": "+1%",
+      "Event Channel Bonus EXP": "+100%",
+      "Event Channel Bonus TR": "+100%",
+      "Bonus Attribution Point": "+15%",
+      "Max EXP": "+500"
+    },
     "itemClass": "Legendary",
     "part": "expansion"
   },
   {
     "name": "Holy Grail of Noble Yearning Durability",
     "image": "images/TalesRunner__itemimage__expansion__all_expansion_1319.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+30%",
+      "Fury Duration": "+5%",
+      "Luck": "+80%",
+      "Strength": "+2",
+      "Max dash gauge": "+2%",
+      "Event Channel Bonus EXP": "+200%",
+      "Event Channel Bonus TR": "+200%",
+      "Bonus Attribution Point": "+25%",
+      "Max EXP": "+800"
+    },
     "itemClass": "Prestige",
     "part": "expansion"
   },
@@ -1681,7 +1881,23 @@
   {
     "name": "Camelot Legacy Gloves Durability",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_3061.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Luck": "+80%",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Defense Chance upon Penguin/Chicken Attack": "+3%",
+      "Max dash gauge": "+5%",
+      "Event Channel Bonus EXP": "+50%",
+      "Event Channel Bonus TR": "+50%",
+      "Bonus Attribution Point": "+10%",
+      "Max EXP": "+1600",
+      "Evade Chance upon Obstacle Hit": "+3%",
+      "1 Evade Chance upon Obstacle Hit": "+15%"
+    },
     "itemClass": "Legendary",
     "part": "acchand"
   },
@@ -1751,14 +1967,42 @@
   {
     "name": "Camelot Legacy Outfit (F) Durability",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_3763.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Strength": "+8",
+      "Control": "+4",
+      "Max dash gauge": "+5%",
+      "Event Channel Bonus EXP": "+50%",
+      "Event Channel Bonus TR": "+50%",
+      "Bonus Attribution Point": "+10%",
+      "Max EXP": "+1600",
+      "Evade Chance upon Obstacle Hit": "+3%",
+      "1 Evade Chance upon Obstacle Hit": "+15%"
+    },
     "itemClass": "Legendary",
     "part": "topbody"
   },
   {
     "name": "Camelot Legacy Outfit (M) Durability",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_3762.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Strength": "+8",
+      "Control": "+4",
+      "Max dash gauge": "+5%",
+      "Event Channel Bonus EXP": "+50%",
+      "Event Channel Bonus TR": "+50%",
+      "Bonus Attribution Point": "+10%",
+      "Max EXP": "+1600",
+      "Evade Chance upon Obstacle Hit": "+3%",
+      "1 Evade Chance upon Obstacle Hit": "+15%"
+    },
     "itemClass": "Legendary",
     "part": "topbody"
   },
@@ -1834,7 +2078,22 @@
   {
     "name": "Dawnlight Scarf (Durability)",
     "image": "images/TalesRunner__itemimage__accneck__all_accneck_2454.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+60%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Luck": "+100%",
+      "Acceleration": "+1",
+      "Defense Chance upon Penguin/Chicken Attack": "+5%",
+      "Max dash gauge": "+10%",
+      "Event Channel Bonus EXP": "+200%",
+      "Event Channel Bonus TR": "+200%",
+      "Bonus Attribution Point": "+25%",
+      "Obstacle Obstruction Duration Decrease": "+5%",
+      "Max EXP": "+2200",
+      "1 Evade Chance upon Obstacle Hit": "+5%"
+    },
     "itemClass": "Prestige",
     "part": "accneck"
   },
@@ -1927,7 +2186,18 @@
   {
     "name": "Burning Rouge Electric Guitar Durability",
     "image": "images/TalesRunner__itemimage__accback__all_accback_3979.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Electricity Resistance": "+30%",
+      "Fury Duration": "+25%",
+      "Luck": "+80%",
+      "Speed": "+2",
+      "Max dash gauge": "+15%",
+      "Max EXP": "+1000",
+      "Maximum Speed": "+1",
+      "Fury Shockwave Area Increase Applied": "+4000%"
+    },
     "itemClass": "Legendary",
     "part": "accback"
   },
@@ -2432,7 +2702,16 @@
   {
     "name": "On My Back Kid (Durability)",
     "image": "images/TalesRunner__itemimage__accback__all_accback_3991.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Max dash gauge": "+5%",
+      "Max EXP": "+500"
+    },
     "itemClass": "Unique",
     "part": "accback"
   },
@@ -3344,7 +3623,15 @@
   {
     "name": "Kid Costume Gloves (Durability)",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_3049.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+35%",
+      "Bonus EXP": "+35%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Max EXP": "+500"
+    },
     "itemClass": "Unique",
     "part": "acchand"
   },
@@ -3383,7 +3670,16 @@
   {
     "name": "Kid Costume Outfit (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_3720.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+60%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Strength": "+4",
+      "Control": "+6",
+      "Max dash gauge": "+10%",
+      "Max EXP": "+500"
+    },
     "itemClass": "Unique",
     "part": "topbody"
   },
@@ -3605,7 +3901,13 @@
   {
     "name": "Passionate Red Hare Tail (Durability)",
     "image": "images/TalesRunner__itemimage__acctail__all_acctail_2047.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+60%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Max EXP": "+600"
+    },
     "itemClass": "Legendary",
     "part": "acctail"
   },
@@ -4256,7 +4558,16 @@
   {
     "name": "Mini Hell Flask (Durability)",
     "image": "images/TalesRunner__itemimage__expansion__all_expansion_1211.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+15%",
+      "Bonus EXP": "+15%",
+      "Luck": "+30%",
+      "Control": "+1",
+      "Event Channel Bonus EXP": "+35%",
+      "Event Channel Bonus TR": "+35%",
+      "Bonus Attribution Point": "+8%",
+      "Max EXP": "+300"
+    },
     "itemClass": "Unique",
     "part": "expansion"
   },
@@ -4345,7 +4656,22 @@
   {
     "name": "Ruby Crest Angel Statue (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_18943.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+250%",
+      "Fury Gain": "+45%",
+      "Fury Duration": "+45%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Control": "+1",
+      "Coop Victory with S EXP": "+500%",
+      "Event Channel Bonus EXP": "+50%",
+      "Event Channel Bonus TR": "+50%",
+      "Bonus Attribution Point": "+10%",
+      "Max EXP": "+1000",
+      "Devil Boss Damage": "+8%"
+    },
     "itemClass": "Legendary",
     "part": "pet"
   },
@@ -4868,7 +5194,21 @@
   {
     "name": "Steam Agent Symbol (Durability)",
     "image": "images/TalesRunner__itemimage__etc__all_247_160.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+120%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Voodoo Doll Item Duration": "+5%",
+      "Jump Tray Item Duration Decrease": "+5%",
+      "Event Channel Bonus EXP": "+35%",
+      "Event Channel Bonus TR": "+35%",
+      "Bonus Attribution Point": "+8%",
+      "Hidden Effect": "+3200%",
+      "Max EXP": "+750",
+      "Devil Boss Damage": "+3%"
+    },
     "itemClass": "Legendary",
     "part": "accsymbol"
   },
@@ -5020,14 +5360,38 @@
   {
     "name": "Steam Agent Outfit (F) (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_3728.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+25%",
+      "Bonus EXP": "+75%",
+      "Luck": "+50%",
+      "Control": "+2",
+      "Max dash gauge": "+3%",
+      "Event Channel Bonus EXP": "+50%",
+      "Event Channel Bonus TR": "+50%",
+      "Bonus Attribution Point": "+10%",
+      "Max EXP": "+1000",
+      "Devil Boss Damage": "+5%",
+      "????": "+200%"
+    },
     "itemClass": "Legendary",
     "part": "topbody"
   },
   {
     "name": "Steam Agent Outfit (M) (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_3727.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+25%",
+      "Bonus EXP": "+75%",
+      "Luck": "+50%",
+      "Control": "+2",
+      "Max dash gauge": "+3%",
+      "Event Channel Bonus EXP": "+50%",
+      "Event Channel Bonus TR": "+50%",
+      "Bonus Attribution Point": "+10%",
+      "Max EXP": "+1000",
+      "Devil Boss Damage": "+5%",
+      "????": "+200%"
+    },
     "itemClass": "Legendary",
     "part": "topbody"
   },
@@ -5070,14 +5434,38 @@
   {
     "name": "Silent Night Schurub (Durability)",
     "image": "images/TalesRunner__itemimage__accback__all_accback_3972.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+60%",
+      "Luck": "+50%",
+      "Strength": "+1",
+      "Control": "+1",
+      "Event Channel Bonus EXP": "+125%",
+      "Event Channel Bonus TR": "+125%",
+      "Bonus Attribution Point": "+18%",
+      "Driving Force Increase": "+6.5%",
+      "Max EXP": "+800",
+      "????": "+200%"
+    },
     "itemClass": "Legendary",
     "part": "accback"
   },
   {
     "name": "Sunny Day Surup (Durability)",
     "image": "images/TalesRunner__itemimage__accback__all_accback_3971.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+60%",
+      "Luck": "+50%",
+      "Strength": "+1",
+      "Control": "+1",
+      "Event Channel Bonus EXP": "+125%",
+      "Event Channel Bonus TR": "+125%",
+      "Bonus Attribution Point": "+18%",
+      "Driving Force Increase": "+5.5%",
+      "Max EXP": "+800",
+      "????": "+200%"
+    },
     "itemClass": "Legendary",
     "part": "accback"
   },
@@ -5672,14 +6060,42 @@
   {
     "name": "Stern Crescent Dress (F) (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_3726.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Strength": "+6",
+      "Control": "+6",
+      "Attacked by Transform Bomb": "+70%",
+      "Max dash gauge": "+5%",
+      "Event Channel Bonus EXP": "+75%",
+      "Event Channel Bonus TR": "+75%",
+      "Bonus Attribution Point": "+12%",
+      "Max EXP": "+1000",
+      "Devil Boss Damage": "+7%"
+    },
     "itemClass": "Legendary",
     "part": "topbody"
   },
   {
     "name": "Stern Crescent Suit (M) (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_3725.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Strength": "+6",
+      "Control": "+6",
+      "Attacked by Transform Bomb": "+70%",
+      "Max dash gauge": "+5%",
+      "Event Channel Bonus EXP": "+75%",
+      "Event Channel Bonus TR": "+75%",
+      "Bonus Attribution Point": "+12%",
+      "Max EXP": "+1000",
+      "Devil Boss Damage": "+7%"
+    },
     "itemClass": "Legendary",
     "part": "topbody"
   },
@@ -5753,28 +6169,86 @@
   {
     "name": "Mystic Dial Clock (Durability)",
     "image": "images/TalesRunner__itemimage__accback__all_accback_3963.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+125%",
+      "Bonus EXP": "+125%",
+      "Fury Gain": "+15%",
+      "Electricity Resistance": "+30%",
+      "Fury Duration": "+15%",
+      "Luck": "+100%",
+      "Strength": "+1",
+      "Evade Fury": "+25%",
+      "Max dash gauge": "+15%",
+      "Event Channel Bonus EXP": "+200%",
+      "Event Channel Bonus TR": "+200%",
+      "Bonus Attribution Point": "+25%",
+      "Max EXP": "+1500",
+      "Maximum Speed": "+1",
+      "Maximum Accel": "+1",
+      "Devil Boss Damage": "+6%"
+    },
     "itemClass": "Prestige",
     "part": "accback"
   },
   {
     "name": "Mystic Dial Hand (Durability)",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_3054.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+60%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Luck": "+100%",
+      "Speed": "+1",
+      "Acceleration": "+2",
+      "Defense Chance upon Penguin/Chicken Attack": "+5%",
+      "Max dash gauge": "+5%",
+      "Event Channel Bonus EXP": "+200%",
+      "Event Channel Bonus TR": "+200%",
+      "Bonus Attribution Point": "+25%",
+      "Max EXP": "+1500",
+      "1 Evade Chance upon Obstacle Hit": "+15%",
+      "Devil Boss Damage": "+6%"
+    },
     "itemClass": "Prestige",
     "part": "acchand"
   },
   {
     "name": "Mystic Dial Step (Durability)",
     "image": "images/TalesRunner__itemimage__foot__all_foot_3708.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+60%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Speed": "+4",
+      "Acceleration": "+3",
+      "Land Dash Success Duration Increase": "+2%",
+      "Event Channel Bonus EXP": "+200%",
+      "Event Channel Bonus TR": "+200%",
+      "Bonus Attribution Point": "+25%",
+      "Obstacle Obstruction Duration Decrease": "+25%",
+      "Max EXP": "+1000",
+      "Maximum Speed": "+1",
+      "Devil Boss Damage": "+6%"
+    },
     "itemClass": "Prestige",
     "part": "foot"
   },
   {
     "name": "Serene Wavelet Muffler (Durability)",
     "image": "images/TalesRunner__itemimage__accneck__all_accneck_2451.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+50%",
+      "Luck": "+80%",
+      "Speed": "+1",
+      "Max dash gauge": "+11%",
+      "Event Channel Bonus EXP": "+100%",
+      "Event Channel Bonus TR": "+100%",
+      "Bonus Attribution Point": "+15%",
+      "Max EXP": "+600"
+    },
     "itemClass": "Legendary",
     "part": "accneck"
   },
@@ -10990,7 +11464,23 @@
   {
     "name": "Black Tan Zab (Durability)",
     "image": "images/TalesRunner__itemimage__etc__bk6_106_1122.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+170%",
+      "Bonus EXP": "+170%",
+      "Luck": "+300%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Max dash gauge": "+5%",
+      "Event Channel Bonus EXP": "+300%",
+      "Event Channel Bonus TR": "+300%",
+      "Bonus Attribution Point": "+30%",
+      "Max Dash Speed": "+0.5%",
+      "Max EXP": "+2500",
+      "Evade Chance upon Obstacle Hit": "+3%",
+      "????": "+200%"
+    },
     "itemClass": "Legendary",
     "part": "head"
   },
@@ -13817,7 +14307,21 @@
   {
     "name": "Teralalrero Teralalla Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_18563.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+300%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+45%",
+      "Fury Duration": "+45%",
+      "Luck": "+100%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+2",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Swim Speed": "+325",
+      "Max dash gauge": "+15%",
+      "Max EXP": "+1000",
+      "Devil Boss Damage": "+6%"
+    },
     "itemClass": "Legendary",
     "part": "pet"
   },
@@ -20195,7 +20699,16 @@
   {
     "name": "Titi",
     "image": "images/TalesRunner__itemimage__character__tt_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+3",
+      "Acceleration": "+6",
+      "Strength": "+2",
+      "Control": "+3",
+      "Land Dash Success Duration Increase": "+1%",
+      "Evade Fury": "+3%",
+      "Bonus Attribution Point": "+100%",
+      "Max EXP": "+2000"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -23113,14 +23626,28 @@
   {
     "name": "Chunbae",
     "image": "images/TalesRunner__itemimage__character__cb_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+2",
+      "Acceleration": "+5",
+      "Strength": "+4",
+      "Control": "+4",
+      "Land Dash Success Duration Increase": "+1%",
+      "Bonus Couple Point when with Couple": "+3%"
+    },
     "itemClass": "None",
     "part": "character"
   },
   {
     "name": "Maru",
     "image": "images/TalesRunner__itemimage__character__mr_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+3",
+      "Acceleration": "+3",
+      "Strength": "+3",
+      "Control": "+6",
+      "Land Dash Success Duration Increase": "+1%",
+      "Dash Chance upon Obstacle Hit": "+3%"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -25471,14 +25998,38 @@
   {
     "name": "Dreamland Slippers (F) (Durability)",
     "image": "images/TalesRunner__itemimage__foot__all_foot_3556.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Speed": "+3",
+      "Acceleration": "+5",
+      "Regardless of result, TR": "+30",
+      "Regardless of result, EXP": "+30",
+      "Land Dash Success Duration Increase": "+2%",
+      "Max dash gauge": "+5%",
+      "Max EXP": "+500"
+    },
     "itemClass": "Legendary",
     "part": "foot"
   },
   {
     "name": "Dreamland Slippers (M) (Durability)",
     "image": "images/TalesRunner__itemimage__foot__all_foot_3555.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Speed": "+3",
+      "Acceleration": "+5",
+      "Regardless of result, TR": "+30",
+      "Regardless of result, EXP": "+30",
+      "Land Dash Success Duration Increase": "+2%",
+      "Max dash gauge": "+5%",
+      "Max EXP": "+500"
+    },
     "itemClass": "Legendary",
     "part": "foot"
   },
@@ -26589,7 +27140,21 @@
   {
     "name": "Araneo Boots (Durability)",
     "image": "images/TalesRunner__itemimage__foot__all_foot_3541.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Speed": "+5",
+      "Acceleration": "+3",
+      "Land Dash Success Duration Increase": "+2%",
+      "Max dash gauge": "+5%",
+      "Event Channel Bonus EXP": "+100%",
+      "Event Channel Bonus TR": "+100%",
+      "Bonus Attribution Point": "+18%",
+      "Max EXP": "+500",
+      "1 Evade Chance upon Obstacle Hit": "+20%"
+    },
     "itemClass": "Legendary",
     "part": "foot"
   },
@@ -27812,14 +28377,28 @@
   {
     "name": "Masao Sato",
     "image": "images/TalesRunner__itemimage__character__hu_character_000.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+3%",
+      "Speed": "+2",
+      "Acceleration": "+5",
+      "Strength": "+5",
+      "Control": "+3",
+      "Land Dash Success Duration Increase": "+1%",
+      "Fury Transform Duration Decrease": "+3%"
+    },
     "itemClass": "None",
     "part": "character"
   },
   {
     "name": "Toru Kazama ",
     "image": "images/TalesRunner__itemimage__character__cs_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+4",
+      "Acceleration": "+5",
+      "Strength": "+4",
+      "Control": "+2",
+      "Land Dash Success Duration Increase": "+1%"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -29193,14 +29772,28 @@
   {
     "name": "Nene Sakurada",
     "image": "images/TalesRunner__itemimage__character__yr_character_000.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+6%",
+      "Speed": "+3",
+      "Acceleration": "+4",
+      "Strength": "+5",
+      "Control": "+3",
+      "Land Dash Success Duration Increase": "+1%"
+    },
     "itemClass": "None",
     "part": "character"
   },
   {
     "name": "Bo Suzuki",
     "image": "images/TalesRunner__itemimage__character__mg_character_000.png",
-    "stats": {},
+    "stats": {
+      "Electricity Resistance": "+3%",
+      "Speed": "+3",
+      "Acceleration": "+5",
+      "Strength": "+3",
+      "Control": "+4",
+      "Land Dash Success Duration Increase": "+1%"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -30129,7 +30722,14 @@
   {
     "name": "Shinnosuke Nohara",
     "image": "images/TalesRunner__itemimage__character__jg_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+6",
+      "Acceleration": "+3",
+      "Strength": "+3",
+      "Control": "+3",
+      "Land Dash Success Duration Increase": "+1%",
+      "Defense Chance upon Penguin/Chicken Attack": "+3%"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -33637,7 +34237,15 @@
   {
     "name": "ZM Loopy",
     "image": "images/TalesRunner__itemimage__character__zm_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+5",
+      "Acceleration": "+3",
+      "Strength": "+3",
+      "Control": "+4",
+      "Land Dash Success Duration Increase": "+1%",
+      "User's Level X Bonus TR": "+100%",
+      "User's Level X Bonus EXP": "+400%"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -34958,7 +35566,16 @@
   {
     "name": "Sid",
     "image": "images/TalesRunner__itemimage__character__sd_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+5",
+      "Acceleration": "+4",
+      "Strength": "+4",
+      "Control": "+2",
+      "Land Dash Success Duration Increase": "+1%",
+      "Driving Force Increase": "+1%",
+      "Chaos master EXP": "+5000%",
+      "Chaos master attribution point (maximum 5 people)": "+500%"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -35350,7 +35967,24 @@
   {
     "name": "Naraka's Vestige (Durability)",
     "image": "images/TalesRunner__itemimage__foot__all_foot_3492.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+60%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Luck": "+100%",
+      "Speed": "+6",
+      "Acceleration": "+2",
+      "Land Dash Success Duration Increase": "+2%",
+      "Max dash gauge": "+5%",
+      "Event Channel Bonus EXP": "+150%",
+      "Event Channel Bonus TR": "+150%",
+      "Bonus Attribution Point": "+20%",
+      "Obstacle Obstruction Duration Decrease": "+10%",
+      "Max EXP": "+1000",
+      "1 Evade Chance upon Obstacle Hit": "+10%",
+      "Dash Chance upon Obstacle Hit": "+5%"
+    },
     "itemClass": "Prestige",
     "part": "foot"
   },
@@ -40669,7 +41303,14 @@
   {
     "name": "Chloe",
     "image": "images/TalesRunner__itemimage__character__kh_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+5",
+      "Acceleration": "+4",
+      "Strength": "+2",
+      "Control": "+3",
+      "Land Dash Success Duration Increase": "+1%",
+      "Max dash gauge": "+3%"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -44515,7 +45156,19 @@
   {
     "name": "Crocell's Footprint (Durability)",
     "image": "images/TalesRunner__itemimage__foot__all_foot_3427.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Speed": "+6",
+      "Acceleration": "+2",
+      "Voodoo Doll Item Duration": "+5%",
+      "Land Dash Success Duration Increase": "+2%",
+      "Defense Chance upon Penguin/Chicken Attack": "+5%",
+      "Max dash gauge": "+5%",
+      "Max EXP": "+500"
+    },
     "itemClass": "Legendary",
     "part": "foot"
   },
@@ -49848,7 +50501,14 @@
   {
     "name": "Celia",
     "image": "images/TalesRunner__itemimage__character__ce_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+6",
+      "Acceleration": "+4",
+      "Strength": "+2",
+      "Control": "+3",
+      "Land Dash Success Duration Increase": "+1%",
+      "1 Evade Chance upon Obstacle Hit": "+5%"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -50399,14 +51059,26 @@
   {
     "name": "Oblivion Shoes (F) (Durability)",
     "image": "images/TalesRunner__itemimage__foot__all_foot_3378.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+40%",
+      "Luck": "+30%",
+      "Strength": "+1",
+      "Max EXP": "+500",
+      "????": "+200%"
+    },
     "itemClass": "Unique",
     "part": "foot"
   },
   {
     "name": "Oblivion Shoes (M) (Durability)",
     "image": "images/TalesRunner__itemimage__foot__all_foot_3377.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+40%",
+      "Luck": "+30%",
+      "Strength": "+1",
+      "Max EXP": "+500",
+      "????": "+200%"
+    },
     "itemClass": "Unique",
     "part": "foot"
   },
@@ -51568,7 +52240,15 @@
   {
     "name": "Golden Plate Boots (Durability)",
     "image": "images/TalesRunner__itemimage__foot__all_foot_3364.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+20%",
+      "Fury Gain": "+8%",
+      "Fury Duration": "+8%",
+      "Luck": "+50%",
+      "Speed": "+4",
+      "Acceleration": "+2"
+    },
     "itemClass": "Rare",
     "part": "foot"
   },
@@ -54422,7 +55102,14 @@
   {
     "name": "Damyeon",
     "image": "images/TalesRunner__itemimage__character__do_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+2",
+      "Acceleration": "+6",
+      "Strength": "+4",
+      "Control": "+2",
+      "Land Dash Success Duration Increase": "+1%",
+      "Max EXP": "+50"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -57861,14 +58548,38 @@
   {
     "name": "Liebestraum Shoes (F) (Durability)",
     "image": "images/TalesRunner__itemimage__foot__all_foot_3307.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Speed": "+2",
+      "Acceleration": "+6",
+      "Defense Chance upon Penguin/Chicken Attack": "+5%",
+      "Max dash gauge": "+5%",
+      "Max EXP": "+500",
+      "User's Level X Bonus TR": "+20%",
+      "User's Level X Bonus EXP": "+20%"
+    },
     "itemClass": "Legendary",
     "part": "foot"
   },
   {
     "name": "Liebestraum Shoes (M) (Durability)",
     "image": "images/TalesRunner__itemimage__foot__all_foot_3306.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Speed": "+2",
+      "Acceleration": "+6",
+      "Defense Chance upon Penguin/Chicken Attack": "+5%",
+      "Max dash gauge": "+5%",
+      "Max EXP": "+500",
+      "User's Level X Bonus TR": "+20%",
+      "User's Level X Bonus EXP": "+20%"
+    },
     "itemClass": "Legendary",
     "part": "foot"
   },
@@ -58166,7 +58877,25 @@
   {
     "name": "Temperantia (Durability)",
     "image": "images/TalesRunner__itemimage__accback__all_accback_3286_ef_my.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+250%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+15%",
+      "Electricity Resistance": "+30%",
+      "Fury Duration": "+15%",
+      "Luck": "+150%",
+      "Acceleration": "+2",
+      "Strength": "+2",
+      "Evade Fury": "+25%",
+      "Defense Chance upon Penguin/Chicken Attack": "+8%",
+      "Max dash gauge": "+15%",
+      "Obstacle Obstruction Duration Decrease": "+5%",
+      "Max EXP": "+2000",
+      "Maximum Speed": "+1",
+      "Maximum Accel": "+1",
+      "Fury Thrust Hit Point Increase Applied": "+3000%",
+      "Fury Shockwave Area Increase Applied": "+10000%"
+    },
     "itemClass": "Mythology",
     "part": "accback"
   },
@@ -59140,7 +59869,22 @@
   {
     "name": "Fox Star's Vestige (Durability)",
     "image": "images/TalesRunner__itemimage__foot__all_foot_3300.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+80%",
+      "Bonus EXP": "+40%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Luck": "+100%",
+      "Speed": "+4",
+      "Acceleration": "+3",
+      "Strength": "+1",
+      "Land Dash Success Duration Increase": "+2%",
+      "Max dash gauge": "+5%",
+      "Obstacle Obstruction Duration Decrease": "+15%",
+      "Max EXP": "+1000",
+      "1 Evade Chance upon Obstacle Hit": "+15%",
+      "Dash Chance upon Obstacle Hit": "+3%"
+    },
     "itemClass": "Prestige",
     "part": "foot"
   },
@@ -60935,7 +61679,14 @@
   {
     "name": "Squirroll Tail (Durability)",
     "image": "images/TalesRunner__itemimage__acctail__all_acctail_2007.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Luck": "+30%",
+      "Strength": "+1",
+      "Max EXP": "+300",
+      "????": "+200%"
+    },
     "itemClass": "Unique",
     "part": "acctail"
   },
@@ -61131,7 +61882,14 @@
   {
     "name": "Roroa",
     "image": "images/TalesRunner__itemimage__character__rl_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+4",
+      "Acceleration": "+4",
+      "Strength": "+5",
+      "Control": "+2",
+      "Land Dash Success Duration Increase": "+1%",
+      "Max dash gauge": "+3%"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -65139,7 +65897,16 @@
   {
     "name": "Cichlid Symbol (Durability)",
     "image": "images/TalesRunner__itemimage__etc__xn_247_118.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Luck": "+30%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Max dash gauge": "+3%",
+      "Hidden Effect": "+700%",
+      "Max EXP": "+250"
+    },
     "itemClass": "Rare",
     "part": "accsymbol"
   },
@@ -65329,7 +66096,14 @@
   {
     "name": "Xionell",
     "image": "images/TalesRunner__itemimage__character__xn_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+4",
+      "Acceleration": "+2",
+      "Strength": "+5",
+      "Control": "+3",
+      "Land Dash Success Duration Increase": "+1%",
+      "Swim Speed": "+15"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -66859,14 +67633,38 @@
   {
     "name": "Bloody Vapir Vera Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_17073.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+45%",
+      "Fury Duration": "+45%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Strength": "+2",
+      "Max dash gauge": "+15%",
+      "Obstacle Obstruction Duration Decrease": "+10%",
+      "Max EXP": "+1000"
+    },
     "itemClass": "Legendary",
     "part": "pet"
   },
   {
     "name": "Bloody Vera Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_17063.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+2",
+      "Max dash gauge": "+10%",
+      "Obstacle Obstruction Duration Decrease": "+8%",
+      "Max EXP": "+800"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -71571,7 +72369,14 @@
   {
     "name": "Bloody Vera",
     "image": "images/TalesRunner__itemimage__character__vrd_character_000.png",
-    "stats": {},
+    "stats": {
+      "Speed": "+5",
+      "Acceleration": "+2",
+      "Strength": "+6",
+      "Control": "+2",
+      "Land Dash Success Duration Increase": "+1%",
+      "Attack": "+10"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -72375,28 +73180,70 @@
   {
     "name": "Ecla Fly Ring (Durability)",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2799.png",
-    "stats": {},
+    "stats": {
+      "Strength": "+1",
+      "Attack": "+40",
+      "Defense": "+20",
+      "Critical": "+20",
+      "1.5x Critical Damage Chance": "+1%",
+      "Additional Critical Damage": "+1%",
+      "Max EXP": "+500",
+      "Anubis/Raid Bonus EXP": "+2%",
+      "????": "+200%"
+    },
     "itemClass": "Legendary",
     "part": "acchand"
   },
   {
     "name": "Ecla Fly Eyes (Durability)",
     "image": "images/TalesRunner__itemimage__accface__all_accface_2591.png",
-    "stats": {},
+    "stats": {
+      "Attack": "+15",
+      "HP": "+30",
+      "Critical": "+5",
+      "1.5x Critical Damage Chance": "+1%",
+      "Additional Critical Damage": "+1%",
+      "Max EXP": "+500",
+      "Anubis/Raid Bonus EXP": "+2%",
+      "????": "+200%"
+    },
     "itemClass": "Legendary",
     "part": "accface"
   },
   {
     "name": "Ecla Fly Crown (Durability)",
     "image": "images/TalesRunner__itemimage__acchead__all_acchead_3503.png",
-    "stats": {},
+    "stats": {
+      "Strength": "+1",
+      "Attack": "+15",
+      "Defense": "+15",
+      "HP": "+20",
+      "Critical": "+10",
+      "1.5x Critical Damage Chance": "+1%",
+      "Additional Critical Damage": "+1%",
+      "Max EXP": "+500",
+      "Anubis/Raid Bonus EXP": "+2%",
+      "????": "+200%"
+    },
     "itemClass": "Legendary",
     "part": "acchead"
   },
   {
     "name": "Ecla Fly Wing (Durability)",
     "image": "images/TalesRunner__itemimage__accback__all_accback_3250.png",
-    "stats": {},
+    "stats": {
+      "Strength": "+1",
+      "Control": "+1",
+      "Attack": "+45",
+      "Defense": "+20",
+      "HP": "+40",
+      "Critical": "+10",
+      "1.5x Critical Damage Chance": "+1%",
+      "Additional Critical Damage": "+1%",
+      "Max EXP": "+500",
+      "Anubis/Raid Bonus EXP": "+2%",
+      "????": "+200%"
+    },
     "itemClass": "Legendary",
     "part": "accback"
   },
@@ -75936,14 +76783,32 @@
   {
     "name": "Lizard Uncle Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_16743.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Strength": "+3",
+      "Obstacle Obstruction Duration Decrease": "+5%",
+      "Max EXP": "+500"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Octopus Daddy Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_16733.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Strength": "+3",
+      "Obstacle Obstruction Duration Decrease": "+5%",
+      "Max EXP": "+500"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -76730,35 +77595,81 @@
   {
     "name": "Level 25 Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2779.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+70%",
+      "Fury Gain": "+15%",
+      "Fury Duration": "+15%",
+      "Luck": "+85%",
+      "Acceleration": "+1",
+      "Bonus TR when with Couple": "+80%",
+      "Bonus EXP when with Couple": "+80%",
+      "Bonus Couple Point when with Couple": "+125%"
+    },
     "itemClass": "Legendary",
     "part": "acchand"
   },
   {
     "name": "24 Level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2778.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+25%",
+      "Bonus EXP": "+70%",
+      "Fury Gain": "+14%",
+      "Fury Duration": "+14%",
+      "Luck": "+80%",
+      "Bonus TR when with Couple": "+70%",
+      "Bonus EXP when with Couple": "+80%",
+      "Bonus Couple Point when with Couple": "+120%"
+    },
     "itemClass": "Unique",
     "part": "acchand"
   },
   {
     "name": "Level 23 Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2777.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+70%",
+      "Fury Gain": "+13%",
+      "Fury Duration": "+13%",
+      "Luck": "+80%",
+      "Bonus TR when with Couple": "+60%",
+      "Bonus EXP when with Couple": "+80%",
+      "Bonus Couple Point when with Couple": "+115%"
+    },
     "itemClass": "Unique",
     "part": "acchand"
   },
   {
     "name": "Level 22 Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2776.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+15%",
+      "Bonus EXP": "+70%",
+      "Fury Gain": "+12%",
+      "Fury Duration": "+12%",
+      "Luck": "+75%",
+      "Bonus TR when with Couple": "+50%",
+      "Bonus EXP when with Couple": "+80%",
+      "Bonus Couple Point when with Couple": "+110%"
+    },
     "itemClass": "Unique",
     "part": "acchand"
   },
   {
     "name": "Level 21 Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2775.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+10%",
+      "Bonus EXP": "+70%",
+      "Fury Gain": "+11%",
+      "Fury Duration": "+11%",
+      "Luck": "+75%",
+      "Bonus TR when with Couple": "+50%",
+      "Bonus EXP when with Couple": "+70%",
+      "Bonus Couple Point when with Couple": "+105%"
+    },
     "itemClass": "Unique",
     "part": "acchand"
   },
@@ -87723,7 +88634,19 @@
   {
     "name": "Chess King Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_16203.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+125%",
+      "Bonus EXP": "+125%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+3",
+      "Strength": "+1",
+      "Regardless of result, TR": "+50",
+      "Regardless of result, EXP": "+50",
+      "Evade Fury": "+20%",
+      "Max dash gauge": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -88427,7 +89350,17 @@
   {
     "name": "Chess Pawn Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_16163.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+250%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Acceleration": "+2",
+      "Regardless of result, EXP": "+100",
+      "Evade Fury": "+20%",
+      "Max dash gauge": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -89278,7 +90211,17 @@
   {
     "name": "Chess Look Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_16113.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+250%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Acceleration": "+1",
+      "Strength": "+3",
+      "Regardless of result, TR": "+100",
+      "Evade Fury": "+20%",
+      "Max dash gauge": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -90212,7 +91155,18 @@
   {
     "name": "Chess Knight Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15993.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Control": "+2",
+      "Regardless of result, EXP": "+100",
+      "Evade Fury": "+20%",
+      "Max dash gauge": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -91267,7 +92221,19 @@
   {
     "name": "Chess Bishop Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15953.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+125%",
+      "Bonus EXP": "+125%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Control": "+2",
+      "Regardless of result, TR": "+50",
+      "Regardless of result, EXP": "+50",
+      "Evade Fury": "+20%",
+      "Max dash gauge": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -92031,7 +92997,21 @@
   {
     "name": "Pet Of The Victory (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15873.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+120%",
+      "Win Teams, Relays TR": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+2",
+      "Win Teams, Relays EXP": "+50%",
+      "Evade Fury": "+20%",
+      "Max dash gauge": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -92154,7 +93134,18 @@
   {
     "name": "Chess Queen Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15863.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Acceleration": "+2",
+      "Strength": "+2",
+      "Regardless of result, TR": "+100",
+      "Evade Fury": "+20%",
+      "Max dash gauge": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -93459,35 +94450,95 @@
   {
     "name": "Clown Smiling Man (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15743.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+100%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Regardless of result, TR": "+50",
+      "Regardless of result, EXP": "+50",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%",
+      "Max EXP": "+1000"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Night Child Kuropet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15703.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Acceleration": "+2",
+      "Control": "+2",
+      "Evade Fury": "+20%",
+      "1 Evade Chance upon Obstacle Hit": "+15%",
+      "Dash Chance upon Obstacle Hit": "+2%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Kuropet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15683.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Control": "+1",
+      "Evade Fury": "+10%",
+      "1 Evade Chance upon Obstacle Hit": "+10%",
+      "Dash Chance upon Obstacle Hit": "+1%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Relentless Ninja Yuki Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15663.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Strength": "+2",
+      "Evade Fury": "+20%",
+      "Evade Chance upon Obstacle Hit": "+2%",
+      "1 Evade Chance upon Obstacle Hit": "+15%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Yuki Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15643.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Strength": "+1",
+      "Evade Fury": "+10%",
+      "Evade Chance upon Obstacle Hit": "+1%",
+      "1 Evade Chance upon Obstacle Hit": "+10%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -93799,28 +94850,70 @@
   {
     "name": "Big Friend Big Bo Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15623.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Strength": "+3",
+      "Control": "+1",
+      "Evade Fury": "+20%",
+      "Defense Chance upon Penguin/Chicken Attack": "+20%",
+      "Gain EXP's as Bonus TR": "+4%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Big Bo Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15603.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Strength": "+2",
+      "Control": "+1",
+      "Evade Fury": "+10%",
+      "Defense Chance upon Penguin/Chicken Attack": "+10%",
+      "Gain EXP's as Bonus TR": "+2%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Noblesse Abel Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15583.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+1",
+      "Acceleration": "+3",
+      "Evade Fury": "+20%",
+      "Gain TR's as Bonus EXP": "+4%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Abel Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15563.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+2",
+      "Evade Fury": "+10%",
+      "Gain TR's as Bonus EXP": "+2%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -93998,7 +95091,18 @@
   {
     "name": "World Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15543.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Acceleration": "+1",
+      "Control": "+2",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -95022,28 +96126,64 @@
   {
     "name": "Grim Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15323.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+300%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Strength": "+2",
+      "Control": "+2",
+      "Evade Fury": "+20%",
+      "Obstacle Obstruction Duration Decrease": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Harang Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15303.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Strength": "+2",
+      "Control": "+1",
+      "Evade Fury": "+10%",
+      "Obstacle Obstruction Duration Decrease": "+5%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Pet Of The Dark Day (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15283.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+300%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Acceleration": "+2",
+      "Evade Fury": "+20%",
+      "Obstacle Obstruction Duration Decrease": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Day Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15263.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Evade Fury": "+10%",
+      "Obstacle Obstruction Duration Decrease": "+5%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -95333,7 +96473,18 @@
   {
     "name": "Custom Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15363.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Strength": "+1",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -96208,7 +97359,17 @@
   {
     "name": "Tarot Card Dal Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15203.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Acceleration": "+1",
+      "Control": "+2",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -97138,7 +98299,17 @@
   {
     "name": "Devil Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15123.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Strength": "+2",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -98489,63 +99660,150 @@
   {
     "name": "Fate Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15043.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Dark Fury Al Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15023.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+300%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Acceleration": "+2",
+      "Strength": "+2",
+      "Evade Fury": "+20%",
+      "Obstacle Obstruction Duration Decrease": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Al Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_15003.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Evade Fury": "+10%",
+      "Obstacle Obstruction Duration Decrease": "+5%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Sun Witch Miho Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14983.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+300%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Acceleration": "+2",
+      "Evade Fury": "+20%",
+      "Obstacle Obstruction Duration Decrease": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Miho Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14963.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Evade Fury": "+10%",
+      "Obstacle Obstruction Duration Decrease": "+5%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Eileen Lucy Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14943.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Strength": "+2",
+      "Evade Fury": "+20%",
+      "Obstacle Obstruction Duration Decrease": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Lucy Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14923.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Strength": "+1",
+      "Evade Fury": "+10%",
+      "Obstacle Obstruction Duration Decrease": "+5%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Azure Howling Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14903.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Strength": "+2",
+      "Control": "+2",
+      "Evade Fury": "+20%",
+      "Obstacle Obstruction Duration Decrease": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Shiho Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14883.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Strength": "+2",
+      "Control": "+1",
+      "Evade Fury": "+10%",
+      "Obstacle Obstruction Duration Decrease": "+5%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -99236,7 +100494,18 @@
   {
     "name": "Lovers Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14823.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Bonus TR when with Couple": "+150%",
+      "Bonus EXP when with Couple": "+150%",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -100325,7 +101594,21 @@
   {
     "name": "Strength Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14803.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Strength": "+2",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%",
+      "Attack": "+20",
+      "Defense": "+10",
+      "HP": "+15",
+      "Additional Critical Damage": "+2%",
+      "Anubis/Raid Bonus EXP": "+1%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -101156,7 +102439,18 @@
   {
     "name": "Sun Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14643.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Strength": "+2",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -101936,7 +103230,18 @@
   {
     "name": "Emperor Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14243.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -102657,56 +103962,132 @@
   {
     "name": "Red Hat Goku Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14223.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Strength": "+2",
+      "Control": "+2",
+      "Evade Fury": "+20%",
+      "Obstacle Obstruction Duration Decrease": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Blanche Verapet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14213.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Strength": "+2",
+      "Evade Fury": "+20%",
+      "Obstacle Obstruction Duration Decrease": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Green Cat Ming Ming Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14203.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+300%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Acceleration": "+2",
+      "Evade Fury": "+20%",
+      "Obstacle Obstruction Duration Decrease": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Layered Meadow Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14193.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+300%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Acceleration": "+2",
+      "Strength": "+2",
+      "Evade Fury": "+20%",
+      "Obstacle Obstruction Duration Decrease": "+10%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Son Goku Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14183.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Strength": "+2",
+      "Control": "+1",
+      "Evade Fury": "+10%",
+      "Obstacle Obstruction Duration Decrease": "+5%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Vera Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14173.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Strength": "+1",
+      "Evade Fury": "+10%",
+      "Obstacle Obstruction Duration Decrease": "+5%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Ming Ming Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14163.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Evade Fury": "+10%",
+      "Obstacle Obstruction Duration Decrease": "+5%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Meadow Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14153.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Evade Fury": "+10%",
+      "Obstacle Obstruction Duration Decrease": "+5%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -102938,7 +104319,17 @@
   {
     "name": "Death Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_14093.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Strength": "+2",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -103075,7 +104466,27 @@
   {
     "name": "Wrath (Durability)",
     "image": "images/TalesRunner__itemimage__accback__all_accback_2899_ef_my.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+250%",
+      "Fury Gain": "+15%",
+      "Electricity Resistance": "+30%",
+      "Fury Duration": "+15%",
+      "Luck": "+150%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Evade Fury": "+25%",
+      "Defense Chance upon Penguin/Chicken Attack": "+8%",
+      "Max dash gauge": "+15%",
+      "Obstacle Obstruction Duration Decrease": "+5%",
+      "Max EXP": "+2000",
+      "Maximum Speed": "+1",
+      "Maximum Accel": "+1",
+      "Fury Thrust Hit Point Increase Applied": "+3000%",
+      "Fury Shockwave Area Increase Applied": "+10000%"
+    },
     "itemClass": "Mythology",
     "part": "accback"
   },
@@ -103719,7 +105130,17 @@
   {
     "name": "Star Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_13933.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+2",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -105075,7 +106496,18 @@
   {
     "name": "Priestess Pet (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_13743.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Strength": "+2",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -106892,21 +108324,54 @@
   {
     "name": "Astro Cha Eun-woo S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_13313.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+1",
+      "Strength": "+3",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Astro Jinjin S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_13293.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Strength": "+4",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Astro Mjs (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_13273.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+4",
+      "Bonus EXP when with Couple": "+300%",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -107114,7 +108579,18 @@
   {
     "name": "Drank Belzebul (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_13233.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Strength": "+2",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -107729,7 +109205,18 @@
   {
     "name": "Ruined Kamael (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_13113.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+140%",
+      "Bonus EXP": "+60%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Control": "+2",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -108986,7 +110473,18 @@
   {
     "name": "Night Release (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_13013.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+60%",
+      "Bonus EXP": "+140%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -109559,7 +111057,17 @@
   {
     "name": "Gabriel Of Dream (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12933.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -110394,7 +111902,17 @@
   {
     "name": "Molok Of Tears (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12833.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Strength": "+2",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -111580,7 +113098,18 @@
   {
     "name": "Uriel The Flame (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12713.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -112143,56 +113672,146 @@
   {
     "name": "Seventeen D8s (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12653.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Acceleration": "+2",
+      "Strength": "+2",
+      "Regardless of result, TR": "+350",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen D8 A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12643.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Acceleration": "+1",
+      "Strength": "+2",
+      "Regardless of result, TR": "+200",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Seventeen Jun S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12623.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+250%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+1",
+      "Acceleration": "+3",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen Jun A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12613.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+130%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+2",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Seventeen Dino S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12593.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+3",
+      "Strength": "+1",
+      "Regardless of result, TR": "+150",
+      "Regardless of result, EXP": "+300",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen Dino A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12583.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Strength": "+1",
+      "Regardless of result, TR": "+100",
+      "Regardless of result, EXP": "+200",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Seventeen Hoshi S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12563.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+3",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%",
+      "Competition Channel Bonus EXP": "+30000%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen Hoshi A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12553.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%",
+      "Competition Channel Bonus EXP": "+15000%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -112266,7 +113885,17 @@
   {
     "name": "Death (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12533.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Control": "+2",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%",
+      "Bonus EXP": "+220%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -112882,70 +114511,186 @@
   {
     "name": "Seventeen Do Gyeom S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12303.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Acceleration": "+2",
+      "Control": "+2",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen Dogyeom A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12293.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Acceleration": "+1",
+      "Control": "+2",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Seventeen Joshua S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12273.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Acceleration": "+3",
+      "Strength": "+1",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%",
+      "Coop Victory with S EXP": "+350%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen Joshua A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12263.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%",
+      "Coop Victory with S EXP": "+200%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Seventeen Junghan S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12243.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+250%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Strength": "+2",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen Junghan A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12233.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Strength": "+2",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Seventeen Ride S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12213.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+3",
+      "Acceleration": "+1",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%",
+      "Competition Channel Bonus TR": "+15000%",
+      "Competition Channel Bonus EXP": "+20000%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen Ride A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12203.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%",
+      "Competition Channel Bonus TR": "+5000%",
+      "Competition Channel Bonus EXP": "+10000%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Seventeen Uji S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12183.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+350%",
+      "Reach Top 3 in Single Player 8p TR, EXP": "+300%",
+      "Speed": "+2",
+      "Strength": "+2",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen Uji A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12173.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+250%",
+      "Reach Top 3 in Single Player 8p TR, EXP": "+150%",
+      "Speed": "+2",
+      "Strength": "+1",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -113504,14 +115249,32 @@
   {
     "name": "Archangel Michael (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12153.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Control": "+1",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+250%",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Kinnaree",
     "image": "images/TalesRunner__itemimage__character__kn_character_000.png",
-    "stats": {},
+    "stats": {
+      "Luck": "+5%",
+      "Speed": "+2",
+      "Acceleration": "+3",
+      "Strength": "+7",
+      "Control": "+2",
+      "Land Dash Success Duration Increase": "+1%"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -114066,56 +115829,148 @@
   {
     "name": "Seventeen Vernon S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12073.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Strength": "+1",
+      "Control": "+3",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%",
+      "Bonus EXP": "+300%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen Vernon A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12063.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Strength": "+1",
+      "Control": "+2",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%",
+      "Bonus EXP": "+150%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Seventeen Minkyu S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12043.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Win Teams, Relays TR": "+250%",
+      "Acceleration": "+1",
+      "Strength": "+3",
+      "Win Teams, Relays EXP": "+250%",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen Minkyu A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12033.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Win Teams, Relays TR": "+150%",
+      "Acceleration": "+1",
+      "Strength": "+2",
+      "Win Teams, Relays EXP": "+150%",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Seventeen Wonwoo S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12013.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Acceleration": "+3",
+      "Control": "+1",
+      "Regardless of result, EXP": "+450",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen Wonwoo A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_12003.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Control": "+1",
+      "Regardless of result, EXP": "+300",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Seventeen Scoops S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_11983.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Acceleration": "+2",
+      "Bonus EXP when with Couple": "+300%",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Seventeen S-as A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_11973.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Bonus EXP when with Couple": "+150%",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -114477,7 +116332,17 @@
   {
     "name": "Belial Of Neglect (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_11883.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Strength": "+2",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -116080,7 +117945,17 @@
   {
     "name": "Guard's Raguel (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_11643.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+200%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Strength": "+2",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -116846,7 +118721,18 @@
   {
     "name": "Flame Pluton (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_11533.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Acceleration": "+1",
+      "Strength": "+2",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -117744,7 +119630,18 @@
   {
     "name": "Healing Raphael (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_11453.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+180%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+2",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -118859,14 +120756,39 @@
   {
     "name": "Faceless (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_11243.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Humanoid Boss Damage": "+25%",
+      "Robotic Boss Damage": "+25%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+25%",
+      "Bonus EXP": "+150%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Hydra (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_11223.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Win Teams, Relays TR": "+100%",
+      "Acceleration": "+2",
+      "Win Teams, Relays EXP": "+200%",
+      "Humanoid Boss Damage": "+25%",
+      "Robotic Boss Damage": "+25%",
+      "Single Player Top 3 TR": "+100%",
+      "Single Player Top 3 EXP": "+200%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+25%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
@@ -118880,28 +120802,75 @@
   {
     "name": "Phantom Torso (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_11183.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Strength": "+1",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+25%",
+      "Robotic Boss Damage": "+25%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+25%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Black Ear (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_11163.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Strength": "+1",
+      "Bonus TR when with Couple": "+50%",
+      "Bonus EXP when with Couple": "+150%",
+      "Humanoid Boss Damage": "+25%",
+      "Robotic Boss Damage": "+25%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+25%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Wall Repair (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_11143.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Humanoid Boss Damage": "+25%",
+      "Robotic Boss Damage": "+25%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+25%",
+      "Competition Channel Bonus TR": "+10000%",
+      "Competition Channel Bonus EXP": "+15000%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Goblin Mystery (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_11123.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Acceleration": "+2",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -121107,91 +123076,239 @@
   {
     "name": "Bts Suga S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10693.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Strength": "+3",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%",
+      "Bonus EXP": "+280%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Bts Sugar A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10683.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Strength": "+2",
+      "Control": "+1",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%",
+      "Bonus EXP": "+150%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Bts Jung Kook S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10503.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+1",
+      "Acceleration": "+3",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%",
+      "Competition Channel Bonus EXP": "+30000%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Bts Jungkook A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10493.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Acceleration": "+3",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%",
+      "Competition Channel Bonus EXP": "+20000%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Bts V (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10473.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Reach Top 3 in Single Player 8p TR, EXP": "+250%",
+      "Speed": "+2",
+      "Strength": "+2",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "If all else game over TR": "+300%",
+      "If all else game over EXP": "+300%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Bts Jimin S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10443.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Win Teams, Relays TR": "+250%",
+      "Speed": "+1",
+      "Strength": "+3",
+      "Win Teams, Relays EXP": "+250%",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Bts Jimin A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10433.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Win Teams, Relays TR": "+150%",
+      "Speed": "+1",
+      "Strength": "+2",
+      "Win Teams, Relays EXP": "+150%",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Bts J-hope S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10413.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+230%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Acceleration": "+2",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Bts J-hope A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10403.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+130%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+2",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Bts Jin S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10383.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+3",
+      "Acceleration": "+1",
+      "Regardless of result, EXP": "+450",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Bts Jin A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10373.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Regardless of result, EXP": "+300",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Bts Rap Monster S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10353.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Acceleration": "+2",
+      "Control": "+2",
+      "Bonus EXP when with Couple": "+280%",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Bts Rap Monster A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_10343.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Control": "+1",
+      "Bonus EXP when with Couple": "+150%",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -121653,14 +123770,26 @@
   {
     "name": "Jin-Young Hong S (Durability)",
     "image": "images/TalesRunner__itemimage__etc__all_106_1076.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+70%",
+      "Speed": "+2",
+      "Acceleration": "+2",
+      "????": "+200%"
+    },
     "itemClass": "Unique",
     "part": "etc"
   },
   {
     "name": "Jin-Young Hong A (Durability)",
     "image": "images/TalesRunner__itemimage__etc__all_106_1074.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+50%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "????": "+200%"
+    },
     "itemClass": "Rare",
     "part": "etc"
   },
@@ -122596,21 +124725,38 @@
   {
     "name": "Dark Black (Durability)",
     "image": "images/TalesRunner__itemimage__acchead__all_acchead_2785.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+60%",
+      "Crush Resistance": "+50%",
+      "Fury Duration": "+20%",
+      "Luck": "+30%"
+    },
     "itemClass": "None",
     "part": "acchead"
   },
   {
     "name": "Snowy White (Durability)",
     "image": "images/TalesRunner__itemimage__acchead__all_acchead_2783.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+60%",
+      "Fury Gain": "+20%",
+      "Crush Resistance": "+50%",
+      "Luck": "+30%"
+    },
     "itemClass": "None",
     "part": "acchead"
   },
   {
     "name": "Normal Brown (Durability)",
     "image": "images/TalesRunner__itemimage__acchead__all_acchead_2781.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+30%",
+      "Fury Gain": "+10%",
+      "Crush Resistance": "+50%",
+      "Fury Duration": "+10%",
+      "Luck": "+30%"
+    },
     "itemClass": "None",
     "part": "acchead"
   },
@@ -123095,84 +125241,228 @@
   {
     "name": "GFRIEND Umji S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9893.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+300%",
+      "Reach Top 3 in Single Player 8p TR, EXP": "+250%",
+      "Acceleration": "+2",
+      "Control": "+2",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "GFRIEND Umji A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9883.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+200%",
+      "Reach Top 3 in Single Player 8p TR, EXP": "+150%",
+      "Acceleration": "+1",
+      "Control": "+2",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "GFRIEND SinB S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9863.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+1",
+      "Control": "+3",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%",
+      "Competition Channel Bonus TR": "+10000%",
+      "Competition Channel Bonus EXP": "+20000%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "GFRIEND SinB A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9853.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Control": "+2",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%",
+      "Competition Channel Bonus TR": "+5000%",
+      "Competition Channel Bonus EXP": "+15000%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "GFRIEND Yuju S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9833.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+2",
+      "Strength": "+2",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "GFRIEND Yuju A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9823.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Strength": "+2",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "GFRIEND Eunha S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9803.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+3",
+      "Control": "+1",
+      "Regardless of result, TR": "+100",
+      "Regardless of result, EXP": "+350",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "GFRIEND Eunha A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9793.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Control": "+1",
+      "Regardless of result, TR": "+50",
+      "Regardless of result, EXP": "+250",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "GFRIEND Yerin S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9773.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Acceleration": "+3",
+      "Strength": "+1",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%",
+      "Bonus EXP": "+250%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "GFRIEND Yerin A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9763.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%",
+      "Bonus EXP": "+120%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "GFRIEND Sowon S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9743.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Acceleration": "+2",
+      "Strength": "+2",
+      "Bonus TR when with Couple": "+30%",
+      "Bonus EXP when with Couple": "+250%",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "GFRIEND Sowon A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9733.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Acceleration": "+1",
+      "Strength": "+2",
+      "Bonus TR when with Couple": "+30%",
+      "Bonus EXP when with Couple": "+120%",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -123604,7 +125894,10 @@
   {
     "name": "Flora (Durability)",
     "image": "images/TalesRunner__itemimage__expansion__lc_expansion_001.png",
-    "stats": {},
+    "stats": {
+      "Luck": "+10%",
+      "Speed": "+1"
+    },
     "itemClass": "None",
     "part": "expansion"
   },
@@ -124280,56 +126573,152 @@
   {
     "name": "Girls Day Mina S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9593.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+75%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+1",
+      "Acceleration": "+3",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%",
+      "Bonus EXP": "+200%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Girls' Day Yura S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9583.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Strength": "+3",
+      "Control": "+1",
+      "Regardless of result, TR": "+150",
+      "Regardless of result, EXP": "+300",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Girls' Day Sojin S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9573.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Speed": "+3",
+      "Acceleration": "+1",
+      "Bonus TR when with Couple": "+75%",
+      "Bonus EXP when with Couple": "+200%",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Girls' Day Hyeri S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9563.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+75%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+100%",
+      "Strength": "+1",
+      "Control": "+3",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+35%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+35%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Girls' Day Mina A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9553.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+2",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%",
+      "Bonus EXP": "+100%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Girls' Day Yura A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9533.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Strength": "+2",
+      "Control": "+1",
+      "Regardless of result, TR": "+100",
+      "Regardless of result, EXP": "+200",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Girls' Day Sojin A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9513.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Bonus TR when with Couple": "+50%",
+      "Bonus EXP when with Couple": "+100%",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Girls' Day Hyeri A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_9493.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+80%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+50%",
+      "Strength": "+1",
+      "Control": "+2",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
@@ -126371,14 +128760,30 @@
   {
     "name": "Youngmi Ahn (Durability)",
     "image": "images/TalesRunner__itemimage__etc__all_106_1068.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "????": "+200%"
+    },
     "itemClass": "Rare",
     "part": "etc"
   },
   {
     "name": "Yoo Byung Jae (Durability)",
     "image": "images/TalesRunner__itemimage__etc__all_106_1066.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+50%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "????": "+200%"
+    },
     "itemClass": "Rare",
     "part": "etc"
   },
@@ -130236,21 +132641,33 @@
   {
     "name": "Third-class Signboard Runner Crown",
     "image": "images/TalesRunner__itemimage__acchead__all_acchead_2680.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+20%",
+      "Luck": "+30%"
+    },
     "itemClass": "Unique",
     "part": "acchead"
   },
   {
     "name": "2nd Signboard Runner Crown",
     "image": "images/TalesRunner__itemimage__acchead__all_acchead_2679.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+20%",
+      "Luck": "+30%"
+    },
     "itemClass": "Unique",
     "part": "acchead"
   },
   {
     "name": "No. 1 Signboard Runner Crown",
     "image": "images/TalesRunner__itemimage__acchead__all_acchead_2678.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+20%",
+      "Luck": "+30%"
+    },
     "itemClass": "Legendary",
     "part": "acchead"
   },
@@ -138589,7 +141006,21 @@
   {
     "name": "Seolju (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_6853.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+2",
+      "Control": "+1",
+      "Attack": "+35",
+      "Defense": "+40",
+      "HP": "+40",
+      "Critical": "+10",
+      "Magnet Effect": "+500%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -138652,28 +141083,113 @@
   {
     "name": "Palm Piero Pet A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_6893.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+30%",
+      "Electricity Resistance": "+15%",
+      "Fury Duration": "+30%",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Evade Metal Bucket": "+35%",
+      "Fury Shockwave Area": "+200%",
+      "Regardless of result, TR": "+30",
+      "Regardless of result, EXP": "+10",
+      "Dash Potion Item Duration": "+35%",
+      "Voodoo Doll Item Duration": "+25%",
+      "Red Heel Item Duration": "+25%",
+      "Air Bag Shield Item Duration": "+15%",
+      "Jump Tray Item Duration Decrease": "+15%",
+      "Attacked by Transform Bomb": "+35%",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Animal Boss Damage": "+20%",
+      "Fury Thrust Hit Point Increase Applied": "+10000%",
+      "Animal Transformation area chance when fury": "+10000%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Palm Piero Pet S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_6883.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+40%",
+      "Electricity Resistance": "+20%",
+      "Fury Duration": "+40%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+2",
+      "Control": "+1",
+      "Evade Metal Bucket": "+50%",
+      "Fury Shockwave Area": "+200%",
+      "Regardless of result, TR": "+50",
+      "Regardless of result, EXP": "+20",
+      "Dash Potion Item Duration": "+50%",
+      "Voodoo Doll Item Duration": "+40%",
+      "Red Heel Item Duration": "+40%",
+      "Air Bag Shield Item Duration": "+30%",
+      "Jump Tray Item Duration Decrease": "+30%",
+      "Attacked by Transform Bomb": "+50%",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%",
+      "Fury Thrust Hit Point Increase Applied": "+10000%",
+      "Animal Transformation area chance when fury": "+10000%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Police Piero Pet A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_6873.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Fury Shockwave Area": "+200%",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+30",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Evade Fury": "+10%",
+      "Animal Boss Damage": "+20%",
+      "Max dash gauge": "+5%",
+      "Fury Thrust Hit Point Increase Applied": "+10000%",
+      "Animal Transformation area chance when fury": "+10000%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Police Piero Pet S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_6863.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Fury Shockwave Area": "+200%",
+      "Regardless of result, TR": "+20",
+      "Regardless of result, EXP": "+50",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+30%",
+      "Max dash gauge": "+10%",
+      "Magnet Effect": "+500%",
+      "Fury Thrust Hit Point Increase Applied": "+10000%",
+      "Animal Transformation area chance when fury": "+10000%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -142348,14 +144864,42 @@
   {
     "name": "Purple Piero Pet A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_6573.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+20%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Maximum people": "+1000%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Purple Piero Pet S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_6563.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+25%",
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Regardless of result, TR": "+15",
+      "Regardless of result, EXP": "+30",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Maximum people": "+1000%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -142766,35 +145310,75 @@
   {
     "name": "Level 20 Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2214.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+70%",
+      "Fury Gain": "+10%",
+      "Fury Duration": "+10%",
+      "Luck": "+70%",
+      "Bonus TR when with Couple": "+50%",
+      "Bonus EXP when with Couple": "+70%",
+      "Bonus Couple Point when with Couple": "+100%"
+    },
     "itemClass": "Legendary",
     "part": "acchand"
   },
   {
     "name": "19 Level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2213.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+70%",
+      "Fury Gain": "+10%",
+      "Fury Duration": "+10%",
+      "Luck": "+65%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+60%",
+      "Bonus Couple Point when with Couple": "+90%"
+    },
     "itemClass": "Unique",
     "part": "acchand"
   },
   {
     "name": "18-level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2212.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+65%",
+      "Fury Gain": "+10%",
+      "Fury Duration": "+10%",
+      "Luck": "+65%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+60%",
+      "Bonus Couple Point when with Couple": "+80%"
+    },
     "itemClass": "Unique",
     "part": "acchand"
   },
   {
     "name": "Level 17 Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2211.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+65%",
+      "Fury Gain": "+10%",
+      "Fury Duration": "+10%",
+      "Luck": "+60%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+60%",
+      "Bonus Couple Point when with Couple": "+70%"
+    },
     "itemClass": "Unique",
     "part": "acchand"
   },
   {
     "name": "16-level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2210.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+60%",
+      "Fury Gain": "+10%",
+      "Fury Duration": "+10%",
+      "Luck": "+60%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+60%",
+      "Bonus Couple Point when with Couple": "+60%"
+    },
     "itemClass": "Unique",
     "part": "acchand"
   },
@@ -142836,14 +145420,42 @@
   {
     "name": "Winter Fairy Costume A (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_2406.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+80%",
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Speed": "+3",
+      "Acceleration": "+3",
+      "Strength": "+3",
+      "Control": "+3",
+      "Regardless of result, TR": "+15",
+      "Regardless of result, EXP": "+15",
+      "Humanoid Boss Damage": "+50%",
+      "Robotic Boss Damage": "+50%",
+      "Animal Boss Damage": "+50%"
+    },
     "itemClass": "Rare",
     "part": "topbody"
   },
   {
     "name": "Winter Fairy Costume S (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_2405.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+50%",
+      "Fury Duration": "+50%",
+      "Speed": "+4",
+      "Acceleration": "+4",
+      "Strength": "+4",
+      "Control": "+4",
+      "Regardless of result, TR": "+15",
+      "Regardless of result, EXP": "+25",
+      "Humanoid Boss Damage": "+70%",
+      "Robotic Boss Damage": "+70%",
+      "Animal Boss Damage": "+70%"
+    },
     "itemClass": "Unique",
     "part": "topbody"
   },
@@ -143944,14 +146556,44 @@
   {
     "name": "Santa Piero Pet A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_6013.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+120%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Speed": "+1",
+      "Strength": "+1",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Regardless of result, Random TR": "+9000%",
+      "Regardless of result, Random EXP": "+13000%",
+      "Humanoid Boss Damage": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Santa Piero Pet S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_6003.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+2",
+      "Control": "+1",
+      "Regardless of result, TR": "+15",
+      "Regardless of result, EXP": "+30",
+      "Regardless of result, Random TR": "+13500%",
+      "Regardless of result, Random EXP": "+17000%",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -144030,14 +146672,42 @@
   {
     "name": "Autumn Fairy Costume A (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_2381.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+80%",
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Speed": "+3",
+      "Acceleration": "+3",
+      "Strength": "+3",
+      "Control": "+3",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Humanoid Boss Damage": "+50%",
+      "Robotic Boss Damage": "+50%",
+      "Animal Boss Damage": "+50%"
+    },
     "itemClass": "Rare",
     "part": "topbody"
   },
   {
     "name": "Autumn Fairy Costume S (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_2380.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+50%",
+      "Fury Duration": "+50%",
+      "Speed": "+4",
+      "Acceleration": "+4",
+      "Strength": "+4",
+      "Control": "+4",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Humanoid Boss Damage": "+70%",
+      "Robotic Boss Damage": "+70%",
+      "Animal Boss Damage": "+70%"
+    },
     "itemClass": "Unique",
     "part": "topbody"
   },
@@ -144398,14 +147068,44 @@
   {
     "name": "Dark Blue Piero Pet A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_5883.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+120%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Strength": "+1",
+      "Control": "+1",
+      "Fury Shockwave Area": "+200%",
+      "Regardless of result, TR": "+5",
+      "Regardless of result, EXP": "+10",
+      "Voodoo Doll Item Duration": "+30%",
+      "Attacked by Transform Bomb": "+40%",
+      "Fury Thrust Hit Point Increase Applied": "+10000%",
+      "Animal Transformation area chance when fury": "+10000%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Dark Blue Piero Pet S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_5873.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Fury Shockwave Area": "+200%",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Voodoo Doll Item Duration": "+50%",
+      "Attacked by Transform Bomb": "+60%",
+      "Fury Thrust Hit Point Increase Applied": "+10000%",
+      "Animal Transformation area chance when fury": "+10000%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -145256,14 +147956,48 @@
   {
     "name": "Blue Piero Pet A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_5803.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+30%",
+      "Electricity Resistance": "+20%",
+      "Fury Duration": "+30%",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Evade Metal Bucket": "+40%",
+      "Regardless of result, TR": "+5",
+      "Regardless of result, EXP": "+10",
+      "Dash Potion Item Duration": "+40%",
+      "Red Heel Item Duration": "+30%",
+      "Air Bag Shield Item Duration": "+20%",
+      "Jump Tray Item Duration Decrease": "+20%",
+      "Attacked by Transform Bomb": "+40%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Blue Piero Pet S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_5793.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+40%",
+      "Electricity Resistance": "+30%",
+      "Fury Duration": "+40%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Evade Metal Bucket": "+60%",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Dash Potion Item Duration": "+60%",
+      "Red Heel Item Duration": "+50%",
+      "Air Bag Shield Item Duration": "+40%",
+      "Jump Tray Item Duration Decrease": "+40%",
+      "Attacked by Transform Bomb": "+60%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -145555,14 +148289,42 @@
   {
     "name": "Summer Fairy Dress A (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_2354.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+80%",
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Speed": "+3",
+      "Acceleration": "+3",
+      "Strength": "+3",
+      "Control": "+3",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Humanoid Boss Damage": "+50%",
+      "Robotic Boss Damage": "+50%",
+      "Animal Boss Damage": "+50%"
+    },
     "itemClass": "Rare",
     "part": "topbody"
   },
   {
     "name": "Summer Fairy Dress S (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_2353.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+50%",
+      "Fury Duration": "+50%",
+      "Speed": "+4",
+      "Acceleration": "+4",
+      "Strength": "+4",
+      "Control": "+4",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Humanoid Boss Damage": "+70%",
+      "Robotic Boss Damage": "+70%",
+      "Animal Boss Damage": "+70%"
+    },
     "itemClass": "Unique",
     "part": "topbody"
   },
@@ -146473,14 +149235,38 @@
   {
     "name": "Green Piero Pet A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_5543.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+70%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Win Teams, Relays TR": "+100%",
+      "Speed": "+1",
+      "Control": "+1",
+      "Win Teams, Relays EXP": "+100%",
+      "Regardless of result, TR": "+5",
+      "Regardless of result, EXP": "+10",
+      "Evade Fury": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Green Piero Pet S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_5533.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+230%",
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Win Teams, Relays TR": "+130%",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Win Teams, Relays EXP": "+130%",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Evade Fury": "+20%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -146594,14 +149380,42 @@
   {
     "name": "Yellow Piero Pet A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_5473.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Regardless of result, TR": "+50",
+      "Regardless of result, EXP": "+100",
+      "Bonus TR when with Couple": "+100%",
+      "Bonus EXP when with Couple": "+100%",
+      "Evade Fury": "+20%",
+      "Bonus Couple Point when with Couple": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Yellow Piero Pet S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_5463.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Speed": "+1",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Control": "+1",
+      "Regardless of result, TR": "+100",
+      "Regardless of result, EXP": "+200",
+      "Bonus TR when with Couple": "+150%",
+      "Bonus EXP when with Couple": "+150%",
+      "Evade Fury": "+20%",
+      "Bonus Couple Point when with Couple": "+50%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -146618,21 +149432,45 @@
   {
     "name": "Level 15 Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2138.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+60%",
+      "Fury Gain": "+8%",
+      "Fury Duration": "+8%",
+      "Luck": "+60%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+50%",
+      "Bonus Couple Point when with Couple": "+50%"
+    },
     "itemClass": "Unique",
     "part": "acchand"
   },
   {
     "name": "14-level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2137.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+6%",
+      "Fury Duration": "+6%",
+      "Luck": "+50%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+50%",
+      "Bonus Couple Point when with Couple": "+30%"
+    },
     "itemClass": "Rare",
     "part": "acchand"
   },
   {
     "name": "13 Level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2136.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+6%",
+      "Fury Duration": "+6%",
+      "Luck": "+50%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+50%",
+      "Bonus Couple Point when with Couple": "+20%"
+    },
     "itemClass": "Rare",
     "part": "acchand"
   },
@@ -146844,14 +149682,42 @@
   {
     "name": "Spring Fairy Dress A (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_2315.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+80%",
+      "Fury Gain": "+50%",
+      "Fury Duration": "+50%",
+      "Speed": "+3",
+      "Acceleration": "+3",
+      "Strength": "+3",
+      "Control": "+3",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Humanoid Boss Damage": "+50%",
+      "Robotic Boss Damage": "+50%",
+      "Animal Boss Damage": "+50%"
+    },
     "itemClass": "Rare",
     "part": "topbody"
   },
   {
     "name": "Spring Fairy Costume S (Durability)",
     "image": "images/TalesRunner__itemimage__topbody__all_topbody_2314.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+60%",
+      "Fury Duration": "+60%",
+      "Speed": "+4",
+      "Acceleration": "+4",
+      "Strength": "+4",
+      "Control": "+4",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Humanoid Boss Damage": "+70%",
+      "Robotic Boss Damage": "+70%",
+      "Animal Boss Damage": "+70%"
+    },
     "itemClass": "Unique",
     "part": "topbody"
   },
@@ -146878,14 +149744,42 @@
   {
     "name": "Orange Piero Pet A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_5263.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+70%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Regardless of result, TR": "+5",
+      "Regardless of result, EXP": "+10",
+      "Humanoid Boss Damage": "+30%",
+      "Lethal Move": "+20%",
+      "Evade Fury": "+10%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Orange Piero Pet S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_5253.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+120%",
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Speed": "+1",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Control": "+1",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Humanoid Boss Damage": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Lethal Move": "+30%",
+      "Evade Fury": "+20%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -146904,14 +149798,38 @@
   {
     "name": "Red Piero Pet A (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_5243.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+20%",
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Speed": "+1",
+      "Strength": "+1",
+      "Regardless of result, TR": "+5",
+      "Regardless of result, EXP": "+10",
+      "Single Player Top 3 EXP": "+100%",
+      "Evade Fury": "+10%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Red Piero Pet S (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_5233.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+2",
+      "Control": "+1",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+20",
+      "Single Player Top 3 EXP": "+150%",
+      "Evade Fury": "+20%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -149587,35 +152505,123 @@
   {
     "name": "KURURU 30 DAYS",
     "image": "images/TalesRunner__itemimage__character__ku_character_000.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+140%",
+      "Bonus EXP": "+320%",
+      "Fury Gain": "+50%",
+      "Crush Resistance": "+70%",
+      "Fury Duration": "+50%",
+      "Luck": "+100%",
+      "Speed": "+10",
+      "Acceleration": "+10",
+      "Strength": "+10",
+      "Control": "+12",
+      "Land Dash Success Duration Increase": "+2%",
+      "Land dash sucess effect": "+200%",
+      "Evade Fury": "+30%",
+      "Attack": "+20",
+      "Defense": "+10",
+      "HP": "+20",
+      "Critical": "+10"
+    },
     "itemClass": "None",
     "part": "character"
   },
   {
     "name": "TAMAMA 30 DAYS",
     "image": "images/TalesRunner__itemimage__character__ta_character_000.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+130%",
+      "Bonus EXP": "+330%",
+      "Fury Gain": "+50%",
+      "Crush Resistance": "+70%",
+      "Fury Duration": "+50%",
+      "Luck": "+100%",
+      "Speed": "+11",
+      "Acceleration": "+13",
+      "Strength": "+10",
+      "Control": "+8",
+      "Land Dash Success Duration Increase": "+2%",
+      "Land dash sucess effect": "+200%",
+      "Evade Fury": "+30%",
+      "Attack": "+25",
+      "Defense": "+5",
+      "HP": "+30"
+    },
     "itemClass": "None",
     "part": "character"
   },
   {
     "name": "KERORO 30 DAYS",
     "image": "images/TalesRunner__itemimage__character__ke_character_000.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+160%",
+      "Bonus EXP": "+300%",
+      "Fury Gain": "+50%",
+      "Crush Resistance": "+70%",
+      "Fury Duration": "+50%",
+      "Luck": "+100%",
+      "Speed": "+12",
+      "Acceleration": "+12",
+      "Strength": "+10",
+      "Control": "+8",
+      "Land Dash Success Duration Increase": "+2%",
+      "Land dash sucess effect": "+200%",
+      "Evade Fury": "+30%",
+      "Attack": "+20",
+      "Defense": "+20",
+      "HP": "+10",
+      "Critical": "+10"
+    },
     "itemClass": "None",
     "part": "character"
   },
   {
     "name": "DORORO 30 DAYS",
     "image": "images/TalesRunner__itemimage__character__dr_character_000.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+120%",
+      "Bonus EXP": "+340%",
+      "Fury Gain": "+50%",
+      "Crush Resistance": "+70%",
+      "Fury Duration": "+50%",
+      "Luck": "+100%",
+      "Speed": "+13",
+      "Acceleration": "+11",
+      "Strength": "+10",
+      "Control": "+8",
+      "Land Dash Success Duration Increase": "+2%",
+      "Land dash sucess effect": "+200%",
+      "Evade Fury": "+30%",
+      "Attack": "+30",
+      "Defense": "+10",
+      "HP": "+20"
+    },
     "itemClass": "None",
     "part": "character"
   },
   {
     "name": "GIRORO 30 DAYS",
     "image": "images/TalesRunner__itemimage__character__gi_character_000.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Bonus EXP": "+310%",
+      "Fury Gain": "+50%",
+      "Crush Resistance": "+70%",
+      "Fury Duration": "+50%",
+      "Luck": "+100%",
+      "Speed": "+10",
+      "Acceleration": "+10",
+      "Strength": "+14",
+      "Control": "+8",
+      "Land Dash Success Duration Increase": "+2%",
+      "Land dash sucess effect": "+200%",
+      "Evade Fury": "+30%",
+      "Attack": "+15",
+      "Defense": "+15",
+      "HP": "+15",
+      "Special Rewards": "+3"
+    },
     "itemClass": "None",
     "part": "character"
   },
@@ -149635,49 +152641,105 @@
   {
     "name": "Black Tweezer Dragon Lv3 S (black Tweezer Dragon Lv3 S) (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4613.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+25%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+220%",
+      "If all else game over TR, EXP": "+115%",
+      "Invincible for a certain time at start": "+8",
+      "Acceleration": "+1",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Pink Jelly Dragon Lv3 S (pink Jelly Dragon Lv3 S) (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4603.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Invincible for a certain time at start": "+8",
+      "Acceleration": "+1",
+      "Bonus TR when with Couple": "+160%",
+      "Bonus EXP when with Couple": "+160%",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Diesel Dragon Lv3 S (diesling Dragon Lv3 S) (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4593.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Invincible for a certain time at start": "+8",
+      "Chaos Crystal Acquisition Chance": "+25%",
+      "Robotic Boss Damage": "+25%",
+      "Lethal Move": "+25%",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Geno Dragon Lv3 S (geno Dragon Lv3 S) (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4583.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+125%",
+      "Bonus EXP": "+100%",
+      "Electricity Resistance": "+45%",
+      "Invincible for a certain time at start": "+8",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Jungle Hawk Dragon Lv3 S (jungle Hawk Dragon Lv3 S) (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4573.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Luck": "+110%",
+      "Invincible for a certain time at start": "+8",
+      "Regardless of result, Random TR": "+21000%",
+      "Regardless of result, Random EXP": "+4000%",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "12-level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2075.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+6%",
+      "Fury Duration": "+6%",
+      "Luck": "+50%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+50%",
+      "Bonus Couple Point when with Couple": "+10%"
+    },
     "itemClass": "Rare",
     "part": "acchand"
   },
   {
     "name": "11 Level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2074.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+50%",
+      "Fury Gain": "+3%",
+      "Fury Duration": "+3%",
+      "Luck": "+50%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+50%",
+      "Bonus Couple Point when with Couple": "+5%"
+    },
     "itemClass": "Rare",
     "part": "acchand"
   },
@@ -149699,168 +152761,383 @@
   {
     "name": "Specter Dragon Lv.3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4503.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+135%",
+      "Bonus EXP": "+190%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+120%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+2",
+      "Acceleration": "+2",
+      "Strength": "+1",
+      "Frost Resistance": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Spirit Dragon Lv.3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4493.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+130%",
+      "Bonus EXP": "+170%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Luck": "+110%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+2",
+      "Acceleration": "+2",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Ghost Dragon Lv.3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4483.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+120%",
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Luck": "+100%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+2",
+      "Acceleration": "+2"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Ghost BK F Cow Lv.3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4473.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+30%",
+      "Bonus EXP": "+50%",
+      "Invincible for a certain time at start": "+8",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Humanoid Boss Damage": "+35%",
+      "Robotic Boss Damage": "+25%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Ghost Genie Lv.3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4463.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Ghost Flame Lv.3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4453.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+70%",
+      "Fury Duration": "+20%",
+      "Invincible for a certain time at start": "+8",
+      "Control": "+1"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Ghost Noim Lv.3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4443.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+70%",
+      "Fury Gain": "+20%",
+      "Invincible for a certain time at start": "+8",
+      "Control": "+1"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Ghost Undine Lv.3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4433.png",
-    "stats": {},
+    "stats": {
+      "Invincible for a certain time at start": "+8",
+      "Strength": "+1",
+      "Voodoo Doll Item Duration": "+50%",
+      "Regardless of result, Random TR": "+10000%",
+      "Regardless of result, Random EXP": "+3000%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Ghost Lucky Pig Lv.3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4423.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+70%",
+      "Invincible for a certain time at start": "+8",
+      "Strength": "+1"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Ghost Fortune Lv.3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4413.png",
-    "stats": {},
+    "stats": {
+      "Luck": "+77%",
+      "Invincible for a certain time at start": "+8",
+      "Strength": "+1",
+      "Single Player Random Bonus TR": "+77%",
+      "Single Player Random Bonus EXP": "+77%",
+      "Team, Relays Random Bonus TR": "+20%",
+      "Team, Relays Random Bonus EXP": "+20%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Ghost Sylph Lv.3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4403.png",
-    "stats": {},
+    "stats": {
+      "Reach Top 3 in Single Player 8p TR, EXP": "+50%",
+      "Win Teams, Relays TR": "+20%",
+      "Invincible for a certain time at start": "+8",
+      "Strength": "+1",
+      "Win Teams, Relays EXP": "+30%",
+      "Fury Shockwave Area": "+200%",
+      "Fury Thrust Hit Point Increase Applied": "+10000%",
+      "Animal Transformation area chance when fury": "+10000%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Ghost Fury Lv.3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4393.png",
-    "stats": {},
+    "stats": {
+      "Fury Duration": "+30%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+150%",
+      "If all else game over TR, EXP": "+70%",
+      "Invincible for a certain time at start": "+8",
+      "Strength": "+1"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Black Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4283.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+20%",
+      "Fury Gain": "+20%",
+      "Fury Duration": "+20%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+220%",
+      "If all else game over TR, EXP": "+115%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Blue Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4273.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+20%",
+      "Fury Gain": "+20%",
+      "Fury Duration": "+20%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Chaos Crystal Acquisition Chance": "+25%",
+      "Humanoid Boss Damage": "+25%",
+      "Robotic Boss Damage": "+25%",
+      "Lethal Move": "+25%",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Bone Magic Spell Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4243.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+20%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Reach Top 3 in Single Player 8p TR, EXP": "+230%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+2",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Frost Resistance": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Legendary",
     "part": "pet"
   },
   {
     "name": "Black Hyper Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4233.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+20%",
+      "Fury Gain": "+30%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+230%",
+      "If all else game over TR, EXP": "+120%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Frost Resistance": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Golden Sunshine Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4223.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+30%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+2",
+      "Control": "+1",
+      "Maximum people": "+1000%",
+      "Frost Resistance": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Blizzard Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4213.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+20%",
+      "Invincible for a certain time at start": "+8",
+      "Acceleration": "+1",
+      "Chaos Crystal Acquisition Chance": "+30%",
+      "Humanoid Boss Damage": "+30%",
+      "Lethal Move": "+30%",
+      "Frost Resistance": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Pink Lily Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4203.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+20%",
+      "Invincible for a certain time at start": "+8",
+      "Acceleration": "+2",
+      "Bonus TR when with Couple": "+170%",
+      "Bonus EXP when with Couple": "+170%",
+      "Frost Resistance": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Diabling Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4193.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+20%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Chaos Crystal Acquisition Chance": "+30%",
+      "Robotic Boss Damage": "+30%",
+      "Lethal Move": "+30%",
+      "Frost Resistance": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Zepurus Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4183.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+130%",
+      "Bonus EXP": "+150%",
+      "Electricity Resistance": "+50%",
+      "Invincible for a certain time at start": "+8",
+      "Control": "+1",
+      "Frost Resistance": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Jungle Low Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4173.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+20%",
+      "Luck": "+120%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Regardless of result, Random TR": "+23000%",
+      "Regardless of result, Random EXP": "+6000%",
+      "Frost Resistance": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Under Blood Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4163.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+20%",
+      "Fury Gain": "+50%",
+      "Fury Duration": "+50%",
+      "Invincible for a certain time at start": "+8",
+      "Strength": "+1",
+      "Single Player Random Bonus TR": "+120%",
+      "Single Player Random Bonus EXP": "+120%",
+      "Team, Relays Random Bonus TR": "+50%",
+      "Team, Relays Random Bonus EXP": "+50%",
+      "Frost Resistance": "+30%",
+      "Animal Boss Damage": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Dead Rising Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4153.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+20%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+220%",
+      "If all else game over TR, EXP": "+120%",
+      "Invincible for a certain time at start": "+8",
+      "Acceleration": "+1",
+      "Fury Shockwave Area": "+200%",
+      "Frost Resistance": "+30%",
+      "Animal Boss Damage": "+30%",
+      "Animal Transformation area chance when fury": "+10000%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
@@ -149908,7 +153185,12 @@
   {
     "name": "Giant Pet Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4103.png",
-    "stats": {},
+    "stats": {
+      "Fury Duration": "+40%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+200%",
+      "If all else game over TR, EXP": "+100%",
+      "Invincible for a certain time at start": "+8"
+    },
     "itemClass": "None",
     "part": "pet"
   },
@@ -149935,70 +153217,161 @@
   {
     "name": "Bone High Spell Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4063.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+30%",
+      "Fury Duration": "+30%",
+      "Reach Top 3 in Single Player 8p TR, EXP": "+220%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Black Tweezer Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_4053.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+25%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+220%",
+      "If all else game over TR, EXP": "+115%",
+      "Invincible for a certain time at start": "+8",
+      "Acceleration": "+1",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Golden Sparkle Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3993.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+25%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Maximum people": "+1000%",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "Rare",
     "part": "pet"
   },
   {
     "name": "Freezing Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3983.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Invincible for a certain time at start": "+8",
+      "Chaos Crystal Acquisition Chance": "+25%",
+      "Humanoid Boss Damage": "+25%",
+      "Lethal Move": "+25%",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Pink Jelia Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3973.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Invincible for a certain time at start": "+8",
+      "Acceleration": "+1",
+      "Bonus TR when with Couple": "+160%",
+      "Bonus EXP when with Couple": "+160%",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Dizzling Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3963.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Invincible for a certain time at start": "+8",
+      "Chaos Crystal Acquisition Chance": "+25%",
+      "Robotic Boss Damage": "+25%",
+      "Lethal Move": "+25%",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Xeno Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3953.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+125%",
+      "Bonus EXP": "+100%",
+      "Electricity Resistance": "+45%",
+      "Invincible for a certain time at start": "+8",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Jungle Hawk Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3943.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Luck": "+110%",
+      "Invincible for a certain time at start": "+8",
+      "Regardless of result, Random TR": "+21000%",
+      "Regardless of result, Random EXP": "+4000%",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Dark Blood Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3933.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+45%",
+      "Fury Duration": "+45%",
+      "Invincible for a certain time at start": "+8",
+      "Single Player Random Bonus TR": "+110%",
+      "Single Player Random Bonus EXP": "+110%",
+      "Team, Relays Random Bonus TR": "+40%",
+      "Team, Relays Random Bonus EXP": "+40%",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Dipper Rising Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3923.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+100%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+210%",
+      "If all else game over TR, EXP": "+110%",
+      "Invincible for a certain time at start": "+8",
+      "Fury Shockwave Area": "+200%",
+      "Frost Resistance": "+20%",
+      "Animal Boss Damage": "+20%",
+      "Fury Thrust Hit Point Increase Applied": "+10000%",
+      "Animal Transformation area chance when fury": "+10000%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
@@ -150102,70 +153475,141 @@
   {
     "name": "Bone Spell Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3793.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+25%",
+      "Fury Duration": "+25%",
+      "Reach Top 3 in Single Player 8p TR, EXP": "+210%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Bonus EXP": "+100%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
   {
     "name": "Black Viper Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3783.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+20%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+210%",
+      "If all else game over TR, EXP": "+110%",
+      "Invincible for a certain time at start": "+8",
+      "Acceleration": "+1",
+      "Bonus EXP": "+100%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Golden Crusher Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3773.png",
-    "stats": {},
+    "stats": {
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Bonus EXP": "+20%",
+      "Maximum people": "+1000%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Snowing Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3763.png",
-    "stats": {},
+    "stats": {
+      "Invincible for a certain time at start": "+8",
+      "Chaos Crystal Acquisition Chance": "+20%",
+      "Humanoid Boss Damage": "+20%",
+      "Lethal Move": "+20%",
+      "Bonus EXP": "+100%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Pink Jelly Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3753.png",
-    "stats": {},
+    "stats": {
+      "Invincible for a certain time at start": "+8",
+      "Acceleration": "+1",
+      "Bonus TR when with Couple": "+150%",
+      "Bonus EXP when with Couple": "+150%",
+      "Bonus EXP": "+100%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Gazling Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3743.png",
-    "stats": {},
+    "stats": {
+      "Invincible for a certain time at start": "+8",
+      "Chaos Crystal Acquisition Chance": "+20%",
+      "Robotic Boss Damage": "+20%",
+      "Lethal Move": "+20%",
+      "Bonus EXP": "+100%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Giro Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3733.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+120%",
+      "Bonus EXP": "+100%",
+      "Electricity Resistance": "+40%",
+      "Invincible for a certain time at start": "+8"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Jungle Gender Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3723.png",
-    "stats": {},
+    "stats": {
+      "Luck": "+100%",
+      "Invincible for a certain time at start": "+8",
+      "Regardless of result, Random TR": "+20000%",
+      "Regardless of result, Random EXP": "+3000%",
+      "Bonus EXP": "+100%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Blood Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3713.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+40%",
+      "Fury Duration": "+40%",
+      "Invincible for a certain time at start": "+8",
+      "Single Player Random Bonus TR": "+100%",
+      "Single Player Random Bonus EXP": "+100%",
+      "Team, Relays Random Bonus TR": "+30%",
+      "Team, Relays Random Bonus EXP": "+30%",
+      "Bonus EXP": "+100%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Deep Rising Dragon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_3703.png",
-    "stats": {},
+    "stats": {
+      "In Single Player 8p, Full Room, If all else game over TR": "+200%",
+      "If all else game over TR, EXP": "+100%",
+      "Invincible for a certain time at start": "+8",
+      "Fury Shockwave Area": "+200%",
+      "Bonus EXP": "+100%",
+      "Fury Thrust Hit Point Increase Applied": "+10000%",
+      "Animal Transformation area chance when fury": "+10000%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
@@ -150207,7 +153651,20 @@
   {
     "name": "Shadow (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2603.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+200%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Invincible for a certain time at start": "+8",
+      "Acceleration": "+2",
+      "Strength": "+2",
+      "Control": "+1",
+      "Fury Shockwave Area": "+200%",
+      "Evade Fury": "+20%",
+      "Fury Thrust Hit Point Increase Applied": "+10000%",
+      "Animal Transformation area chance when fury": "+10000%"
+    },
     "itemClass": "Unique",
     "part": "pet"
   },
@@ -150413,7 +153870,16 @@
   {
     "name": "Resurrection Chick Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2303.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+25%",
+      "Bonus EXP": "+25%",
+      "Fury Gain": "+7%",
+      "Fury Duration": "+7%",
+      "Reflect Chance when Crushed": "+50%",
+      "Regardless of result, TR": "+10",
+      "Regardless of result, EXP": "+15",
+      "Jump Tray Item Duration Decrease": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
@@ -150427,7 +153893,12 @@
   {
     "name": "10 Level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2044.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+50%",
+      "Luck": "+50%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+40%"
+    },
     "itemClass": "Rare",
     "part": "acchand"
   },
@@ -150441,70 +153912,128 @@
   {
     "name": "Little Fook Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2203.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+50%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "9 Level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2033.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+40%",
+      "Luck": "+40%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+40%"
+    },
     "itemClass": "None",
     "part": "acchand"
   },
   {
     "name": "8 Level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2034.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+30%",
+      "Luck": "+30%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+40%"
+    },
     "itemClass": "None",
     "part": "acchand"
   },
   {
     "name": "7 Level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2035.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+20%",
+      "Luck": "+25%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+40%"
+    },
     "itemClass": "None",
     "part": "acchand"
   },
   {
     "name": "Bugaloo Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2193.png",
-    "stats": {},
+    "stats": {
+      "Reach Top 3 in Single Player 8p TR, EXP": "+50%",
+      "Invincible for a certain time at start": "+8",
+      "Evade Metal Bucket": "+30%",
+      "Win Teams, Relays EXP": "+50%",
+      "Jump Tray Item Duration Decrease": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Mashimaro Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2183.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Win Teams, Relays TR": "+40%",
+      "Invincible for a certain time at start": "+8",
+      "Evade Metal Bucket": "+30%",
+      "Jump Tray Item Duration Decrease": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Angel Sea Urchin Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2173.png",
-    "stats": {},
+    "stats": {
+      "Reach Top 3 in Single Player 8p TR, EXP": "+50%",
+      "Invincible for a certain time at start": "+8",
+      "Evade Metal Bucket": "+30%",
+      "Win Teams, Relays EXP": "+50%",
+      "Jump Tray Item Duration Decrease": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Demon Sea Urchin Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2163.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Win Teams, Relays TR": "+40%",
+      "Invincible for a certain time at start": "+8",
+      "Evade Metal Bucket": "+30%",
+      "Jump Tray Item Duration Decrease": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Watermelon Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2153.png",
-    "stats": {},
+    "stats": {
+      "Reach Top 3 in Single Player 8p TR, EXP": "+50%",
+      "Invincible for a certain time at start": "+8",
+      "Evade Metal Bucket": "+30%",
+      "Win Teams, Relays EXP": "+50%",
+      "Jump Tray Item Duration Decrease": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Strawberry Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2143.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+40%",
+      "Bonus EXP": "+40%",
+      "Win Teams, Relays TR": "+40%",
+      "Invincible for a certain time at start": "+8",
+      "Evade Metal Bucket": "+30%",
+      "Jump Tray Item Duration Decrease": "+30%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
@@ -150525,7 +154054,12 @@
   {
     "name": "6 Level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2030.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+10%",
+      "Luck": "+20%",
+      "Bonus TR when with Couple": "+40%",
+      "Bonus EXP when with Couple": "+40%"
+    },
     "itemClass": "None",
     "part": "acchand"
   },
@@ -150546,56 +154080,96 @@
   {
     "name": "Torch Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2133.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+20%",
+      "Fury Duration": "+20%",
+      "Invincible for a certain time at start": "+8",
+      "Competition Channel Bonus TR": "+7500%",
+      "Competition Channel Bonus EXP": "+15000%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Panda Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2123.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+20%",
+      "Fury Duration": "+20%",
+      "Reach Top 3 in Single Player 8p TR, EXP": "+150%",
+      "Invincible for a certain time at start": "+8",
+      "Evade Metal Bucket": "+50%",
+      "Dash Potion Item Duration": "+50%",
+      "Voodoo Doll Item Duration": "+50%",
+      "Attacked by Transform Bomb": "+50%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Noim Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2113.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+20%",
+      "Fury Duration": "+20%",
+      "Invincible for a certain time at start": "+8",
+      "Humanoid Boss Damage": "+15%",
+      "Robotic Boss Damage": "+15%",
+      "Animal Boss Damage": "+15%",
+      "Bonus EXP": "+150%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Red Panda Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2103.png",
-    "stats": {},
+    "stats": {
+      "Fury Duration": "+40%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+200%",
+      "If all else game over TR, EXP": "+100%",
+      "Invincible for a certain time at start": "+8"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "5 Level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2023.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR when with Couple": "+20%",
+      "Bonus EXP when with Couple": "+20%"
+    },
     "itemClass": "None",
     "part": "acchand"
   },
   {
     "name": "4-level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2022.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR when with Couple": "+15%",
+      "Bonus EXP when with Couple": "+15%"
+    },
     "itemClass": "None",
     "part": "acchand"
   },
   {
     "name": "3-level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2021.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR when with Couple": "+10%",
+      "Bonus EXP when with Couple": "+10%"
+    },
     "itemClass": "None",
     "part": "acchand"
   },
   {
     "name": "2-level Coupling",
     "image": "images/TalesRunner__itemimage__acchand__all_acchand_2020.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR when with Couple": "+5%",
+      "Bonus EXP when with Couple": "+5%"
+    },
     "itemClass": "None",
     "part": "acchand"
   },
@@ -150609,42 +154183,90 @@
   {
     "name": "Undine Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2073.png",
-    "stats": {},
+    "stats": {
+      "Bonus EXP": "+150%",
+      "Fury Gain": "+20%",
+      "Fury Duration": "+20%",
+      "Invincible for a certain time at start": "+8"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Genie Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2053.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+100%",
+      "Bonus EXP": "+100%",
+      "Fury Gain": "+35%",
+      "Fury Duration": "+35%",
+      "Luck": "+80%",
+      "Invincible for a certain time at start": "+8",
+      "Speed": "+1",
+      "Acceleration": "+1",
+      "Strength": "+1",
+      "Control": "+1",
+      "Regardless of result, TR": "+50",
+      "Regardless of result, EXP": "+50"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Lucky Pig Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2043.png",
-    "stats": {},
+    "stats": {
+      "Bonus TR": "+150%",
+      "Fury Gain": "+20%",
+      "Fury Duration": "+20%",
+      "Invincible for a certain time at start": "+8"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Fortune Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2033.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+20%",
+      "Fury Duration": "+20%",
+      "Luck": "+80%",
+      "Invincible for a certain time at start": "+8",
+      "Single Player Random Bonus TR": "+100%",
+      "Single Player Random Bonus EXP": "+100%",
+      "Team, Relays Random Bonus TR": "+50%",
+      "Team, Relays Random Bonus EXP": "+50%"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Sylph Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2023.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+20%",
+      "Fury Duration": "+20%",
+      "In Single Player 8p, Full Room, If all else game over TR": "+300%",
+      "If all else game over TR, EXP": "+100%",
+      "Invincible for a certain time at start": "+8"
+    },
     "itemClass": "None",
     "part": "pet"
   },
   {
     "name": "Fury Lv3 (Durability)",
     "image": "images/TalesRunner__itemimage__pet__all_pet_2013.png",
-    "stats": {},
+    "stats": {
+      "Fury Gain": "+20%",
+      "Fury Duration": "+20%",
+      "Invincible for a certain time at start": "+8",
+      "Attack": "+15",
+      "Defense": "+15",
+      "HP": "+20",
+      "Critical": "+10",
+      "Special Rewards": "+2",
+      "Magnet Effect": "+200%"
+    },
     "itemClass": "None",
     "part": "pet"
   }
