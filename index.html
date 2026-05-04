@@ -216,25 +216,41 @@
                 <div class="pagination-controls" id="pagination-controls"></div>
             </nav>
         </main>
-    </div>
-
-    <!-- Item Detail Modal -->
-    <div id="item-modal" class="modal-overlay" style="display:none;">
-        <div class="modal-card" id="modal-card">
-            <button class="modal-close" id="modal-close" aria-label="Close modal">✕</button>
-            <div class="modal-body">
-                <div class="modal-image-wrap">
-                    <img id="modal-img" src="" alt="">
-                </div>
-                <div class="modal-info">
-                    <h2 id="modal-name"></h2>
-                    <div class="modal-meta">
-                        <span class="modal-part-badge" id="modal-part"></span>
-                    </div>
-                    <div class="modal-stats" id="modal-stats"></div>
+        
+        <aside id="right-panel" class="right-panel" style="display:flex;">
+            <div class="panel-header">
+                <h2>Item Details</h2>
+                <div class="panel-actions">
+                    <button id="btn-clear-compare" class="btn-control btn-danger" style="display:none; padding:4px 8px; font-size:10px;">Clear Compare</button>
+                    <button id="panel-close" class="panel-close" aria-label="Close panel">✕</button>
                 </div>
             </div>
-        </div>
+            
+            <div class="panel-body">
+                <div class="modal-image-wrap">
+                    <img id="panel-img-1" src="" alt="">
+                    <img id="panel-img-2" src="" alt="" style="display:none;">
+                </div>
+                <div class="modal-info">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin-bottom:8px;">
+                        <h2 id="panel-name-1" style="flex:1;"></h2>
+                        <h2 id="panel-name-2" style="flex:1; display:none;"></h2>
+                    </div>
+                    <div class="modal-meta" style="display:flex; justify-content:space-between; gap:12px; margin-bottom:16px;">
+                        <span class="modal-part-badge" id="panel-part-1"></span>
+                        <span class="modal-part-badge" id="panel-part-2" style="display:none;"></span>
+                    </div>
+                    
+                    <div class="panel-stats-header" id="panel-stats-header" style="display:none;">
+                        <span style="flex:1;">Stat</span>
+                        <span style="flex:1; text-align:center;">Item 1</span>
+                        <span style="flex:1; text-align:center;">Item 2</span>
+                    </div>
+                    <div class="modal-stats" id="panel-stats"></div>
+                </div>
+            </div>
+            <div class="panel-hint" id="panel-hint">Shift + Click an item to compare</div>
+        </aside>
     </div>
 
     <!-- Back to top -->

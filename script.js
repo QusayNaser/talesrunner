@@ -66,13 +66,20 @@
   const colSlider = $("col-slider");
   const colSliderValue = $("col-slider-value");
 
-  // Modal
-  const modalOverlay = $("item-modal");
-  const modalClose = $("modal-close");
-  const modalImg = $("modal-img");
-  const modalName = $("modal-name");
-  const modalPart = $("modal-part");
-  const modalStats = $("modal-stats");
+  // Panel
+  const rightPanel = $("right-panel");
+  const panelClose = $("panel-close");
+  const btnClearCompare = $("btn-clear-compare");
+  const panelImg1 = $("panel-img-1");
+  const panelImg2 = $("panel-img-2");
+  const panelName1 = $("panel-name-1");
+  const panelName2 = $("panel-name-2");
+  const panelPart1 = $("panel-part-1");
+  const panelPart2 = $("panel-part-2");
+  const panelStats = $("panel-stats");
+  const panelStatsHeader = $("panel-stats-header");
+  let slot1Item = null;
+  let slot2Item = null;
 
   // ── Helpers ──
   function extractPart(imagePath) {
@@ -157,6 +164,7 @@
     buildBestSetOptions();
     bindEvents();
     applyFilters();
+    renderPanel();
     loadingState.style.display = "none";
   }
 
@@ -260,17 +268,11 @@
   function buildBestSetOptions() {
     const container = $("best-set-options");
     container.innerHTML = "";
-    // "None" option
-    const noneLabel = document.createElement("label");
-    noneLabel.className = "sort-stat-radio best-set-item";
-    noneLabel.setAttribute("data-stat-lower", "none");
-    noneLabel.innerHTML = '<input type="radio" name="best-set-stat" value="" checked><span class="radio-custom"></span><span>None</span>';
-    container.appendChild(noneLabel);
     allStatKeys.forEach((stat) => {
       const label = document.createElement("label");
-      label.className = "sort-stat-radio best-set-item";
+      label.className = "filter-checkbox best-set-item";
       label.setAttribute("data-stat-lower", stat.toLowerCase());
-      label.innerHTML = `<input type="radio" name="best-set-stat" value="${stat}"><span class="radio-custom"></span><span>${stat}</span>`;
+      label.innerHTML = `<input type="checkbox" name="best-set-stat" value="${stat}"><span class="cb-custom"></span><span>${stat}</span>`;
       container.appendChild(label);
     });
   }
@@ -414,12 +416,13 @@
     });
 
     // Best Set events
-    document.querySelectorAll('#best-set-options input[name="best-set-stat"]').forEach(r => {
-      r.addEventListener("change", () => {
-        const val = r.value;
-        $("best-set-dropdown-text").textContent = val || "Select Stat";
+    const bestSetContainer = $("best-set-options");
+    bestSetContainer.addEventListener("change", (e) => {
+      if (e.target.name === "best-set-stat") {
+        const checked = [...document.querySelectorAll('#best-set-options input[name="best-set-stat"]:checked')].length;
+        $("best-set-dropdown-text").textContent = checked > 0 ? `${checked} Selected` : "Select Stat";
         updateBestFullSet();
-      });
+      }
     });
     $("best-set-search").addEventListener("input", () => {
       const q = $("best-set-search").value.toLowerCase();
@@ -439,10 +442,13 @@
       applyGridColumns();
     });
 
-    // Modal
-    modalClose.addEventListener("click", closeModal);
-    modalOverlay.addEventListener("click", (e) => { if (e.target === modalOverlay) closeModal(); });
-    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
+    // Panel
+    if (panelClose) panelClose.addEventListener("click", closePanel);
+    if (btnClearCompare) btnClearCompare.addEventListener("click", () => {
+      slot2Item = null;
+      renderPanel();
+    });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closePanel(); });
 
     // Back to top
     window.addEventListener("scroll", () => { btnBackTop.style.display = window.scrollY > 400 ? "flex" : "none"; });
@@ -743,10 +749,11 @@
 
       // Stats badge REMOVED per user request
 
-      card.addEventListener("click", () => openModal(item));
+      card.addEventListener("click", (e) => selectItem(item, e.shiftKey));
       fragment.appendChild(card);
     });
     itemsContainer.appendChild(fragment);
+    updateSelectionHighlight();
   }
 
   // ── Pagination ──
@@ -804,38 +811,149 @@
     renderItems();
   }
 
-  // ── Modal ──
-  function openModal(item) {
-    modalImg.src = item.image;
-    modalImg.alt = item.name;
-    modalName.textContent = item.name;
+  // ── Panel & Compare ──
+  function selectItem(item, isCompare = false) {
+    if (item === null) {
+      slot1Item = null;
+      slot2Item = null;
+    } else if (!isCompare && slot1Item && slot1Item.name === item.name) {
+      slot1Item = null;
+      slot2Item = null;
+    } else if (isCompare && slot1Item && slot1Item !== item) {
+      if (slot2Item && slot2Item.name === item.name) {
+        slot2Item = null;
+      } else {
+        slot2Item = item;
+      }
+    } else {
+      slot1Item = item;
+      if (!isCompare) slot2Item = null;
+    }
     
+    renderPanel();
+    updateSelectionHighlight();
+    
+    if (window.innerWidth <= 768) {
+      if (slot1Item) {
+        rightPanel.classList.add("visible");
+      } else {
+        rightPanel.classList.remove("visible");
+      }
+    }
+  }
+
+  function updateSelectionHighlight() {
+    document.querySelectorAll('.item-card').forEach(c => {
+      c.classList.remove('selected', 'compare');
+      const nameEl = c.querySelector('.item-card-name');
+      if (nameEl) {
+        const name = nameEl.textContent;
+        if (slot1Item && slot1Item.name === name) c.classList.add('selected');
+        if (slot2Item && slot2Item.name === name) c.classList.add('compare');
+      }
+    });
+  }
+  
+  function renderPanel() {
+    if (!slot1Item) {
+      panelImg1.style.display = "none";
+      panelImg2.style.display = "none";
+      panelName1.textContent = "No item selected";
+      panelName2.style.display = "none";
+      panelPart1.innerHTML = "";
+      panelPart2.style.display = "none";
+      btnClearCompare.style.display = "none";
+      panelStatsHeader.style.display = "none";
+      panelStats.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:40px 20px">Click an item from the grid to view its details.</p>';
+      return;
+    }
+    
+    // Slot 1
+    panelImg1.src = slot1Item.image;
+    panelImg1.alt = slot1Item.name;
+    panelImg1.style.display = "";
+    panelName1.textContent = slot1Item.name;
+    panelPart1.innerHTML = getPartHtml(slot1Item);
+    
+    // Slot 2
+    if (slot2Item) {
+      panelImg2.src = slot2Item.image;
+      panelImg2.alt = slot2Item.name;
+      panelImg2.style.display = "";
+      panelName2.textContent = slot2Item.name;
+      panelName2.style.display = "";
+      panelPart2.innerHTML = getPartHtml(slot2Item);
+      panelPart2.style.display = "";
+      btnClearCompare.style.display = "";
+      panelStatsHeader.style.display = "flex";
+    } else {
+      panelImg2.style.display = "none";
+      panelName2.style.display = "none";
+      panelPart2.style.display = "none";
+      btnClearCompare.style.display = "none";
+      panelStatsHeader.style.display = "none";
+    }
+    
+    panelStats.innerHTML = "";
+    
+    const stats1 = slot1Item.stats || {};
+    const stats2 = slot2Item ? (slot2Item.stats || {}) : null;
+    
+    if (!stats2) {
+      // Normal single view
+      if (Object.keys(stats1).length > 0) {
+        Object.entries(stats1).forEach(([k, v]) => {
+          const row = document.createElement("div");
+          row.className = "modal-stat-row";
+          row.innerHTML = `<span class="modal-stat-name" title="${k}">${k}</span><span class="modal-stat-value">${v}</span>`;
+          panelStats.appendChild(row);
+        });
+      } else {
+        panelStats.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:20px">No stats available</p>';
+      }
+    } else {
+      // Comparison view
+      const allKeys = new Set([...Object.keys(stats1), ...Object.keys(stats2)]);
+      const sortedKeys = [...allKeys].sort();
+      
+      sortedKeys.forEach(k => {
+        const v1 = stats1[k];
+        const v2 = stats2[k];
+        const num1 = v1 ? parseStatValue(v1) : -Infinity;
+        const num2 = v2 ? parseStatValue(v2) : -Infinity;
+        
+        let c1 = "stat-neutral";
+        let c2 = "stat-neutral";
+        
+        if (num1 > num2) { c1 = "stat-better"; c2 = "stat-worse"; }
+        else if (num2 > num1) { c1 = "stat-worse"; c2 = "stat-better"; }
+        
+        if (!v1) c1 = "stat-missing";
+        if (!v2) c2 = "stat-missing";
+        
+        const row = document.createElement("div");
+        row.className = "modal-stat-row";
+        row.innerHTML = `
+          <span class="modal-stat-name" title="${k}">${k}</span>
+          <span class="modal-stat-value compare-val ${c1}">${v1 || "—"}</span>
+          <span class="modal-stat-value compare-val ${c2}">${v2 || "—"}</span>
+        `;
+        panelStats.appendChild(row);
+      });
+    }
+  }
+
+  function getPartHtml(item) {
     let classHtml = '';
     if (item.itemClass && item.itemClass !== 'None') {
       const classColor = getClassColor(item.itemClass);
       classHtml = `<span class="item-class-badge" style="color:${classColor};border-color:${classColor};border:1px solid;border-radius:3px;padding:2px 6px;font-size:0.85em;margin-right:8px;">${item.itemClass}</span>`;
     }
-    modalPart.innerHTML = `${classHtml}${partLabel(item._part)}`;
-    modalStats.innerHTML = "";
-
-    if (item._statsCount > 0) {
-      Object.entries(item.stats).forEach(([k, v]) => {
-        const row = document.createElement("div");
-        row.className = "modal-stat-row";
-        row.innerHTML = `<span class="modal-stat-name">${k}</span><span class="modal-stat-value">${v}</span>`;
-        modalStats.appendChild(row);
-      });
-    } else {
-      modalStats.innerHTML = '<p style="color:var(--text-muted);grid-column:1/-1;text-align:center;padding:20px">No stats available</p>';
-    }
-
-    modalOverlay.style.display = "flex";
-    document.body.style.overflow = "hidden";
+    return `${classHtml}${partLabel(item._part)}`;
   }
 
-  function closeModal() {
-    modalOverlay.style.display = "none";
-    document.body.style.overflow = "";
+  function closePanel() {
+    selectItem(null);
   }
 
   // ── No Stat Warning ──
@@ -864,9 +982,10 @@
 
   // ── Best Full Set ──
   function updateBestFullSet() {
-    const radio = document.querySelector('#best-set-options input[name="best-set-stat"]:checked');
-    const stat = radio ? radio.value : "";
-    if (!stat) {
+    const checked = [...document.querySelectorAll('#best-set-options input[name="best-set-stat"]:checked')];
+    const stats = checked.map(cb => cb.value);
+    
+    if (stats.length === 0) {
       bestSetResults.style.display = "none";
       return;
     }
@@ -874,19 +993,33 @@
     const limit = bestSetLimit ? Math.max(1, Math.min(15, parseInt(bestSetLimit.value, 10) || 5)) : 5;
     const filterRarity = bestSetRarity ? bestSetRarity.value : "";
 
-    // Equipment parts only (exclude character, etc, object, image.png)
+    // Equipment parts only
     const equipParts = ["acchead", "head", "accface", "accneck", "topbody", "downbody", "acchand", "accwrist", "foot", "accbooster", "pet", "expansion", "accback", "acctail", "accsymbol"];
     const bestByPart = {};
 
     allItems.forEach(item => {
-      if (!item.stats || !(stat in item.stats)) return;
       if (filterRarity && (item.itemClass || 'None') !== filterRarity) return;
       
       const part = item._part;
       if (!equipParts.includes(part)) return;
-      const val = parseStatValue(item.stats[stat]);
+      
+      // Calculate combined value
+      let combinedValue = 0;
+      let hasAnyStat = false;
+      const displayStats = [];
+      
+      stats.forEach(stat => {
+        if (item.stats && stat in item.stats) {
+          hasAnyStat = true;
+          combinedValue += parseStatValue(item.stats[stat]);
+          displayStats.push(`${stat}: ${item.stats[stat]}`);
+        }
+      });
+      
+      if (!hasAnyStat) return;
+      
       if (!bestByPart[part]) bestByPart[part] = [];
-      bestByPart[part].push({ item, value: val, display: item.stats[stat] });
+      bestByPart[part].push({ item, value: combinedValue, display: displayStats.join(" | ") });
     });
 
     Object.keys(bestByPart).forEach(part => {
@@ -897,19 +1030,22 @@
     bestSetResults.innerHTML = "";
     const title = document.createElement("div");
     title.className = "best-set-title";
-    title.textContent = `🏆 Top ${limit} Items for: ${stat}${filterRarity ? ` (${filterRarity})` : ""}`;
+    title.textContent = `🏆 Top ${limit} Items for: ${stats.join(" + ")}${filterRarity ? ` (${filterRarity})` : ""}`;
     bestSetResults.appendChild(title);
 
     const grid = document.createElement("div");
     grid.className = "best-set-grid";
 
-    let totalVal = 0;
+    // Track selections
+    const selectedEntries = {};
+    let partsCount = 0;
+
     equipParts.forEach(part => {
       const entries = bestByPart[part];
       if (!entries || entries.length === 0) return;
       
-      // Calculate max possible based on the top item of each part
-      totalVal += entries[0].value; 
+      partsCount++;
+      selectedEntries[part] = entries[0]; // Default to first item
 
       const colWrapper = document.createElement("div");
       colWrapper.className = "best-set-part-col";
@@ -919,11 +1055,26 @@
       partTitle.textContent = partLabel(part);
       colWrapper.appendChild(partTitle);
 
-      entries.forEach(entry => {
+      entries.forEach((entry, idx) => {
         const card = document.createElement("div");
-        card.className = "best-set-card";
-        card.innerHTML = `<img src="${entry.item.image}" alt="${entry.item.name}" loading="lazy"><div class="best-set-card-info"><div class="best-set-card-name" title="${entry.item.name}">${entry.item.name}</div><div class="best-set-card-value">${stat}: ${entry.display}</div></div>`;
-        card.addEventListener("click", () => openModal(entry.item));
+        card.className = "best-set-card" + (idx === 0 ? " best-set-active" : "");
+        card.innerHTML = `<img src="${entry.item.image}" alt="${entry.item.name}" loading="lazy"><div class="best-set-card-info"><div class="best-set-card-name" title="${entry.item.name}">${entry.item.name}</div><div class="best-set-card-value" style="font-size:9px; font-weight:normal; color:var(--text-muted);">${entry.display}</div><div class="best-set-card-value">Total: ${entry.value.toFixed(2).replace(/\.00$/, '')}</div></div>`;
+        
+        card.addEventListener("click", (e) => {
+          // Update visual active state
+          colWrapper.querySelectorAll('.best-set-card').forEach(c => c.classList.remove('best-set-active'));
+          card.classList.add('best-set-active');
+          
+          // Update selected entry for this part
+          selectedEntries[part] = entry;
+          
+          // Recalculate totals
+          renderBestSetSummary();
+          
+          // Select item in right panel
+          selectItem(entry.item, e.shiftKey);
+        });
+        
         colWrapper.appendChild(card);
       });
 
@@ -933,17 +1084,40 @@
     if (grid.children.length === 0) {
       const none = document.createElement("div");
       none.className = "best-set-none";
-      none.textContent = `No equipment items found with "${stat}".`;
+      none.textContent = `No equipment items found with selected stats.`;
       bestSetResults.appendChild(none);
-    } else {
-      bestSetResults.appendChild(grid);
-      // Total summary
-      const summary = document.createElement("div");
-      summary.style.cssText = "margin-top:10px;font-size:12px;color:var(--accent-light);font-weight:700;text-align:right;";
-      summary.textContent = `Total ${stat} across ${grid.children.length} parts: ${totalVal}`;
-      bestSetResults.appendChild(summary);
+      bestSetResults.style.display = "";
+      return;
+    } 
+    
+    bestSetResults.appendChild(grid);
+    
+    const summaryDiv = document.createElement("div");
+    summaryDiv.className = "best-set-summary";
+    summaryDiv.style.cssText = "margin-top:10px;font-size:12px;color:var(--accent-light);font-weight:700;text-align:right;";
+    bestSetResults.appendChild(summaryDiv);
+
+    function renderBestSetSummary() {
+      let totalVal = 0;
+      const totalStats = {};
+      stats.forEach(s => totalStats[s] = 0);
+      
+      Object.values(selectedEntries).forEach(entry => {
+        totalVal += entry.value;
+        const itemStats = entry.item.stats || {};
+        stats.forEach(s => {
+          if (s in itemStats) {
+            totalStats[s] += parseStatValue(itemStats[s]);
+          }
+        });
+      });
+      
+      const breakdown = stats.map(s => `${totalStats[s].toFixed(2).replace(/\.00$/, '')} ${s}`).join(", ");
+      summaryDiv.textContent = `Total combined value across ${partsCount} parts: ${totalVal.toFixed(2).replace(/\.00$/, '')} (${breakdown})`;
     }
 
+    // Initial render
+    renderBestSetSummary();
     bestSetResults.style.display = "";
   }
 
